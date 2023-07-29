@@ -1,0 +1,31 @@
+armors:
+
+  - type: STR_EXOSUIT_UC
+    spriteSheet: EXO_SPRITESHEET
+    spriteInv: EXO_PAPERDOLL
+    corpseBattle: 
+     - STR_EXOSUIT_ARMOR_CORPSE
+    corpseGeo: STR_WRECKED_EXOSUIT_ARMOR
+    storeItem: STR_EXOSUIT_ARMOR
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 20
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 0.5
+      - 0.0
+      - 0.7
+      - 0.7
+      - 0.85
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftemps: 3
+    drawingRoutine: 13
+    drawBubbles: true
+    forcedTorso: 1
+    spriteFaceGroup: 0
+    spriteHairGroup: 0

@@ -1,0 +1,273 @@
+ufopaedia:
+
+# [=] Weapon - BCannon [=]
+  - id: STR_TFTD_BCANNON
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_BCANNON_TEXT
+    image_id: UFOpaedia_BCannon.png
+    listOrder: 3503
+  - id: STR_TFTD_BCANNON_CLIP_AP
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+  - id: STR_TFTD_BCANNON_CLIP_HE
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+
+# [=] Weapon - BRifle [=]
+  - id: STR_TFTD_BRIFLE
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_BRIFLE_TEXT
+    image_id: UFOpaedia_BRifle.png
+    listOrder: 3502
+  - id: STR_TFTD_BRIFLE_CLIP
+    type_id: 14
+    section: STR_NOT_AVAILABLE  
+  
+# [=] Weapon - BPistol [=]
+  - id: STR_TFTD_BPISTOL
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_BPISTOL_TEXT
+    image_id: UFOpaedia_BPistol.png
+    listOrder: 3501
+  - id: STR_TFTD_BPISTOL_CLIP
+    type_id: 14
+    section: STR_NOT_AVAILABLE    
+
+# [=] Weapon - Recoil [=]
+  - id: STR_TFTD_RECOIL
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_RECOIL_TEXT
+    image_id: UFOpaedia_Recoil.png
+    listOrder: 3505  
+  - id: STR_TFTD_RECOIL_CLIP
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+
+# [=] Weapon - Minigun [=]
+  - id: STR_TFTD_MINIGUN
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_MINIGUN_TEXT
+    image_id: UFOpaedia_Minigun.png
+    listOrder: 3504   
+  - id: STR_TFTD_MINIGUN_CLIP
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+
+# [=] Weapon - Volley [=]
+  - id: STR_TFTD_VOLLEY
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_VOLLEY_TEXT
+    image_id: UFOpaedia_Volley.png
+    listOrder: 3901  
+    requires:
+      - STR_TFTD_VOLLEY
+
+# [=] Weapon - Volley Clip [=]
+  - id: STR_TFTD_VOLLEY_CLIP
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_VOLLEY_CLIP_TEXT
+    image_id: UFOpaedia_Volley_Clip.png
+    listOrder: 3902
+    requires:
+      - STR_TFTD_VOLLEY_CLIP
+ 
+# [=] Weapon - Accel [=]
+  - id: STR_TFTD_ACCEL
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_ACCEL_TEXT
+    image_id: UFOpaedia_Accel.png
+    listOrder: 4101
+    requires:
+      - STR_TFTD_ACCEL  
+
+# [=] Weapon - Accel Clip [=]
+  - id: STR_TFTD_ACCEL_CLIP
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_ACCEL_CLIP_TEXT
+    image_id: UFOpaedia_Accel_Clip.png
+    listOrder: 4102 
+    requires:
+      - STR_TFTD_ACCEL_CLIP 
+
+# [=] Weapon - CKnife [=]
+  - id: STR_TFTD_CKNIFE
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_CKNIFE_TEXT
+    image_id: UFOpaedia_CKnife.png
+    listOrder: 4910  
+  
+# [=] Weapon - CSpear [=]
+  - id: STR_TFTD_CSPEAR
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_CSPEAR_TEXT
+    image_id: UFOpaedia_CSpear.png
+    listOrder: 4911    
+
+# [=] Displacer Armor [=]
+  - id: STR_DISPLACER_ARMOR_UC
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_DISPLACER_ARMOR_TEXT
+    image_id: UFOpaedia_Displacer_Armor.png
+    listOrder: 1950
+    requires:
+      - STR_DISPLACER_ARMOR
+
+# [=] Weapon - Ion Cannon [=]
+  - id: STR_ION_CANNON
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ION_CANNON_TEXT
+    image_id: UFOpaedia_Ion_Cannon.png
+    listOrder: 4193 
+    requires:
+      - STR_ION_CANNON 
+
+# [=] Weapon - Ion Cannon Clip [=]
+  - id: STR_ION_CANNON_CLIP
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ION_CANNON_CLIP_TEXT
+    image_id: UFOpaedia_Ion_Cannon_Clip.png
+    listOrder: 4194
+    requires:
+      - STR_ION_CANNON_CLIP 
+
+# [=] Weapon - Ion Pistol [=]
+  - id: STR_ION_PISTOL
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ION_PISTOL_TEXT
+    image_id: UFOpaedia_Ion_Pistol.png
+    listOrder: 4191
+    requires:
+      - STR_ION_PISTOL 
+
+# [=] Weapon - Ion Pistol Clip [=]
+  - id: STR_ION_PISTOL_CLIP
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ION_PISTOL_CLIP_TEXT
+    image_id: UFOpaedia_Ion_Pistol_Clip.png
+    listOrder: 4192
+    requires:
+      - STR_ION_PISTOL_CLIP 
+
+# [=] Weapon - Heavy Laser[=]
+  - id: STR_HEAVY_LASER
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HEAVY_LASER_TEXT
+    image_id: UFOpaedia_Heavy_Laser.png
+    listOrder: 4106
+    requires:
+      - STR_HEAVY_LASER 
+
+# [=] Weapon - Laser Carbine [=]
+  - id: STR_LASER_CARBINE
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LASER_CARBINE_TEXT
+    image_id: UFOpaedia_Laser_Carbine.png
+    listOrder: 4105
+    requires:
+      - STR_LASER_CARBINE 
+
+# [=] Weapon - Laser Pistol [=]
+  - id: STR_LASER_PISTOL
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LASER_PISTOL_TEXT
+    image_id: UFOpaedia_Laser_Pistol.png
+    listOrder: 4104
+    requires:
+      - STR_LASER_PISTOL 
+
+# [=] Weapon - Zrbite Flare [=]
+  - id: STR_ZRBITE_FLARE
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ZRBITE_FLARE_UFOPEDIA
+    image_id: UFOpaedia_Zrbite_Flare.png
+    listOrder: 5001
+
+# [=] Weapon - HSonic Cannon [=]
+  - id: STR_TFTD_HSONIC_CANNON
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_HSONIC_CANNON_UFOPAEDIA_TEXT
+    image_id: UFOpaedia_HSonic_Cannon.png
+    requires:
+      - STR_RSH_HSONIC_CANNON
+    listOrder: 4111
+
+# [=] Weapon - HSonic Cannon Clip[=]
+  - id: STR_TFTD_HSONIC_CANNON_CLIP
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_HSONIC_CCLIP_UFOPAEDIA_TEXT
+    image_id: UFOpaedia_HSonic_Cannon_Clip.png
+    requires:
+      - STR_RSH_HSONIC_CANNON
+    listOrder: 4112
+
+# [=] Weapon - HSonic Rifle[=]
+  - id: STR_TFTD_HSONIC_RIFLE
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_HSONIC_RIFLE_UFOPAEDIA_TEXT
+    image_id: UFOpaedia_HSonic_Rifle.png
+    requires:
+      - STR_RSH_HSONIC_RIFLE
+    listOrder: 4109
+
+# [=] Weapon - HSonic Rifle Clip[=]
+  - id: STR_TFTD_HSONIC_RIFLE_CLIP
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_HSONIC_RCLIP_UFOPAEDIA_TEXT
+    image_id: UFOpaedia_HSonic_Rifle_Clip.png
+    requires:
+      - STR_RSH_HSONIC_RIFLE
+    listOrder: 4110
+
+# [=] Weapon - HSonic Pistol  [=]
+  - id: STR_TFTD_HSONIC_PISTOL
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_HSONIC_PISTOL_UFOPAEDIA_TEXT
+    image_id: UFOpaedia_HSonic_Pistol.png
+    requires:
+      - STR_RSH_HSONIC_PISTOL
+    listOrder: 4107
+
+# [=] Weapon - HSonic Pistol Clip [=]
+  - id: STR_TFTD_HSONIC_PISTOL_CLIP
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_HSONIC_PCLIP_UFOPAEDIA_TEXT
+    image_id: UFOpaedia_HSonic_Pistol_Clip.png
+    requires:
+      - STR_RSH_HSONIC_PISTOL
+    listOrder: 4108
+
+# [=] Weapon - HSonic Grenade [=]
+  - id: STR_TFTD_HSONIC_GRENADE
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TFTD_HSONIC_GRENADE_UFOPAEDIA_TEXT
+    image_id: UFOpaedia_HSonic_Grenade.png
+    requires:
+      - STR_RSH_HSONIC_GRENADE
+    listOrder: 4195

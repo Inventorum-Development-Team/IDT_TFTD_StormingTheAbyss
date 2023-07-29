@@ -1,0 +1,128 @@
+research:
+
+  - name: STR_NEW_PLASMA_RIFLE
+    cost: 600
+    points: 15
+    dependencies:
+      - STR_ZRBITE
+
+  - name: STR_TFTD_ACCEL_CLIP
+    cost: 400
+    points: 15
+    dependencies:
+      - STR_TFTD_ACCEL
+
+  - name: STR_TFTD_VOLLEY
+    cost: 400
+    points: 10
+    dependencies:
+      - STR_GAUSS_RIFLE
+
+  - name: STR_TFTD_VOLLEY_CLIP
+    cost: 200
+    points: 10
+    dependencies:
+      - STR_TFTD_VOLLEY
+
+  - name: STR_DISPLACER_ARMOR
+    cost: 1000
+    points: 25
+    dependencies:
+      - STR_NEW_FIGHTER_FLYING_SUB
+
+  - name: STR_ION_CANNON
+    cost: 800
+    points: 25
+    dependencies:
+      - STR_ION_PISTOL_CLIP
+
+  - name: STR_ION_CANNON_CLIP
+    cost: 600
+    points: 25
+    dependencies:
+      - STR_ION_CANNON
+
+  - name: STR_ION_PISTOL
+    cost: 700
+    points: 25
+    dependencies:
+      - STR_NEW_FIGHTER_FLYING_SUB
+
+  - name: STR_ION_PISTOL_CLIP
+    cost: 500
+    points: 25
+    dependencies:
+      - STR_ION_PISTOL
+
+  - name: STR_LASER_PISTOL
+    cost: 300
+    points: 25
+    dependencies:
+      - STR_ZRBITE
+
+  - name: STR_LASER_CARBINE
+    cost: 350
+    points: 25
+    dependencies:
+      - STR_ZRBITE
+
+  - name: STR_HEAVY_LASER
+    cost: 450
+    points: 25
+    dependencies:
+      - STR_ZRBITE
+
+  - name: STR_ZRBITE_FLARE
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AQUA_PLASTICS
+      - STR_SONIC_PULSER
+
+  - name: STR_RSH_HSONIC_PISTOL
+    cost: 396
+    points: 25
+    dependencies:
+      - STR_HEAVY_GAUSS
+      - STR_PISTOL_POWER_CLIP
+      - STR_ZRBITE
+    listOrder: 3201
+
+  - name: STR_RSH_HSONIC_RIFLE
+    cost: 462
+    points: 50
+    dependencies:
+      - STR_BLASTA_POWER_CLIP
+      - STR_RSH_HSONIC_PISTOL
+    listOrder: 3401
+
+  - name: STR_RSH_HSONIC_CANNON
+    cost: 528
+    points: 75
+    dependencies:
+      - STR_CANNON_POWER_CLIP
+      - STR_RSH_HSONIC_RIFLE
+    listOrder: 3601
+
+  - name: STR_RSH_HSONIC_GRENADE
+    cost: 132
+    points: 20
+    dependencies:
+      - STR_SONIC_PULSER
+    listOrder: 2101
+
+  - name: STR_ALIENS_ONLY
+    cost: 10000
+    points: 0
+    dependencies:
+     - STR_ALIENS_ONLY
+
+ # [=] Req for Launchers [=] 
+  - name: STR_DISRUPTOR_PULSE_LAUNCHER
+    dependencies:
+      - STR_ZRBITE
+      - STR_RSH_HSONIC_CANNON
+
+  - name: STR_THERMAL_SHOK_LAUNCHER
+    dependencies: 
+      - STR_RSH_HSONIC_PISTOL
