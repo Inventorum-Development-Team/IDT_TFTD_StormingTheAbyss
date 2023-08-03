@@ -107,35 +107,35 @@ extraSprites:
     subY: 40
     files:
       1000: Resources/SurfaceWeapons/HandVariableRifle.png
-      1008: Resources/SurfaceWeapons/HandVariableRifle.png
+      1008: Resources/SurfaceWeapons/HandVariableRifle_fire.png
       #1016: Resources/SurfaceWeapons/HandVariableRifleMag.png
       #1024: Resources/SurfaceWeapons/HandVariableRifleHiPowMag.png
       #1032: Resources/SurfaceWeapons/HandVariableRifleShredderMag.png
       1040: Resources/SurfaceWeapons/HandSCAR.png
-      1048: Resources/SurfaceWeapons/HandSCAR.png
+      1048: Resources/SurfaceWeapons/HandSCAR_fire.png
       #1056: Resources/SurfaceWeapons/HandSCARMag.png
       1064: Resources/SurfaceWeapons/HandPrinterRifle.png
-      1072: Resources/SurfaceWeapons/HandPrinterRifle.png
+      1072: Resources/SurfaceWeapons/HandPrinterRifle_fire.png
       1080: Resources/SurfaceWeapons/HandLaserSniper.png
-      1088: Resources/SurfaceWeapons/HandLaserSniper.png
+      1088: Resources/SurfaceWeapons/HandLaserSniper_fire.png
       #1096: Resources/SurfaceWeapons/HandLaserSniperBattery.png
       1104: Resources/SurfaceWeapons/HandAutoLaser.png
-      1112: Resources/SurfaceWeapons/HandAutoLaser.png
+      1112: Resources/SurfaceWeapons/HandAutoLaser_fire.png
       #1120: Resources/SurfaceWeapons/HandAutoLaserBattery.png
       1128: Resources/SurfaceWeapons/HandCombatHandgun.png
-      1136: Resources/SurfaceWeapons/HandCombatHandgun.png
+      1136: Resources/SurfaceWeapons/HandCombatHandgun_fire.png
       #1144: Resources/SurfaceWeapons/HandCombatHandgunMag.png
       1152: Resources/SurfaceWeapons/HandStreetSweeper.png
-      1160: Resources/SurfaceWeapons/HandStreetSweeper.png
+      1160: Resources/SurfaceWeapons/HandStreetSweeper_fire.png
       #1168: Resources/SurfaceWeapons/HandStreetSweeperDrum.png
       1176: Resources/SurfaceWeapons/HandOldPlasmaRifle.png
-      1184: Resources/SurfaceWeapons/HandOldPlasmaRifle.png
+      1184: Resources/SurfaceWeapons/HandOldPlasmaRifle_fire.png
       #1192: Resources/SurfaceWeapons/HandOldPlasmaRifleAmmo.png
       1200: Resources/SurfaceWeapons/HandNewPlasmaRifle.png
-      1208: Resources/SurfaceWeapons/HandNewPlasmaRifle.png
+      1208: Resources/SurfaceWeapons/HandNewPlasmaRifle_fire.png
       #1216: Resources/SurfaceWeapons/HandNewPlasmaRifleAmmo.png
       1224: Resources/SurfaceWeapons/HandTacticalLMG.png
-      1232: Resources/SurfaceWeapons/HandTacticalLMG.png
+      1232: Resources/SurfaceWeapons/HandTacticalLMG_fire.png
       #1240: Resources/SurfaceWeapons/HandTacticalLMGAPBox.png
       #1248: Resources/SurfaceWeapons/HandTacticalLMGIncBox.png
       #1256: Resources/SurfaceWeapons/HandTacticalLMGHEBox.png
@@ -183,6 +183,9 @@ extraSprites:
       630: Resources/Hits/HansFire_Hit.png
       640: Resources/Hits/RedLaser_Hit.png
       650: Resources/Hits/GreenPlasma_Hit.png
+      650: Resources/Hits/Gauss_Hit.png
+      650: Resources/Hits/Ballistic_Hit.png
+      
       
 
   # 33 x [index] = files name
@@ -192,8 +195,11 @@ extraSprites:
     subX: 3
     subY: 3
     files:
-      490: Resources/Projectiles/Ballistic_Bullet.png # 14
-      420: Resources/Projectiles/Projectiles_Laser_Beam.png
+      462: Resources/Projectiles/RifleBallistic_Bullet.png # 14
+      495: Resources/Projectiles/PistolBallistic_Bullet.png # 15
+      528: Resources/Projectiles/AdvancedBallistic_Bullet.png # 16
+      561: Resources/Projectiles/Harpoon_bullet.png # 17
+      594: Resources/Projectiles/Sonic_Bullet.png # 18
   - type: UnderwaterProjectiles
     width: 105
     height: 3
