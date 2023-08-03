@@ -38,6 +38,11 @@ extraSounds:
       134: Resources/Sounds/ZbriteLaser3_fire.ogg
       135: Resources/Sounds/ZbriteLaser_fire.ogg
 
+      301: Resources/Sounds/BallisticHitSound0.ogg
+      302: Resources/Sounds/BallisticHitSound1.ogg
+      303: Resources/Sounds/BallisticHitSound2.ogg
+      304: Resources/Sounds/BallisticHitSound3.ogg
+
   - type: BATTLE2.CAT
     files:
       80: Resources/Sounds/ads.ogg
