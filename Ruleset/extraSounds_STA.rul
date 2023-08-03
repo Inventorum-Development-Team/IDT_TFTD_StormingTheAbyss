@@ -37,6 +37,10 @@ extraSounds:
       133: Resources/Sounds/ZbriteLaser2_fire.ogg
       134: Resources/Sounds/ZbriteLaser3_fire.ogg
       135: Resources/Sounds/ZbriteLaser_fire.ogg
+      136: Resources/Sounds/PlasmaHit.ogg
+      137: Resources/Sounds/UnderwaterBallisticFire_1.ogg
+      138: Resources/Sounds/UnderwaterBallisticFire_1.ogg
+      139: Resources/Sounds/UnderwaterBallisticFire_1.ogg
 
       301: Resources/Sounds/BallisticHitSound0.ogg
       302: Resources/Sounds/BallisticHitSound1.ogg
