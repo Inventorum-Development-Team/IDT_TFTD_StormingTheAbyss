@@ -6,7 +6,7 @@ extraStrings:
       STR_SURFACE_WEAPONS_UFOPEDIA: "The land is our preferred environment, of course. We have fought, bleed, bleed, died and won above the ground for centuries. It is only natural our surface weapons have better quality, although obviously these won't work below the waves. Over the course of the next 40 years after the First Alien War, the ballistics have become better, specially since the widespread of Alien Alloys. Direct Energy Weapons as lasers have become common as well."
 
       STR_VARIABLE_RIFLE: "Variable Combat Rifle"
-      STR_VARIABLE_RIFLE_UFOPEDIA: "Standard issue M7A3 rifle of the US Armed Forces since 2027. Capable of firing three distinct types of 6.8mm rounds, for a wide range of situations."
+      STR_VARIABLE_RIFLE_UFOPEDIA: "Standard issue M7A2 rifle of the US Armed Forces, since 2027. Capable of firing three distinct types of 6.8mm rounds, for a wide range of situations."
       STR_VARIABLE_RIFLE_MAG: "VCR Mag"
       STR_VARIABLE_RIFLE_MAG_UFOPEDIA: "Standard armor-piercing M197 6.8mm AAJ-AP rounds, inflict 20% damage to armor. Jack-of-all-trades, features a balance in weight, damage and ammo reserve."
       STR_VARIABLE_RIFLE_CQB_MAG: "VCR Close-Combat Mag"
@@ -25,7 +25,7 @@ extraStrings:
       STR_STREET_SWEEPER: "Street Sweeper SMG"
       STR_STREET_SWEEPER_UFOPEDIA: "Ultra-compact SMG, manufactured for the Mexico City Riot Police. The 'Barredora' uses light ammo with limited stopping power, but allows the user to carry a large reserve and the gun recoil is barely felt. One handed."
       STR_STREET_SWEEPER_MAG: "Street Sweeper Drum Mag"
-      STR_AUTO_SHOGUN_UFOPEDIA: "A drum full of .22 Jaguar rounds, small yet still dangerous if shot en masse. The primary use is crowd-control, although Mexican security forces are instructed to restrict their shots to avoid unnecessary deaths."
+      STR_STREET_SWEEPER_MAG_UFOPEDIA: "A drum full of .22 Jaguar rounds, small yet still dangerous if shot en masse. The primary use is crowd-control, although Mexican security forces are instructed to restrict their shots to avoid unnecessary deaths."
       
       STR_COMBAT_HANDGUN: "Combat Handgun"
       STR_COMBAT_HANDGUN_UFOPEDIA: "This Scandinavian weapon developed by Bofors Defense Unlimited is a heavy and reliable sidearm, designed for shock troops operating in extreme environments. Integrated targeting designator."
@@ -37,28 +37,25 @@ extraStrings:
       STR_AUTO_SHOGUN_SHELLS: "Auto-Shotgun Shells"
       STR_AUTO_SHOGUN_SHELLS_UFOPEDIA: "Powerful 10-Gauge buckshot shells with dozens of Alien Alloys pellets. Meant when the negotiations were short and you need to use the force to show the enemy who rules." 
       STR_AUTO_SHOGUN_SLUGS: "Auto-Shotgun Less-Lethal Slugs"
-      STR_AUTO_SHOGUN_SHELLS_UFOPEDIA: "A solid, 10-Gauge slug modified with an internal microflask of a chemical compound derived from the Amazonian snake's poison. Once  
+      STR_AUTO_SHOGUN_SLUGS_UFOPEDIA: "A solid, 10-Gauge slug modified with an internal microflask of a chemical compound derived from the Amazonian snake's poison. Once hit, the flask breaks and the poison is injected into the body, freezing the nervous system and paralyzing the unfortunate receiving end." 
 
       STR_OLD_PLASMA_RIFLE: "Plasma Rifle Mk.1"
       STR_OLD_PLASMA_RIFLE_UFOPEDIA: "A relic from the past, most samples were mothballed once the Elerium Crisis deepened.  We're not exactly allowed to use them, although we won't stop neither. All our Plasmas were secretly stored in a vault, perhaps the only ones actively remaining in the whole world."
-      STR_OLD_PLASMA_RIFLE_AMMO: "Plasma Rifle Mk.1 Cell"
-      STR_OLD_PLASMA_RIFLE_AMMO_UFOPEDIA: "An old alien energy cell for the Plasma Rifle. It contains a small amount of E-115, making it a very sought-after item."
+      STR_OLD_PLASMA_RIFLE_CLIP: "Plasma Rifle Mk.1 Cell"
+      STR_OLD_PLASMA_RIFLE_CLIP_UFOPEDIA: "An old alien energy cell for the Plasma Rifle. It contains a small amount of E-115, making it a very sought-after item."
 
       STR_NEW_PLASMA_RIFLE: "Plasma Rifle Mk.2"
       STR_NEW_PLASMA_RIFLE_UFOPEDIA: "By swapping from Elerium to Zrbite, we were able to create a more economic  variant. While less powerful than the First War weapons, the reduced production costs worth the downsides."
       
-      STR_NEW_PLASMA_RIFLE_AMMO: "Plasma Rifle Mk.2 Cell"
-      STR_NEW_PLASMA_RIFLE_AMMO_UFOPEDIA: "The conversion from Elerium to Zrbite revived the use of Plasma weaponry, albeit with reduced raw damage and unwanted side effects in the health of the user, among them dizziness and disorientation. The uncontrolled radiation emitted by the modified Plasma Rifles inflicts a random number of Freezing damage on the operator."  
+      STR_NEW_PLASMA_RIFLE_CLIP: "Plasma Rifle Mk.2 Cell"
+      STR_NEW_PLASMA_RIFLE_CLIP_UFOPEDIA: "The conversion from Elerium to Zrbite revived the use of Plasma weaponry, albeit with reduced raw damage and unwanted side effects in the health of the user, among them dizziness and disorientation. The uncontrolled radiation emitted by the modified Plasma Rifles inflicts a random number of Freezing damage on the operator."  
       
       STR_TACTICAL_LMG: "HTAR Machine Gun"
       STR_TACTICAL_LMG_UFOPEDIA: "The Heavy Tactical Automatic Rifle is a highly adaptable machine gun designed by Austrian firm TW Industries, based around the original XCOM assault rifle. The 7.62x51mm rounds have three distinct cores to maximize the battlefield efficiency. The slow rate of fire is needed to get the maximum accurate shots as possible."
-
       STR_TACTICAL_LMG_AP: "HTAR - AP Box"
       STR_TACTICAL_LMG_AP_UFOPEDIA: "Officially dubbed 'armored bullets', the Teflon/Alloy-tipped bullets have increased armor damage (up to 30%). Designed after the violent encounters with alien robotic units."
-
       STR_TACTICAL_LMG_INC: "HTAR - INC Box"
       STR_TACTICAL_LMG_INC_UFOPEDIA: "The R75 White Phosphorus incendiary rounds are meant to engage organic threats not protected by the Geneva Convention. Originally meant for illumination, the use of INC ammo against alien biological terrorists motivated the development of this kind of ammo."
-
       STR_TACTICAL_LMG_HE: "HTAR - HE Box"
       STR_TACTICAL_LMG_HE_UFOPEDIA: "Although initially met with ethical and moral dilemma, the high explosive RCX-3 rounds contain as much plastic explosives as possible in a special full-size rifle bullet. Improved damage to terrain and soft targets."
       
@@ -70,7 +67,7 @@ extraStrings:
       STR_LASER_PISTOL_UFOPEDIA: "A widespread Direct Energy Weapon sidearm, used by law enforcement forces all around the world. Reliable and efficient, albeit somewhat inaccurate."
       STR_LASER_PISTOL_CLIP_UFOPEDIA: "Deuterium-fuelled energy cell, used in the popular Police Laser Pistols. It has an impressively large amount of discharges compared to other handguns."
       STR_LASER_RIFLE_UFOPEDIA: "Standardized energy beam infantry weapon of most of the remaining governments. Similar in performance to the prototype Laser Rifles developed by XCOM during the First War, it's very appreciated by its users for the reliable power consumption and firepower."
-      STR_LASER_RIFLE_CLIP_UFOPEDIA: "Compact battery used by the Service Laser Rifle, filled with Deuterium. The whole system is more expensive than regular bullets, it doesn't stops the government forces to field them in numbers."
+      STR_LASER_RIFLE_CLIP_UFOPEDIA: "Compact battery used by the Service Laser Rifle, filled with Deuterium. While the system is considered more expensive than regular bullets, it doesn't stops the government forces to field them in numbers."
 
 
 ###############################
@@ -79,13 +76,19 @@ extraStrings:
       STR_UNDERWATER_WEAPONS_UFOPEDIA: "Sea warfare isn't new to us.  Fighting undersea has been done for a while. Specially after the First War and the rising climate change, where the bottom of the sea is slowly and steadily explored and settled. The nature of our new enemy forces us to adapt better and faster, our tools will become better."
 
       STR_MATADOR_TORPEDO_LAUNCHER: "MATADOR Torpedo-launcher"
-      STR_MATADOR_TORPEDO_LAUNCHER_UFOPEDIA: "MAn-portable Torpedo-launcher, Assault/Demolition ORdnance. Advanced and versatile "
-
+      STR_MATADOR_TORPEDO_LAUNCHER_UFOPEDIA: "MAn-portable Torpedo-launcher, Assault/Demolition ORdnance. Advanced and versatile heavy support underwater system. Originally designed as a conventional anti-tank launcher, it was reconverted to submarine use to counter the growing threat of pirate raids on deep sea facilities."
+      STR_MATADOR_AP_TORPEDO: "MATADOR - Anti-Personnel Warhead"
+      STR_MATADOR_AP_TORPEDO_UFOPEDIA: "A specialized variant meant to inflict gruesome wounds on organic targets. The T20-K torpedo warhead has a small effective radius where all unarmored enemies are affected. Protected units are reported to receive few to no damage, though."
+      STR_MATADOR_HE_TORPEDO: "MATADOR - Anti-Structure Warhead"
+      STR_MATADOR_HE_TORPEDO_UFOPEDIA: "The standard contact/impact T30-F torpedo warhead, designed to inflict high damage on fortifications and terrains. The use against armored enemies is not adviced, although a certain degree of damage could be inflicted."
+      STR_MATADOR_SWARM_TORPEDO: "MATADOR - Swarm Warhead"
+      STR_MATADOR_SWARM_TORPEDO_UFOPEDIA: The unusual design of the T4-25 torpedo essentially turns the MATADOR into a heavy shotgun. Dozens of small flechettes are dispersed as soon as the projectile leaves the launcher. The resulting 'swarm' of razor-sharp metal is lethal for all kind of enemies. Due the lack of hydrodynamic characteristics, the flechettes travel very few meters at full speed, eventually slowing down and losing power." 
+      
       STR_UNDERWATER_REVOLVER: "Underwater Revolver"
-      STR_UNDERWATER_REVOLVER_UFOPEDIA: "Hard hitting sidearm Model 01, developed by Norris Firearms Ltd in Texas, USA. Slow and hard-hitting, it packs a punch at close range"
+      STR_UNDERWATER_REVOLVER_UFOPEDIA: "Hard hitting sidearm Model 01, developed by Morgan & Marston Firearms Ltd in USA. Slow and hard-hitting, it packs a punch at close range."
 
       STR_UNDERWATER_RIFLE: "Underwater Rifle"
-      STR_UNDERWATER_RIFLE_UFOPEDIA: "APS-29, produced by Kalashnikov Group for the PanAsian frogmen. Derived from a mid-Cold War design, fires steel darts at mid-range."
+      STR_UNDERWATER_RIFLE_UFOPEDIA: "APS-29, produced by Kalashnikov Group for the Eurasian submariner forces. Derived from a mid-Cold War design, fires steel darts at mid-range. Its introduction to the open market made it the most successful underwater automatic weapon, used all around the world."
 
       STR_UNDERWATER_AUTOPISTOL: "Underwater Auto-Pistol"
       STR_UNDERWATER_AUTOPISTOL_UFOPEDIA: "Fully automatic compact P110 pistol, made to provide a reliable sidearm for European frogmen. Nicknamed 'pepper-box' for it's unusual design, it can quickly fire all barrels at once."
