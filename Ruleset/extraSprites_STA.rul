@@ -171,6 +171,16 @@ extraSprites:
     files:
       0: Resources/Armor/Exosuit/EXO_SPRITESHEET.png
 
+  - type: FLOOROB.PCK
+    files:
+      300: Resources/Armor/Exosuit/EXO_CORPSE_FLOOROB.png
+      301: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_CORPSE_FLOOROB.png
+
+  - type: BIGOB.PCK
+    files:
+      300: Resources/Armor/Exosuit/EXO_CORPSE_BIGOB.png
+      301: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_CORPSE_BIGOB.png
+
 #############
       
   - type: SMOKE.PCK
