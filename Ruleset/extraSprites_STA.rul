@@ -158,18 +158,58 @@ extraSprites:
 ###############
 
 # Exo Suit      
-      
   - type: EXO_PAPERDOLL
     singleImage: true
     files:
       0: Resources/Armor/Exosuit/Inventory/EXO_PAPERDOLL.png
   - type: EXO_SPRITESHEET
-    width: 256
-    height: 1520
+    width: 512
+    height: 720
     subX: 32
     subY: 40
     files:
       0: Resources/Armor/Exosuit/EXO_SPRITESHEET.png
+
+# Personal Armor - Brown Variant
+  - type: PAB_PAPERDOLLF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.png
+  - type: PAB_PAPERDOLLF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.png
+  - type: PAB_PAPERDOLLF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f1.png
+  - type: PAB_PAPERDOLLF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.png
+  - type: PAB_PAPERDOLLM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.png
+  - type: PAB_PAPERDOLLM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m1.png
+  - type: PAB_PAPERDOLLM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.png
+  - type: PAB_PAPERDOLLM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.png
+  - type: PERSONAL_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_SPRITESHEET.png
 
   - type: FLOOROB.PCK
     files:
