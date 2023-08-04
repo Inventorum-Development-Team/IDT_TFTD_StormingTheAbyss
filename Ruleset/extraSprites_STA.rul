@@ -188,26 +188,31 @@ extraSprites:
       
       
 
-  # 33 x [index] = files name
+  # 35 x [index] = files name
   - type: Projectiles 
     width: 105
     height: 3
     subX: 3
     subY: 3
     files:
-      462: Resources/Projectiles/RifleBallistic_Bullet.png # 14
-      495: Resources/Projectiles/PistolBallistic_Bullet.png # 15
-      528: Resources/Projectiles/AdvancedBallistic_Bullet.png # 16
-      561: Resources/Projectiles/Harpoon_bullet.png # 17
-      594: Resources/Projectiles/Sonic_Bullet.png # 18
+      490: Resources/Projectiles/RifleBallistic_Bullet.png # 14
+      525: Resources/Projectiles/PistolBallistic_Bullet.png # 15
+      560: Resources/Projectiles/AdvancedBallistic_Bullet.png # 16
+      595: Resources/Projectiles/Harpoon_bullet.png # 17
+      630: Resources/Projectiles/Sonic_Bullet.png # 18
+      665: Resources/Projectiles/Gauss_Bullet.png # 19
   - type: UnderwaterProjectiles
     width: 105
     height: 3
     subX: 3
     subY: 3
     files:
-      385: Resources/Projectiles/ion_test.png
-      420: Resources/Projectiles/Projectiles_Laser_Beam.png
+      490: Resources/Projectiles/RifleBallistic_Bullet.png # 14
+      525: Resources/Projectiles/PistolBallistic_Bullet.png # 15
+      560: Resources/Projectiles/AdvancedBallistic_Bullet.png # 16
+      595: Resources/Projectiles/Harpoon_bullet.png # 17
+      630: Resources/Projectiles/Sonic_Bullet.png # 18
+      665: Resources/Projectiles/Gauss_Bullet.png # 19
 
   - type: X1.PCK
     width: 1024
