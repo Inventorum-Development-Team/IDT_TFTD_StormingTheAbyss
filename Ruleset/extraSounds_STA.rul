@@ -32,7 +32,7 @@ extraSounds:
       128: Resources/Sounds/SonicFire_3.ogg
       129: Resources/Sounds/SonicCannon1_fire.ogg
       130: Resources/Sounds/SonicCannon2_fire.ogg
-      131: Resources/Sounds/ZbriteLaser1_fire.ogg
+      131: Resources/Sounds/SonicCannon3_fire.ogg
       132: Resources/Sounds/ZbriteLaser1_fire.ogg
       133: Resources/Sounds/ZbriteLaser2_fire.ogg
       134: Resources/Sounds/ZbriteLaser3_fire.ogg
@@ -80,7 +80,7 @@ extraSounds:
       128: Resources/Sounds/SonicFire_3.ogg
       129: Resources/Sounds/SonicCannon1_fire.ogg
       130: Resources/Sounds/SonicCannon2_fire.ogg
-      131: Resources/Sounds/ZbriteLaser1_fire.ogg
+      131: Resources/Sounds/SonicCannon3_fire.ogg
       132: Resources/Sounds/ZbriteLaser1_fire.ogg
       133: Resources/Sounds/ZbriteLaser2_fire.ogg
       134: Resources/Sounds/ZbriteLaser3_fire.ogg
