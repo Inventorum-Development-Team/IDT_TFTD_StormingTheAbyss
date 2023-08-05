@@ -174,36 +174,37 @@ extraSprites:
   - type: PAB_PAPERDOLLF0.SPK
     singleImage: true
     files:
-      0: Resources/armor/lung_1f0.png
+      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_F0.png
   - type: PAB_PAPERDOLLF1.SPK
     singleImage: true
     files:
-      0: Resources/armor/lung_1f0.png
+      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_F1.png
   - type: PAB_PAPERDOLLF2.SPK
     singleImage: true
     files:
-      0: Resources/armor/lung_1f1.png
+      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_F2.png
   - type: PAB_PAPERDOLLF3.SPK
     singleImage: true
     files:
-      0: Resources/armor/lung_1f0.png
+      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_F3.png
   - type: PAB_PAPERDOLLM0.SPK
     singleImage: true
     files:
-      0: Resources/armor/lung_1m0.png
+      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_M0.png
   - type: PAB_PAPERDOLLM1.SPK
     singleImage: true
     files:
-      0: Resources/armor/lung_1m1.png
+      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_M1.png
   - type: PAB_PAPERDOLLM2.SPK
     singleImage: true
     files:
-      0: Resources/armor/lung_1m0.png
+      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_M2.png
   - type: PAB_PAPERDOLLM3.SPK
     singleImage: true
     files:
-      0: Resources/armor/lung_1m0.png
-  - type: PERSONAL_ARMOR_SPRITESHEET
+      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_M3.png
+
+  - type: PERSONAL_ARMOR_BROWN_SPRITESHEET
     width: 512
     height: 720
     subX: 32
@@ -211,6 +212,7 @@ extraSprites:
     files:
       0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_SPRITESHEET.png
 
+#
   - type: FLOOROB.PCK
     files:
       300: Resources/Armor/Exosuit/EXO_CORPSE_FLOOROB.png
@@ -233,8 +235,8 @@ extraSprites:
       630: Resources/Hits/HansFire_Hit.png
       640: Resources/Hits/RedLaser_Hit.png
       650: Resources/Hits/GreenPlasma_Hit.png
-      650: Resources/Hits/Gauss_Hit.png
-      650: Resources/Hits/Ballistic_Hit.png
+      660: Resources/Hits/Gauss_Hit.png
+      670: Resources/Hits/Ballistic_Hit.png
       
       
 
@@ -346,12 +348,12 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/AUTO_SHOGUN_UFOPEDIA.png
-  - type: AUTO_SHOGUN_SHELLS_UFOPEDIA
+  - type: AUTO_SHOGUN_SLUG_UFOPEDIA
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/UFOPAEDIA/AUTO_SHOGUN_SHELLS_UFOPEDIA.png
+      0: Resources/UFOPAEDIA/AUTO_SHOGUN_SLUG_UFOPEDIA.png
   - type: AUTO_SHOGUN_SHELLS_UFOPEDIA
     width: 320
     height: 200

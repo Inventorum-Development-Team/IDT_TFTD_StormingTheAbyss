@@ -1,5 +1,9 @@
 items:
 
+#########################
+####### SURFACE ########
+#######################
+
 # Variable Combat Rifle
   - type: STR_VARIABLE_RIFLE
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
@@ -553,237 +557,431 @@ items:
     battleType: 2
     recoveryPoints: 1
 
-#################
+#########################
+####### AQUATIC ########
+#######################
 
-  - type: STR_TFTD_RECOIL
+
+  - type: STR_MATADOR_TORPEDO_LAUNCHER
+    categories: [STR_UNDERWATER, STR_FIREARMS, STR_US_TECH, STR_HEAVY_WEAPONS, STR_ARTILLERY]
     size: 0.4
-    costBuy: 2500
-    costSell: 1000
-    weight: 15
-    bigSprite: 197
-    floorSprite: 211
-    handSprite: 688
-    bulletSprite: 0
-    fireSound: 83
+    costBuy: 16000
+    costSell: 10000
+    weight: 10
+    bigSprite: 1158
+    floorSprite: 1158
+    handSprite: 2724
+    bulletSprite: 1
+    fireSound: 152
     compatibleAmmo:
-      - STR_TFTD_RECOIL_CLIP
-    accuracySnap: 55
-    accuracyAimed: 110
-    tuSnap: 25
-    tuAimed: 65
+      - STR_MATADOR_ARMOR_PIERCING_TORPEDO
+      - STR_MATADOR_HIGH_EXPLOSIVE_TORPEDO
+      - STR_MATADOR_SWARM_TORPEDO
+    accuracyCloseQuarters: 25
+    accuracySnap: 80
+    accuracyAimed: 125
+    tuSnap: 45
+    tuAimed: 70
+    tuLoad: 20
     battleType: 1
     twoHanded: true
+    blockBothHands: true
     invWidth: 2
     invHeight: 3
-    landOnly: true 
-    listOrder: 3510
+    attraction: 8
+    maxRange: 25
+    waypoints: 3
+    dropoff: 3
 
-  - type: STR_TFTD_RECOIL_CLIP
+  - type: STR_MATADOR_ARMOR_PIERCING_TORPEDO
+    categories: [STR_FIREARMS, STR_ARTILLERY, STR_US_TECH, STR_CLIPS]
+    requires:
+      - STR_USA_IMPROVED_AQUATIC_WEAPONS
     size: 0.2
-    costBuy: 350
-    costSell: 150
-    weight: 2
-    bigSprite: 199
-    floorSprite: 212
-    handSprite: 696
+    costBuy: 1600
+    costSell: 1200
+    weight: 6
+    bigSprite: 1159
+    floorSprite: 1159
     hitSound: 0
-    hitAnimation: 8
-    power: 70
-    blastRadius: 1
-    damageType: 3
+    hitAnimation: 0
+    power: 75
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: false
+      ToArmor: 1.3
+      ToArmorPre: 1.5
+    damageType: 1
     clipSize: 1
+    bulletSpeed: 10
     battleType: 2
     invWidth: 1
     invHeight: 3
-    armor: 50
-    landOnly: true
-    listOrder: 3511
+    attraction: 9
+    vaporColor: 5
+    vaporDensity: 10
 
-  - type: STR_TFTD_MINIGUN
-    size: 0.3
-    costBuy: 13500
-    costSell: 10125
-    weight: 20
-    bigSprite: 196
-    floorSprite: 209
-    handSprite: 672
+  - type: STR_MATADOR_HIGH_EXPLOSIVE_TORPEDO
+    categories: [STR_FIREARMS, STR_ARTILLERY, STR_US_TECH, STR_CLIPS]
+    size: 0.2
+    costBuy: 6200
+    costSell: 5000
+    weight: 6
+    bigSprite: 1160
+    floorSprite: 1160
+    hitSound: 0
+    hitAnimation: 0
+    power: 95
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.50
+      ToArmorPre: 0.3
+      ToArmor: 0.1
+      RadiusReduction: 40
+    damageType: 3
+    clipSize: 1
+    blastRadius: 3
+    battleType: 2
+    bulletSpeed: 5
+    invWidth: 1
+    invHeight: 3
+    attraction: 9
+    vaporColor: 6
+    vaporDensity: 10
+
+  - type: STR_MATADOR_SWARM_TORPEDO
+    categories: [STR_FIREARMS, STR_ARTILLERY, STR_UNDERWATER, STR_US_TECH, STR_CLIPS]
+    size: 0.1
+    costSell: 22500
+    weight: 3
+    bigSprite: 1161
+    floorSprite: 1161
+    power: 50
+    damageType: 1
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: false
+      ToWound: 2.1
+      RandomWound: true
+      ToArmor: 0.1
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 1
+    invHeight: 3
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 10
+    shotgunSpread: 25
+    battleType: 2
+    armor: 250
+    vaporColor: 7
+    vaporDensity: 10
+
+  - type: STR_UNDERWATER_REVOLVER
+    categories: [STR_UNDERWATER, STR_FIREARMS, STR_US_TECH, STR_PISTOLS]
+    size: 0.1
+    costBuy: 2500
+    costSell: 900
+    weight: 3
+    bigSprite: 1155
+    floorSprite: 1155
+    handSprite: 2708
     bulletSprite: 2
-    bulletSpeed: 50
-    fireSound: 80
-    compatibleAmmo:
-      - STR_TFTD_MINIGUN_CLIP
-    accuracyAuto: 25
-    tuAuto: 25
-    autoShots: 10
+    fireSound: 136
+    reloadSound: [179, 180, 181, 182]
+    ammo:
+      0:
+        compatibleAmmo: [ STR_UNDERWATER_REVOLVER_CLIP ]
+    accuracySnap: 45
+    accuracyAimed: 65
+    accuracyCloseQuarters: 100
+    kneelBonus: 115
+    tuSnap: 20
+    tuAimed: 35
+    maxRange: 12
+    dropoff: 4
+    powerRangeReduction: 3
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+
+
+  - type: STR_UNDERWATER_REVOLVER_CLIP
+    categories: [STR_UNDERWATER, STR_FIREARMS, STR_US_TECH, STR_PISTOLS]
+    size: 0.1
+    costBuy: 600
+    costSell: 750
+    weight: 2
+    bigSprite: 1156
+    floorSprite: 1156
+    hitSound: 16
+    hitAnimation: 26
+    power: 40
+    damageType: 1
+    invHeight: 1
+    invWidth: 1
+    clipSize: 6
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 2
+
+  - type: STR_UNDERWATER_AUTOPISTOL
+    categories: [STR_UNDERWATER, STR_FIREARMS, STR_NATO_TECH, STR_PISTOLS]
+    size: 0.1
+    costBuy: 700
+    costSell: 580
+    weight: 4
+    bigSprite: 1162
+    floorSprite: 1162
+    handSprite: 2732
+    bulletSprite: 1
+    fireSound: 146
+    reloadSound: [179, 180, 181, 182]
+    accuracyCloseQuarters: 100
+    ammo:
+      0:
+        compatibleAmmo: [ STR_UNDERWATER_AUTOPISTOL_MAG ]
+    confAuto:
+      shots: 5
+      name: STR_RAPID_FIRE
+      ammoSlot: 0
+      arcing: false
+    accuracySnap: 80
+    accuracyAimed: 80
+    accuracyAuto: 60
+    tuAuto: 22
+    tuSnap: 16
+    tuAimed: 24
+    tuLoad: 15
+    kneelBonus: 105
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 1
+    armor: 35
+    attraction: 10
+
+
+  - type: STR_UNDERWATER_AUTOPISTOL_MAG
+    categories: [STR_UNDERWATER, STR_FIREARMS, STR_NATO_TECH, STR_PISTOLS]
+    requires:
+      - STR_NATO_IMPROVED_AQUATIC_WEAPONS
+    size: 0.1
+    costBuy: 450
+    costSell: 250
+    weight: 2
+    bigSprite: 1163
+    floorSprite: 1163
+    hitSound: 16
+    hitAnimation: 26
+    power: 42
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    vaporColor: 2
+    vaporDensity: 2
+    maxRange: 15
+    dropoff: 3
+    powerRangeReduction: 3
+
+
+  - type: STR_UNDERWATER_RIFLE
+    categories: [STR_UNDERWATER, STR_FIREARMS, STR_SOVIET_TECH, STR_RIFLES]
+    requires:
+      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+    size: 0.2
+    costBuy: 3200
+    costSell: 2000
+    weight: 7
+    bigSprite: 1168
+    floorSprite: 1168
+    handSprite: 2764
+    bulletSprite: 2
+    fireSound: 155
+    reloadSound: [186, 187, 188, 189]
+    ammo:
+      0: 
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo: [ STR_UNDERWATER_RIFLE_MAG ]
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 5
+      name: STR_CONTROL_AUTO
+      ammoSlot: 0
+      arcing: false
+    accuracyCloseQuarters: 120
+    accuracyAuto: 50
+    accuracySnap: 72
+    accuracyAimed: 65
+    bulletSpeed: 10
+    tuAuto: 32
+    tuSnap: 24
+    tuAimed: 48
+    costThrow:
+      energy: 16
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 60
+    invWidth: 1
+    invHeight: 3
+    autoRange: 15
+    maxRange: 25
+    dropoff: 4
+    powerRangeReduction: 3
+    attraction: 8
+    vaporColor: 4
+    vaporDensity: 10
+
+
+  - type: STR_UNDERWATER_RIFLE_MAG
+    categories: [STR_UNDERWATER, STR_FIREARMS, STR_USSR_TECH, STR_RIFLES]
+    size: 0.1
+    costBuy: 550
+    costSell: 450
+    weight: 2
+    bigSprite: 1169
+    floorSprite: 1169
+    hitSound: 16
+    hitAnimation: 26
+    power: 46
+    damageType: 1
+    clipSize: 26
+    invWidth: 1
+    invHeight: 1
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10
+
+  - type: STR_UNDERWATER_LMG
+    categories: [STR_UNDERWATER, STR_FIREARMS, STR_SOVIET_TECH, STR_HEAVY_WEAPONS, STR_LMGS]
+    size: 0.3
+    costBuy: 9000
+    costSell: 8000
+    weight: 12
+    bigSprite: 1170
+    floorSprite: 1170
+    handSprite: 2772
+    bulletSprite: 4
+    bulletSpeed: 20
+    fireSound: 160
+    ammo:
+      0: 
+        compatibleAmmo: [ STR_UNDERWATER_LMG_MAG ]
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 15
+      name: STR_SUPPRESSION
+      ammoSlot: 0
+      arcing: false
+    accuracyCloseQuarters: 35
+    accuracySnap: 70
+    accuracyAuto: 50
+    tuSnap: 25
+    tuAuto: 50
+    tuLoad: 25
+    snapRange: 20
     autoRange: 20
     battleType: 1
     twoHanded: true
+    oneHandedPenalty: 40
     invWidth: 2
     invHeight: 3
-    landOnly: true
-    listOrder: 3508
+    armor: 30
+    autoShots: 5
+    sprayWaypoints: 2
+    maxRange: 22
+    dropoff: 5
+    powerRangeReduction: 3
+    attraction: 9
+    vaporColor: 5
+    vaporDensity: 10
 
-  - type: STR_TFTD_MINIGUN_CLIP
+
+  - type: STR_UNDERWATER_LMG_MAG
+    categories: [STR_UNDERWATER, STR_FIREARMS, STR_USSR_TECH, STR_PISTOLS]
+    requires:
+      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
     size: 0.1
-    costBuy: 500
-    costSell: 400
-    weight: 6
-    bigSprite: 198
-    floorSprite: 210
-    handSprite: 680
-    hitSound: 81
+    costBuy: 1450
+    costSell: 1250
+    weight: 5
+    bigSprite: 1171
+    floorSprite: 1171
+    hitSound: 16
     hitAnimation: 26
-    hitAnimFrames: 5
-    power: 28
+    power: 50
     damageType: 1
     clipSize: 40
-    battleType: 2
     invWidth: 2
     invHeight: 1
-    armor: 40
-    landOnly: true
-    listOrder: 3509
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10
 
-  - type: STR_TFTD_ACCEL
-    size: 0.3
-    costSell: 144000
-    weight: 12
-    bigSprite: 202
-    floorSprite: 214
-    handSprite: 712
-    bulletSprite: 6
-    fireSound: 34
-    compatibleAmmo:
-      - STR_TFTD_ACCEL_CLIP
-    accuracyAimed: 120
+
+  - type: STR_NEPTUNE_TORPEDO
+    categories: [STR_UNDERWATER, STR_FIREARMS, STR_NATO_TECH, STR_ARTILLERY]
+    requires:
+      - STR_NATO_IMPROVED_AQUATIC_WEAPONS
+    size: 0.4
+    costBuy: 850
+    costSell: 950
+    weight: 6
+    bigSprite: 1164
+    floorSprite: 1164
+    handSprite: 2740
+    bulletSprite: 4
+    fireSound: 143
+    power: 140
+    accuracySnap: 55
+    accuracyAimed: 100
+    accuracyCloseQuarters: 65
+    oneHandedPenalty: 80
+    tuSnap: 40
     tuAimed: 66
-    battleType: 1
-    twoHanded: true
-    waypoints: 2
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    armor: 40
-    attraction: 1
-    underwaterOnly: true
-    listOrder: 4101
-
-  - type: STR_TFTD_ACCEL_CLIP
-    size: 0.2
-    costSell: 17028
-    weight: 4
-    bigSprite: 203
-    floorSprite: 216
-    handSprite: 728
-    hitSound: 0
-    hitAnimation: 8
-    power: 100
-    powerForAnimation: 20
-    damageType: 4
+    maxRange: 200 # 0
+    aimRange: 80 # 0
+    snapRange: 15 # 0
+    minRange: 8
+    dropoff: 2
     clipSize: 1
-    battleType: 2
-    invWidth: 1
-    invHeight: 3
-    armor: 60
-    blastRadius: 1
-    attraction: 1
-    vaporColor: 2
-    vaporDensity: 10
-    listOrder: 4102
-
-  - type: STR_TFTD_VOLLEY
-    size: 0.2
-    costSell: 45900
-    weight: 10
-    bigSprite: 200
-    floorSprite: 213
-    handSprite: 704
-    bulletSprite: 6
-    fireSound: 34
-    accuracySnap: 60
-    accuracyAimed: 90
-    tuSnap: 30
-    tuAimed: 60
-    compatibleAmmo:
-      - STR_TFTD_VOLLEY_CLIP
     battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-    arcingShot: true
-    listOrder: 3901
-
-  - type: STR_TFTD_VOLLEY_CLIP
-    size: 0.2
-    costSell: 1950
-    weight: 3
-    bigSprite: 201
-    floorSprite: 215
-    handSprite: 720
-    hitSound: 31
-    hitAnimation: 46
-    power: 70
-    damageType: 4
-    clipSize: 6
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-    armor: 70
-    vaporColor: 2
-    vaporDensity: 10
-    listOrder: 3902
-
-  - type: STR_TFTD_CKNIFE
-    size: 0.1
-    costBuy: 2600
-    costSell: 1250
-    weight: 2.5
-    bigSprite: 194
-    floorSprite: 207
-    handSprite: 656
-    meleeSound: 87
-    power: 50
-    damageType: 7
-    accuracyMelee: 100
-    tuMelee: 15
-    battleType: 3
     twoHanded: false
-    meleeAnimation: 104
-    invWidth: 1
-    invHeight: 2
-    clipSize: -1 
-    listOrder: 4901
-
-  - type: STR_TFTD_CSPEAR
-    size: 0.1
-    costBuy: 3650
-    costSell: 1950
-    weight: 2.5
-    bigSprite: 195
-    floorSprite: 208
-    handSprite: 664
-    meleeSound: 87
-    power: 65
-    damageType: 7
-    accuracyMelee: 140
-    tuMelee: 20
-    battleType: 3
-    twoHanded: false
-    meleeAnimation: 104
+    blockBothHands: false
     invWidth: 1
     invHeight: 3
-    clipSize: -1  
-    listOrder: 4902
+    armor: 20
+    damageType: 3
+    waypoints: 4
+    blastRadius: 2
+    hitSound: 64
 
-  - type: STR_DISPLACER_ARMOR
+#################
+
+#########################
+####### ARMORS ########
+#######################
+
+  - type: STR_EXOSUIT_ARMOR
     size: 0.8
-    costSell: 200000
-
-  - type: STR_WRECKED_DISPLACER_ARMOR
+    costSell: 80000
+  - type: STR_WRECKED_EXOSUIT_ARMOR
     size: 0.8
-    costSell: 75000
-
-  - type: STR_DISPLACER_ARMOR_CORPSE
+    costSell: 65000
+  - type: STR_EXOSUIT_ARMOR_CORPSE
     weight: 35
     bigSprite: 204
     floorSprite: 217
@@ -793,443 +991,13 @@ items:
     battleType: 11
     recover: false
 
-  - type: STR_ION_CANNON
-    requires:
-      - STR_ION_CANNON
-    size: 0.2
-    costSell: 171600
-    weight: 12
-    bigSprite: 205
-    floorSprite: 218
-    handSprite: 736
-    bulletSprite: 11
-    fireSound: 84
-    compatibleAmmo:
-      - STR_ION_CANNON_CLIP
-    accuracySnap: 80
-    accuracyAimed: 130
-    tuSnap: 55
-    tuAimed: 80
-    battleType: 1
-    twoHanded: true
+
+  - type: STR_PERSONAL_ARMOR_BROWN_CORPSE
+    weight: 35
+    bigSprite: 204
+    floorSprite: 217
     invWidth: 2
     invHeight: 3
-    recoveryPoints: 5
-    armor: 50
-    attraction: 1 
-    listOrder: 4193
-
-  - type: STR_ION_CANNON_CLIP
-    requires:
-      - STR_ION_CANNON_CLIP
-    size: 0.3
-    costSell: 9590
-    weight: 6
-    bigSprite: 206
-    floorSprite: 219
-    handSprite: 744
-    hitSound: 85
-    explosionHitSound: 85
-    hitAnimation: 6
-    power: 160
-    powerForAnimation: 60
-    blastRadius: 2
-    damageType: 5
-    clipSize: 5
-    battleType: 2
-    recoveryPoints: 1
-    armor: 50
-    attraction: 1
-    vaporColor: { mod: xcom2, index: 3 }
-    vaporDensity: 30
-    vaporProbability: 100
-    vaporColorSurface: { mod: xcom2, index: 3 }
-    vaporDensitySurface: 30
-    vaporProbabilitySurface: 100
-    listOrder: 4194
-
-  - type: STR_ION_PISTOL
-    requires:
-      - STR_ION_PISTOL
-    size: 0.1
-    costSell: 84000
-    weight: 6
-    bigSprite: 207
-    floorSprite: 220
-    handSprite: 752
-    bulletSprite: 11
-    fireSound: 86
-    compatibleAmmo:
-      - STR_ION_PISTOL_CLIP
-    accuracySnap: 80
-    accuracyAimed: 105
-    tuSnap: 35
-    tuAimed: 50
-    battleType: 1
-    invWidth: 1
-    invHeight: 2
-    recoveryPoints: 3
-    armor: 45
-    attraction: 1
-    listOrder: 4191
-
-  - type: STR_ION_PISTOL_CLIP
-    requires:
-      - STR_ION_PISTOL_CLIP
-    size: 0.1
-    costSell: 4440
-    weight: 4.5
-    bigSprite: 208
-    floorSprite: 221
-    handSprite: 760
-    hitSound: 90
-    hitAnimation: 600
-    power: 100
-    damageType: 5
-    clipSize: 12
-    battleType: 2
-    recoveryPoints: 1
-    armor: 50
-    attraction: 1
-    vaporColor: 3
-    vaporDensity: 30
-    listOrder: 4192
-
-  - type: STR_HEAVY_LASER
-    size: 0.2
-    costSell: 46900
-    weight: 8
-    bigSprite: 211
-    floorSprite: 224
-    handSprite: 784
-    bulletSprite: 12
-    fireSound: 88
-    hitSound: 89
-    hitAnimation: 610
-    power: 90
-    damageType: 11
-    accuracySnap: 85
-    accuracyAimed: 140
-    tuSnap: 32
-    tuAimed: 65
-    clipSize: -1
-    battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-    landOnly: true
-    listOrder: 4105
-    damageAlter:
-      RandomType: 2
-
-  - type: STR_LASER_CARBINE
-    size: 0.2
-    costSell: 26900
-    weight: 6
-    bigSprite: 210
-    floorSprite: 223
-    handSprite: 776
-    bulletSprite: 12
-    fireSound: 88
-    hitSound: 89
-    hitAnimation: 610
-    power: 70
-    damageType: 11
-    accuracySnap: 90
-    accuracyAuto: 65
-    accuracyAimed: 110
-    tuSnap: 25
-    tuAuto: 55
-    tuAimed: 45
-    autoShots: 4
-    clipSize: -1
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    landOnly: true
-    listOrder: 4104
-    damageAlter:
-      RandomType: 2
-
-  - type: STR_LASER_PISTOL
-    size: 0.2
-    costSell: 16900
-    weight: 4
-    bigSprite: 209
-    floorSprite: 222
-    handSprite: 768
-    bulletSprite: 12
-    fireSound: 88
-    hitSound: 89
-    hitAnimation: 610
-    power: 55
-    damageType: 11
-    accuracySnap: 70
-    accuracyAuto: 45
-    accuracyAimed: 130
-    tuSnap: 15
-    tuAuto: 25
-    tuAimed: 35
-    autoShots: 5
-    clipSize: -1
-    battleType: 1
-    invWidth: 1
-    invHeight: 2
-    landOnly: true
-    listOrder: 4103
-    damageAlter:
-      RandomType: 2
-
-  - type: STR_WRECKED_PLASTIC_ARMOR
-    listOrder: 10605
-    size: 0.8
-    costSell: 12000
-    recoveryPoints: 0
+    armor: 0
     battleType: 11
-    recover: true
-
-  - type: STR_WRECKED_ION_ARMOR
-    listOrder: 10705
-    size: 0.8
-    costSell: 51500
-    recoveryPoints: 0
-    battleType: 11
-    recover: true
-
-  - type: STR_WRECKED_MAG_ARMOR
-    listOrder: 10805
-    size: 0.8
-    costSell: 60125
-    recoveryPoints: 0
-    battleType: 11
-    recover: true
-
-  - type: STR_CORPSE_ARMOR
-    battleType: 11
-    recover: true
-    
-  - type: STR_CORPSE_ION
-    battleType: 11
-    recover: true
-    
-  - type: STR_ZRBITE_FLARE
-    size: 0.1
-    costSell: 40
-    weight: 4
-    bigSprite: 212
-    floorSprite: 225
-    handSprite: 792
-    power: 23
-    battleType: 10
-    armor: 60
-    costPrime:
-      time: 15
-    primeActionName: STR_PRIME_FLARE
-    fuseType: -2
-    fuseTriggerEvents:
-      defaultBehavior: false
-      throwTrigger: true
-    armor: 150
-    attraction: 6
-    listOrder: 5001
-
-  - type: STR_TFTD_HSONIC_PISTOL
-    requires:
-      - STR_RSH_HSONIC_PISTOL
-    size: 0.1
-    costSell: 84000
-    weight: 3
-    bigSprite: 389
-    floorSprite: 302
-    handSprite: 816
-    bulletSprite: 8
-    fireSound: 38
-    compatibleAmmo:
-      - STR_TFTD_HSONIC_PISTOL_CLIP
-    accuracySnap: 65
-    accuracyAimed: 85
-    twoHanded: false
-    tuSnap: 30
-    tuAimed: 50
-    battleType: 1
-    invWidth: 1
-    invHeight: 2
-    recoveryPoints: 3
-    armor: 45
-    attraction: 1
-    listOrder: 4181
-
-  - type: STR_TFTD_HSONIC_PISTOL_CLIP
-    requires:
-      - STR_PISTOL_POWER_CLIP
-    size: 0.1
-    costSell: 4440
-    weight: 3
-    bigSprite: 393
-    floorSprite: 303
-    handSprite: 840
-    hitSound: 31
-    hitAnimation: 46
-    twoHanded: false
-    power: 80
-    damageType: 5
-    clipSize: 20
-    battleType: 2
-    recoveryPoints: 1
-    armor: 50
-    attraction: 1
-    vaporColor: { mod: xcom2, index: 3 }
-    vaporDensity: 30
-    listOrder: 4182
-
-  - type: STR_TFTD_HSONIC_RIFLE
-    requires:
-      - STR_RSH_HSONIC_RIFLE
-    size: 0.2
-    costSell: 126500
-    weight: 5
-    bigSprite: 388
-    floorSprite: 302
-    handSprite: 808
-    bulletSprite: 8
-    fireSound: 36
-    compatibleAmmo:
-      - STR_TFTD_HSONIC_RIFLE_CLIP
-    accuracySnap: 75
-    accuracyAimed: 110
-    tuSnap: 40
-    tuAimed: 60
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    recoveryPoints: 4
-    armor: 50
-    attraction: 1     
-    listOrder: 4183
-
-  - type: STR_TFTD_HSONIC_RIFLE_CLIP
-    requires:
-      - STR_RSH_HSONIC_RIFLE
-    size: 0.1
-    costSell: 6290
-    weight: 3
-    bigSprite: 392
-    floorSprite: 304
-    handSprite: 832
-    hitSound: 31
-    hitAnimation: 46
-    power: 95
-    damageType: 5
-    clipSize: 15
-    battleType: 2
-    recoveryPoints: 1
-    armor: 50
-    attraction: 1
-    vaporColor: { mod: xcom2, index: 3 }
-    vaporDensity: 30 
-    listOrder: 4184
-
-  - type: STR_TFTD_HSONIC_CANNON
-    requires:
-      - STR_RSH_HSONIC_CANNON
-    size: 0.2
-    costSell: 171600
-    weight: 8
-    bigSprite: 387
-    floorSprite: 300
-    handSprite: 800
-    bulletSprite: 8
-    fireSound: 37
-    compatibleAmmo:
-      - STR_TFTD_HSONIC_CANNON_CLIP
-    accuracySnap: 80
-    accuracyAimed: 115
-    tuSnap: 50
-    tuAimed: 70
-    battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    armor: 50
-    attraction: 1 
-    listOrder: 4185
-
-  - type: STR_TFTD_HSONIC_CANNON_CLIP
-    requires:
-      - STR_RSH_HSONIC_CANNON
-    size: 0.3
-    costSell: 9590
-    weight: 3
-    bigSprite: 391
-    floorSprite: 305
-    handSprite: 824
-    hitSound: 31
-    hitAnimation: 46
-    power: 130
-    damageType: 5
-    clipSize: 10
-    battleType: 2
-    recoveryPoints: 1
-    armor: 50
-    attraction: 1
-    vaporColor: { mod: xcom2, index: 3 }
-    vaporDensity: 30 
-    listOrder: 4186
-
-  - type: STR_TFTD_HSONIC_GRENADE
-    requires:
-      - STR_RSH_HSONIC_GRENADE
-    size: 0.1
-    costSell: 14850
-    weight: 3
-    bigSprite: 390
-    floorSprite: 306
-    handSprite: 848
-    power: 120
-    damageType: 3
-    battleType: 4
-    recoveryPoints: 1
-    armor: 150
-    blastRadius: 5
-    attraction: 1
-    hitAnimation: 8
-    listOrder: 4197
-  
-# [=] Add Dependicies for Sonic + Nerf [=]
-  - type: STR_SONIC_CANNON
-    requires:
-     - STR_ALIENS_ONLY
-    costSell: 85800  
-
-  - type: STR_CANNON_POWER_CLIP
-    requires:
-     - STR_ALIENS_ONLY
-    costSell: 4795
-
-  - type: STR_SONIC_BLASTA_RIFLE
-    requires:
-     - STR_ALIENS_ONLY
-    costSell: 63250
-
-  - type: STR_BLASTA_POWER_CLIP
-    requires:
-     - STR_ALIENS_ONLY
-    costSell: 3145  
-
-  - type: STR_SONIC_PISTOL
-    requires:
-       - STR_ALIENS_ONLY     
-    costSell: 42000 
-
-  - type: STR_PISTOL_POWER_CLIP
-    requires:
-     - STR_ALIENS_ONLY 
-    costSell: 2250
-
-  - type: STR_SONIC_PULSER
-    requires:
-     - STR_ALIENS_ONLY 
-    costSell: 7425
+    recover: false
