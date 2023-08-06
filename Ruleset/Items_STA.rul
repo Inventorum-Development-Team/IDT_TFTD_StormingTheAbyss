@@ -912,8 +912,6 @@ items:
 
   - type: STR_UNDERWATER_LMG_MAG
     categories: [STR_UNDERWATER, STR_FIREARMS, STR_USSR_TECH, STR_PISTOLS]
-    requires:
-      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
     size: 0.1
     costBuy: 1450
     costSell: 1250
@@ -934,8 +932,6 @@ items:
 
   - type: STR_NEPTUNE_TORPEDO
     categories: [STR_UNDERWATER, STR_FIREARMS, STR_NATO_TECH, STR_ARTILLERY]
-    requires:
-      - STR_NATO_IMPROVED_AQUATIC_WEAPONS
     size: 0.4
     costBuy: 850
     costSell: 950

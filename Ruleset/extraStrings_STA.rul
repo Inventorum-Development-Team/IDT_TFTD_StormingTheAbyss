@@ -85,20 +85,28 @@ extraStrings:
       STR_MATADOR_SWARM_TORPEDO_UFOPEDIA: The unusual design of the T4-25 torpedo essentially turns the MATADOR into a heavy shotgun. Dozens of small flechettes are dispersed as soon as the projectile leaves the launcher. The resulting 'swarm' of razor-sharp metal is lethal for all kind of enemies. Due the lack of hydrodynamic characteristics, the flechettes travel very few meters at full speed, eventually slowing down and losing power." 
       
       STR_UNDERWATER_REVOLVER: "Underwater Revolver"
-      STR_UNDERWATER_REVOLVER_UFOPEDIA: "Hard hitting sidearm Model 01, developed by Morgan & Marston Firearms Ltd in USA. Slow and hard-hitting, it packs a punch at close range."
+      STR_UNDERWATER_REVOLVER_UFOPEDIA: "Hard hitting sidearm Mark 1, developed by Morgan & Marston Firearms Ltd in USA. Its removable cylinder magazine fits into the side of a gun, being inserted and removed through a door on the left side of the gun. The frame, cylinder, door assembly, and action are made of aluminum, the trigger is made of self-lubricating nylon, and all other parts are made of stainless steel. Slow and hard-hitting, it packs a punch at close range."
+      STR_UNDERWATER_REVOLVER_CLIP: "Underwater Revolver Canister"
+      STR_UNDERWATER_REVOLVER_CLIP_CLIP_UFOPEDIA: "The ammo used by the Mk 1 is a stainless steel cylinder containing a single 4.25 inch long heavy tungsten darts, long and thin, and it has four fins machined into its rear section, with each fin having a small angle cut into it that causes water to flow over it and give the projectile a stabilizing spin. The shape of the dart helps it to penetrate the water while retaining a high velocity."
 
       STR_UNDERWATER_RIFLE: "Underwater Rifle"
-      STR_UNDERWATER_RIFLE_CLIP: "APS Underwater Rifle Mag"
       STR_UNDERWATER_RIFLE_UFOPEDIA: "APS-29, produced by Kalashnikov Group for the Eurasian submariner forces. Derived from a mid-Cold War design, fires steel darts at mid-range. Its introduction to the open market made it the most successful underwater automatic weapon, used all around the world."
+      STR_UNDERWATER_RIFLE_MAG: "Underwater Rifle Mag"
+      STR_UNDERWATER_RIFLE_MAG_UFOPEDIA: "The specially designed APS magazine contains 26 solid tungsten 5.66x120mm darts, which use supercavitation effect to propel themselves under water.  Its penetration power is widely recognized."
 
       STR_NEPTUNE_TORPEDO: "Neptune Torpedo"
       STR_NEPTUNE_TORPEDO_UFOPEDIA: "A very stealth, guided, explosive torpedo. Meant to be used in special operations to disable and destroy objetives underwater without compromising the location of the frogmen using it. It is controlled by a small waterproof screen and explodes con contact."
 
-      STR_UNDERWATER_LMG: "AG-026 Underwater LMG"
-      STR_UNDERWATER_LMG_UFOPEDIA: "TsKIB SOO was selected to create a light machine gun that could be fired underwater, to equip special units of the Soviet Navy. The AG-026 utilized a flywheel delayed blowback design, via two large flywheels at the top of the weapon. This provided the delay to the action necessary for the fairly powerful MPS rounds"
+      STR_UNDERWATER_LMG: "Underwater LMG"
+      STR_UNDERWATER_LMG_UFOPEDIA: "The Eurasian's State Weapons Factory was selected to create a light machine gun that could be fired underwater, to equip special units of their Navy. The AG-030 utilized a flywheel delayed blowback design, via two large flywheels at the top of the weapon. This provided the delay to the action necessary for the fairly powerful MPS rounds"
+      STR_UNDERWATER_LMG_MAG: "Underwater LMG Mag"
+      STR_UNDERWATER_LMG_MAG_UFOPEDIA: "TsNIITochMash was selected to design and delivered the required ammunition, the 5.65mm MPS steel dart. Ammunition is fed into the weapon from a looped loose metal belt with a capacity of 40 rounds, enclosed within a metal box. A spring cocked by the bolt forwards the belt during recoil."
 
       STR_UNDERWATER_AUTOPISTOL: "Underwater Auto-Pistol"
       STR_UNDERWATER_AUTOPISTOL_UFOPEDIA: "Fully automatic compact P110 pistol, made to provide a reliable sidearm for European frogmen. Nicknamed 'pepper-box' for it's unusual design, it can quickly fire all barrels at once."
+      STR_UNDERWATER_AUTOPISTOL_MAG: "Underwater Pistol Mag"
+      STR_UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA: "The P110 uses a 5-round cylinder magazine with 7.62x36mm darts of 10 centimetres. The original design required the entire gun to be sent to the manufacturer for reloading, although recent modifications have created a useful removable magazine."
+
 
       STR_UNDERWATER_SNIPER: "Underwater Anti-tank Gun"
       STR_UNDERWATER_SNIPER_UFOPEDIA: "The Type 38 'Qinglong' Special Purpose Anti-material Heavy Rifle made by the Free Chinese State Corp. The super cavitation 12.7mm rounds inflict severe damage on target. The main disadvantage is the limited handling and weight."
@@ -114,32 +122,8 @@ extraStrings:
       STR_HARPOON_ELERIUM: "Harpoon Elerium"
       STR_HARPOON_ELERIUM_UFOPEDIA: "Modified harpoon bolt, the tip is made with a mix of Alien Alloys and depleted Elerium, includes a small Elerium charge that causes high explosive damage once it detonates. Could be considerated a greatly upgraded version of the HE Harpoon."
 
-      STR_MK1_UNDERWATER_DEFENSE_PISTOL: "Mk1 Underwater Defense Gun"
-      STR_MK1_UNDERWATER_DEFENSE_PISTOL_UFOPEDIA: "The Mk 1 is a double action only pepper-box weapon, and its removable cylinder magazine fits into the side of a gun, being inserted and removed through a door on the left side of the gun. The frame, cylinder, door assembly, and action are made of aluminum, the trigger is made of self-lubricating nylon, and all other parts are made of stainless steel. The magazine holds six rounds."
-      STR_MK1_UNDERWATER_DEFENSE_PISTOL_CLIP: "Mk1 Underwater Defense Gun Mag"
-      STR_MK1_UNDERWATER_DEFENSE_PISTOL_CLIP_UFOPEDIA: "The ammo used by the Mk 1 is a stainless steel cylinder containing a single 4.25 inch long heavy tungsten darts, long and thin, and it has four fins machined into its rear section, with each fin having a small angle cut into it that causes water to flow over it and give the projectile a stabilizing spin. The shape of the dart helps it to penetrate the water while retaining a high velocity."
       STR_HEAVY_HARPOON: "M11 Combat Speargun"
       STR_HEAVY_HARPOON_UFOPEDIA: "This harpoon gun was designed entirely by USN engineers. Incorporates an improved ejection system that drives the same harpoons as the basic speargun, allowing them to be propelled at greater speed and distance, with considerably improved accuracy."
- 
-      STR_HK_P11_UNDERWATER_PISTOL: "H&K P11 Underwater Pistol"
-      STR_HK_P11_UNDERWATER_PISTOL_UFOPEDIA: "Handgun designed by the German firm Heckler & Koch. Its design is reminiscent of a pepper-box, as it has five barrels, fired electrically and powered by a waterproof battery in the grip. Meant to be used as a cheap handgun to masively equip NATO frogmen."
-      STR_HK_P11_UNDERWATER_PISTOL_CLIP: "H&K P11 Underwater Pistol Mag"
-      STR_HK_P11_UNDERWATER_PISTOL_CLIP_UFOPEDIA: "The P11 uses a 5-round cylinder magazine with 7.62x36mm Alien Alloy darts of 10 centimetres. The original design required the entire gun to be sent to H&K for reloading, although recent modifications have created a useful removable magazine."
-      STR_LIMPET_CHARGE: "Limpet Charge"
-      STR_LIMPET_CHARGE_UFOPEDIA: "Classic magnetic mine, used since the times of the WW2. It contains a large explosive charge and is better used near hard targets, like ships or coastal structures. Includes a timer, to allow the frogmen to evacuate the area unnoticed."
-
-      STR_SPP1_UNDERWATER_PISTOL: "SPP-1 Underwater Pistol"
-      STR_SPP1_UNDERWATER_PISTOL_UFOPEDIA: "This handheld weapon was designed in the late 1960s for use by Soviet submariners. It has a capacity of four darts. Its dual-action firing mechanism fires one cartridge sequentially for each pull of the trigger. When all four cartridges are spent, the gun can be reloaded above or below water."
-      STR_SPP1_UNDERWATER_PISTOL_CLIP: "SPP-1 Underwater Pistol Clip"
-      STR_SPP1_UNDERWATER_PISTOL_CLIP_UFOPEDIA: "Magazine with capacity for 4 darts. These 4.5x115 mm caliber Alien Alloys dart are used by the SPP-1 gun, which uses supercavitation to be propelled. They can penetrate much better and cause more damage than many conventional Speargun."
-      STR_APS_UNDERWATER_RIFLE: "APS Underwater Rifle"
-      STR_APS_UNDERWATER_RIFLE_UFOPEDIA: "Special rifle designed by Vladimir Simonov and made the Tula Arms Plant to equip the Soviet frogmen commandos. Uses a novel gas system to allow the fuction of the rifle underwater, but its use is limited on surface. It's handling is similar of the AK-rifles, to be easy to train a soldier used to the Kalashnikov with this gun. "
-      STR_APS_UNDERWATER_RIFLE_CLIP: "APS Underwater Rifle Mag"
-      STR_APS_UNDERWATER_RIFLE_CLIP_UFOPEDIA: "The specially designed APS magazine contains 26 Alien Alloys 5.66x120mm darts, which use supercavitation effect to propel themselves under water.  Its penetration power is widely recognized."
-      STR_AG026_UNDERWATER_LMG: "AG-026 Underwater LMG"
-      STR_AG026_UNDERWATER_LMG_UFOPEDIA: "TsKIB SOO was selected to create a light machine gun that could be fired underwater, to equip special units of the Soviet Navy. The AG-026 utilized a flywheel delayed blowback design, via two large flywheels at the top of the weapon. This provided the delay to the action necessary for the fairly powerful MPS rounds"
-      STR_AG026_UNDERWATER_LMG_CLIP: "AG-026 Underwater LMG Mag"
-      STR_AG026_UNDERWATER_LMG_CLIP_UFOPEDIA: "TsNIITochMash was selected to design and delivered the required ammunition, the 5.65mm MPS Alien Alloy dart. Ammunition is fed into the weapon from a looped loose metal belt with a capacity of 40 rounds, enclosed within a metal box. A spring cocked by the bolt forwards the belt during recoil."
 
 
 #############################
