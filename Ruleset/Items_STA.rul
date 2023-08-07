@@ -17,7 +17,7 @@ items:
     floorSprite: 201
     handSprite: 608
     bulletSprite: 2
-    fireSound: 80
+    fireSound: 100
     compatibleAmmo:
       - STR_VARIABLE_RIFLE_MAG
       - STR_VARIABLE_RIFLE_CQB_MAG
