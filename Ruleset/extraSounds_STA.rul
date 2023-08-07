@@ -21,7 +21,7 @@ extraSounds:
       117: Resources/Sounds/an94reload.ogg
       118: Resources/Sounds/mk46shoot.ogg
       119: Resources/Sounds/mk46reload.ogg
-      120: Resources/Sounds/LaserLMG_Fire.ogg
+      #120: Resources/Sounds/LaserLMG_Fire.ogg
       121: Resources/Sounds/GaussFire_1.ogg
       122: Resources/Sounds/GaussFire_2.ogg
       123: Resources/Sounds/GaussFire_3.ogg
@@ -36,16 +36,23 @@ extraSounds:
       132: Resources/Sounds/ZbriteLaser1_fire.ogg
       133: Resources/Sounds/ZbriteLaser2_fire.ogg
       134: Resources/Sounds/ZbriteLaser3_fire.ogg
-      135: Resources/Sounds/ZbriteLaser_fire.ogg
-      136: Resources/Sounds/PlasmaHit.ogg
-      137: Resources/Sounds/UnderwaterBallisticFire_1.ogg
-      138: Resources/Sounds/UnderwaterBallisticFire_2.ogg
-      139: Resources/Sounds/UnderwaterBallisticFire_3.ogg
+      135: Resources/Sounds/UnderwaterBallisticFire_1.ogg
+      136: Resources/Sounds/UnderwaterBallisticFire_2.ogg
+      137: Resources/Sounds/UnderwaterBallisticFire_3.ogg
+      138: Resources/Sounds/Laser0_fire.ogg
+      139: Resources/Sounds/Laser1_fire.ogg
+      140: Resources/Sounds/Laser2_fire.ogg
+      141: Resources/Sounds/Laser3_fire.ogg
+      142: Resources/Sounds/Laser4_fire.ogg
+      143: Resources/Sounds/LaserHeavy1_fire.ogg
+      144: Resources/Sounds/LaserHeavy2_fire.ogg
+      145: Resources/Sounds/LaserHeavy3_fire.ogg
 
       301: Resources/Sounds/BallisticHitSound0.ogg
       302: Resources/Sounds/BallisticHitSound1.ogg
       303: Resources/Sounds/BallisticHitSound2.ogg
       304: Resources/Sounds/BallisticHitSound3.ogg
+      305: Resources/Sounds/PlasmaHit.ogg
 
   - type: BATTLE2.CAT
     files:
