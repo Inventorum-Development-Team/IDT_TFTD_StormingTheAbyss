@@ -32,12 +32,12 @@ extraStrings:
       STR_COMBAT_HANDGUN_MAG: "Combat Handgun Mag"
       STR_COMBAT_HANDGUN_MAG_UFOPEDIA: "Forward-loaded .45 BDR 10-rounds magazine, used exclusively by Bofors weaponry. Labeled as 'the perfect round for a sidearm', it has considerably stopping power and decent armor penetration values."
 
-      STR_AUTO_SHOGUN: "Automatic Shotgun"
-      STR_AUTO_SHOGUN_UFOPEDIA: "The EA-40 'Black Mamba' is the newest automatic assault weapon developed in the Brazilian Block for the law enforcement forces. The intimidating look of the weapon helps to dissuade any cartel member foolish enough to cause trouble."
-      STR_AUTO_SHOGUN_SHELLS: "Auto-Shotgun Shells"
-      STR_AUTO_SHOGUN_SHELLS_UFOPEDIA: "Powerful 10-Gauge buckshot shells with dozens of Alien Alloys pellets. Meant when the negotiations were short and you need to use the force to show the enemy who rules." 
-      STR_AUTO_SHOGUN_SLUGS: "Auto-Shotgun Less-Lethal Slugs"
-      STR_AUTO_SHOGUN_SLUGS_UFOPEDIA: "A solid, 10-Gauge slug modified with an internal microflask of a chemical compound derived from the Amazonian snake's poison. Once hit, the flask breaks and the poison is injected into the body, freezing the nervous system and paralyzing the unfortunate receiving end." 
+      STR_AUTO_SHOTGUN: "Automatic Shotgun"
+      STR_AUTO_SHOTGUN_UFOPEDIA: "The EA-40 'Black Mamba' is the newest automatic assault weapon developed in the Brazilian Block for the law enforcement forces. The intimidating look of the weapon helps to dissuade any cartel member foolish enough to cause trouble."
+      STR_AUTO_SHOTGUN_SHELLS: "Auto-Shotgun Shells"
+      STR_AUTO_SHOTGUN_SHELLS_UFOPEDIA: "Powerful 10-Gauge buckshot shells with dozens of Alien Alloys pellets. Meant when the negotiations were short and you need to use the force to show the enemy who rules." 
+      STR_AUTO_SHOTGUN_SLUGS: "Auto-Shotgun Less-Lethal Slugs"
+      STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA: "A solid, 10-Gauge slug modified with an internal microflask of a chemical compound derived from the Amazonian snake's poison. Once hit, the flask breaks and the poison is injected into the body, freezing the nervous system and paralyzing the unfortunate receiving end." 
 
       STR_OLD_PLASMA_RIFLE: "Plasma Rifle Mk.1"
       STR_OLD_PLASMA_RIFLE_UFOPEDIA: "A relic from the past, most samples were mothballed once the Elerium Crisis deepened.  We're not exactly allowed to use them, although we won't stop neither. All our Plasmas were secretly stored in a vault, perhaps the only ones actively remaining in the whole world."
@@ -74,28 +74,19 @@ extraStrings:
 
       STR_UNDERWATER_WEAPONS: "Underwater-only Weaponry"
       STR_UNDERWATER_WEAPONS_UFOPEDIA: "Sea warfare isn't new to us.  Fighting undersea has been done for a while. Specially after the First War and the rising climate change, where the bottom of the sea is slowly and steadily explored and settled. The nature of our new enemy forces us to adapt better and faster, our tools will become better."
-
-      STR_MATADOR_TORPEDO_LAUNCHER: "MATADOR Torpedo-launcher"
-      STR_MATADOR_TORPEDO_LAUNCHER_UFOPEDIA: "MAn-portable Torpedo-launcher, Assault/Demolition ORdnance. Advanced and versatile heavy support underwater system. Originally designed as a conventional anti-tank launcher, it was reconverted to submarine use to counter the growing threat of pirate raids on deep sea facilities."
-      STR_MATADOR_AP_TORPEDO: "MATADOR - Anti-Personnel Warhead"
-      STR_MATADOR_AP_TORPEDO_UFOPEDIA: "A specialized variant meant to inflict gruesome wounds on organic targets. The T20-K torpedo warhead has a small effective radius where all unarmored enemies are affected. Protected units are reported to receive few to no damage, though."
-      STR_MATADOR_HE_TORPEDO: "MATADOR - Anti-Structure Warhead"
-      STR_MATADOR_HE_TORPEDO_UFOPEDIA: "The standard contact/impact T30-F torpedo warhead, designed to inflict high damage on fortifications and terrains. The use against armored enemies is not adviced, although a certain degree of damage could be inflicted."
-      STR_MATADOR_SWARM_TORPEDO: "MATADOR - Swarm Warhead"
-      STR_MATADOR_SWARM_TORPEDO_UFOPEDIA: The unusual design of the T4-25 torpedo essentially turns the MATADOR into a heavy shotgun. Dozens of small flechettes are dispersed as soon as the projectile leaves the launcher. The resulting 'swarm' of razor-sharp metal is lethal for all kind of enemies. Due the lack of hydrodynamic characteristics, the flechettes travel very few meters at full speed, eventually slowing down and losing power." 
       
       STR_UNDERWATER_REVOLVER: "Underwater Revolver"
       STR_UNDERWATER_REVOLVER_UFOPEDIA: "Hard hitting sidearm Mark 1, developed by Morgan & Marston Firearms Ltd in USA. Its removable cylinder magazine fits into the side of a gun, being inserted and removed through a door on the left side of the gun. The frame, cylinder, door assembly, and action are made of aluminum, the trigger is made of self-lubricating nylon, and all other parts are made of stainless steel. Slow and hard-hitting, it packs a punch at close range."
       STR_UNDERWATER_REVOLVER_CLIP: "Underwater Revolver Canister"
-      STR_UNDERWATER_REVOLVER_CLIP_CLIP_UFOPEDIA: "The ammo used by the Mk 1 is a stainless steel cylinder containing a single 4.25 inch long heavy tungsten darts, long and thin, and it has four fins machined into its rear section, with each fin having a small angle cut into it that causes water to flow over it and give the projectile a stabilizing spin. The shape of the dart helps it to penetrate the water while retaining a high velocity."
+      STR_UNDERWATER_REVOLVER_CLIP_CLIP_UFOPEDIA: "The ammo used by the Mk 1 is a stainless steel cylinder containing a single 4.25 inch heavy tungsten darts, long and thin, and it has four fins machined into its rear section, with each fin having a small angle cut into it that causes water to flow over it and give the projectile a stabilizing spin. The shape of the dart helps it to penetrate the water while retaining a high velocity."
 
       STR_UNDERWATER_RIFLE: "Underwater Rifle"
-      STR_UNDERWATER_RIFLE_UFOPEDIA: "APS-29, produced by Kalashnikov Group for the Eurasian submariner forces. Derived from a mid-Cold War design, fires steel darts at mid-range. Its introduction to the open market made it the most successful underwater automatic weapon, used all around the world."
+      STR_UNDERWATER_RIFLE_UFOPEDIA: "APS-29, produced by Kalashnikov Group for the Eurasian submariner forces. Derived from a mid-Cold War design, fires tungsten darts at mid-range. Its introduction to the open market made it the most successful underwater automatic weapon, used all around the world."
       STR_UNDERWATER_RIFLE_MAG: "Underwater Rifle Mag"
       STR_UNDERWATER_RIFLE_MAG_UFOPEDIA: "The specially designed APS magazine contains 26 solid tungsten 5.66x120mm darts, which use supercavitation effect to propel themselves under water.  Its penetration power is widely recognized."
 
       STR_NEPTUNE_TORPEDO: "Neptune Torpedo"
-      STR_NEPTUNE_TORPEDO_UFOPEDIA: "A very stealth, guided, explosive torpedo. Meant to be used in special operations to disable and destroy objetives underwater without compromising the location of the frogmen using it. It is controlled by a small waterproof screen and explodes con contact."
+      STR_NEPTUNE_TORPEDO_UFOPEDIA: "Stealthy, self-guided, fire-and-forget explosive torpedo. Meant to be used in special operations to disable and destroy objetives underwater without compromising the location of the frogmen using it. It is controlled by a small waterproof screen and explodes con contact."
 
       STR_UNDERWATER_LMG: "Underwater LMG"
       STR_UNDERWATER_LMG_UFOPEDIA: "The Eurasian's State Weapons Factory was selected to create a light machine gun that could be fired underwater, to equip special units of their Navy. The AG-030 utilized a flywheel delayed blowback design, via two large flywheels at the top of the weapon. This provided the delay to the action necessary for the fairly powerful MPS rounds"
