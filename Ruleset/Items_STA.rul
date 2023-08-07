@@ -4,6 +4,8 @@ items:
 ####### SURFACE ########
 #######################
 
+# Rifles #
+
 # Variable Combat Rifle
   - type: STR_VARIABLE_RIFLE
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
@@ -207,6 +209,92 @@ items:
     invWidth: 2
     invHeight: 3
 
+# Old Plasma Rifle Mk.1
+  - type: STR_OLD_PLASMA_RIFLE
+    categories: [STR_PLASMA, STR_ALIEN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
+    size: 0.2
+    costSell: 126500
+    weight: 5
+    bigSprite: 31
+    floorSprite: 30
+    handSprite: 48
+    bulletSprite: 8
+    fireSound: 18
+    compatibleAmmo:
+      - STR_OLD_PLASMA_RIFLE_CLIP
+    accuracyAuto: 55
+    accuracySnap: 86
+    accuracyAimed: 100
+    tuAuto: 36
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+  - type: STR_OLD_PLASMA_RIFLE_CLIP
+    categories: [STR_PLASMA, STR_ALIEN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    size: 0.1
+    costSell: 6290
+    weight: 3
+    bigSprite: 41
+    floorSprite: 33
+    hitSound: 19
+    hitAnimation: 46
+    power: 80
+    damageType: 12
+    clipSize: 28
+    battleType: 2
+    recoveryPoints: 1
+
+# New Plasma Rifle Mk.2
+  - type: STR_NEW_PLASMA_RIFLE
+    categories: [STR_PLASMA, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
+    requires:
+      - STR_NEW_PLASMA_RIFLE
+    size: 0.2
+    costSell: 126500
+    weight: 5
+    bigSprite: 31
+    floorSprite: 30
+    handSprite: 48
+    bulletSprite: 8
+    fireSound: 18
+    compatibleAmmo:
+      - STR_NEW_PLASMA_RIFLE_CLIP
+    accuracyAuto: 55
+    accuracySnap: 86
+    accuracyAimed: 100
+    tuAuto: 36
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+  - type: STR_NEW_PLASMA_RIFLE_CLIP
+    categories: [STR_PLASMA, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    requires:
+      - STR_NEW_PLASMA_RIFLE
+    size: 0.1
+    costSell: 6290
+    weight: 3
+    bigSprite: 41
+    floorSprite: 33
+    hitSound: 19
+    hitAnimation: 46
+    power: 80
+    damageType: 12
+    clipSize: 28
+    battleType: 2
+    recoveryPoints: 1
+
+# Sidearms #
+
 # Combat Pistol
   - type: STR_COMBAT_PISTOL
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
@@ -292,6 +380,8 @@ items:
     landOnly: true   
     listOrder: 3502 
 
+# Shotgun #
+
 # Black Mamba Auto Shotgun
   - type: STR_AUTO_SHOTGUN
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS]
@@ -356,7 +446,7 @@ items:
       RandomWound: true
     hitSound: 22
     hitAnimation: 26
-    clipSize: 30
+    clipSize: 12
     invHeight: 1
     invWidth: 1
     shotgunBehavior: 1
@@ -388,14 +478,13 @@ items:
       RandomWound: false
     hitSound: 22
     hitAnimation: 26
-    clipSize: 30
+    clipSize: 12
     invHeight: 1
     invWidth: 1
     battleType: 2
     armor: 250
-    vaporColorSurface: 0
-    vaporDensitySurface: 1
-    vaporProbabilitySurface: 33
+
+# Machine Guns #
 
 # Tactical LMG
   - type: STR_TACTICAL_LMG
@@ -472,31 +561,6 @@ items:
     invWidth: 2
     invHeight: 1
 
-# Laser Sniper Rifle
-  - type: STR_LASER_SNIPER
-    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
-    size: 0.3
-    costSell: 61000
-    weight: 18
-    bigSprite: 6
-    floorSprite: 6
-    handSprite: 16
-    bulletSprite: 7
-    fireSound: 11
-    hitSound: 19
-    hitAnimation: 36
-    power: 85
-    damageType: 11
-    accuracySnap: 50
-    accuracyAimed: 84
-    tuSnap: 33
-    tuAimed: 75
-    clipSize: -1
-    battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-
   - type: STR_AUTO_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_LMGS, STR_US_TECH]
     requiresBuy:
@@ -542,163 +606,11 @@ items:
     invWidth: 2
     invHeight: 3
 
-  - type: STR_TACTICAL_LMG
-    size: 0.3
-    costBuy: 13500
-    costSell: 10125
-    weight: 19
-    bigSprite: 7
-    floorSprite: 7
-    handSprite: 32
-    bulletSprite: 3
-    fireSound: 12
-    compatibleAmmo:
-      - STR_AC_AP_AMMO
-      - STR_AC_HE_AMMO
-      - STR_AC_I_AMMO
-    accuracyAuto: 32
-    accuracySnap: 56
-    accuracyAimed: 82
-    tuAuto: 40
-    tuSnap: 33
-    tuAimed: 80
-    battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-  - type: STR_AC_AP_AMMO
-    size: 0.1
-    costBuy: 500
-    costSell: 400
-    weight: 5
-    bigSprite: 8
-    floorSprite: 8
-    hitSound: 13
-    hitAnimation: 26
-    power: 42
-    damageType: 1
-    clipSize: 14
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-  - type: STR_AC_HE_AMMO
-    size: 0.1
-    costBuy: 700
-    costSell: 560
-    weight: 5
-    bigSprite: 9
-    floorSprite: 9
-    hitSound: 0
-    hitAnimation: 0
-    power: 44
-    damageType: 3
-    clipSize: 14
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-  - type: STR_AC_I_AMMO
-    size: 0.1
-    costBuy: 650
-    costSell: 520
-    weight: 5
-    bigSprite: 10
-    floorSprite: 10
-    hitSound: 0
-    hitAnimation: 0
-    power: 48
-    damageType: 2
-    clipSize: 14
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-
-# Old Plasma Rifle Mk.1
-  - type: STR_OLD_PLASMA_RIFLE
-    categories: [STR_PLASMA, STR_ALIEN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
-    size: 0.2
-    costSell: 126500
-    weight: 5
-    bigSprite: 31
-    floorSprite: 30
-    handSprite: 48
-    bulletSprite: 8
-    fireSound: 18
-    compatibleAmmo:
-      - STR_OLD_PLASMA_RIFLE_CLIP
-    accuracyAuto: 55
-    accuracySnap: 86
-    accuracyAimed: 100
-    tuAuto: 36
-    tuSnap: 30
-    tuAimed: 60
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    recoveryPoints: 4
-    armor: 50
-  - type: STR_OLD_PLASMA_RIFLE_CLIP
-    categories: [STR_PLASMA, STR_ALIEN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
-    size: 0.1
-    costSell: 6290
-    weight: 3
-    bigSprite: 41
-    floorSprite: 33
-    hitSound: 19
-    hitAnimation: 46
-    power: 80
-    damageType: 12
-    clipSize: 28
-    battleType: 2
-    recoveryPoints: 1
-
-# New Plasma Rifle Mk.2
-  - type: STR_NEW_PLASMA_RIFLE
-    categories: [STR_PLASMA, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
-    requires:
-      - STR_NEW_PLASMA_RIFLE
-    size: 0.2
-    costSell: 126500
-    weight: 5
-    bigSprite: 31
-    floorSprite: 30
-    handSprite: 48
-    bulletSprite: 8
-    fireSound: 18
-    compatibleAmmo:
-      - STR_NEW_PLASMA_RIFLE_CLIP
-    accuracyAuto: 55
-    accuracySnap: 86
-    accuracyAimed: 100
-    tuAuto: 36
-    tuSnap: 30
-    tuAimed: 60
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    recoveryPoints: 4
-    armor: 50
-  - type: STR_NEW_PLASMA_RIFLE_CLIP
-    categories: [STR_PLASMA, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
-    requires:
-      - STR_NEW_PLASMA_RIFLE
-    size: 0.1
-    costSell: 6290
-    weight: 3
-    bigSprite: 41
-    floorSprite: 33
-    hitSound: 19
-    hitAnimation: 46
-    power: 80
-    damageType: 12
-    clipSize: 28
-    battleType: 2
-    recoveryPoints: 1
-
 #########################
 ####### AQUATIC ########
 #######################
+
+# Rifles #
 
   - type: STR_UNDERWATER_RIFLE
     categories: [STR_UNDERWATER, STR_FIREARMS, STR_SOVIET_TECH, STR_RIFLES]
@@ -771,6 +683,8 @@ items:
     battleType: 2
     vaporColor: 0
     vaporDensity: 10
+
+# Sidearms #
 
   - type: STR_UNDERWATER_REVOLVER
     categories: [STR_UNDERWATER, STR_FIREARMS, STR_US_TECH, STR_PISTOLS]
@@ -857,7 +771,6 @@ items:
     armor: 35
     attraction: 10
 
-
   - type: STR_UNDERWATER_AUTOPISTOL_MAG
     categories: [STR_UNDERWATER, STR_FIREARMS, STR_NATO_TECH, STR_PISTOLS]
     requires:
@@ -881,6 +794,8 @@ items:
     maxRange: 15
     dropoff: 3
     powerRangeReduction: 3
+
+# Machine Guns #
 
   - type: STR_UNDERWATER_LMG
     categories: [STR_UNDERWATER, STR_FIREARMS, STR_SOVIET_TECH, STR_HEAVY_WEAPONS, STR_LMGS]
@@ -950,6 +865,8 @@ items:
     vaporColor: 0
     vaporDensity: 10
 
+# Launchers #
+
   - type: STR_NEPTUNE_TORPEDO
     categories: [STR_UNDERWATER, STR_FIREARMS, STR_NATO_TECH, STR_ARTILLERY]
     size: 0.4
@@ -997,8 +914,8 @@ items:
     bulletSprite: 1
     fireSound: 152
     compatibleAmmo:
-      - STR_MATADOR_ARMOR_PIERCING_TORPEDO
-      - STR_MATADOR_HIGH_EXPLOSIVE_TORPEDO
+      - STR_MATADOR_AP_TORPEDO
+      - STR_MATADOR_HE_TORPEDO
       - STR_MATADOR_SWARM_TORPEDO
     accuracyCloseQuarters: 25
     accuracySnap: 80
@@ -1016,10 +933,8 @@ items:
     waypoints: 3
     dropoff: 3
 
-  - type: STR_MATADOR_ARMOR_PIERCING_TORPEDO
+  - type: STR_MATADOR_AP_TORPEDO
     categories: [STR_FIREARMS, STR_ARTILLERY, STR_US_TECH, STR_CLIPS]
-    requires:
-      - STR_USA_IMPROVED_AQUATIC_WEAPONS
     size: 0.2
     costBuy: 1600
     costSell: 1200
@@ -1044,7 +959,7 @@ items:
     vaporColor: 5
     vaporDensity: 10
 
-  - type: STR_MATADOR_HIGH_EXPLOSIVE_TORPEDO
+  - type: STR_MATADOR_HE_TORPEDO
     categories: [STR_FIREARMS, STR_ARTILLERY, STR_US_TECH, STR_CLIPS]
     size: 0.2
     costBuy: 6200
