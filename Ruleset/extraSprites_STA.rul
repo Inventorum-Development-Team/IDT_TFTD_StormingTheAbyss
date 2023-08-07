@@ -342,24 +342,24 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/COMBAT_HANDGUN_MAG_UFOPEDIA.png
-  - type: AUTO_SHOGUN_UFOPEDIA
+  - type: AUTO_SHOTGUN_UFOPEDIA
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/AUTO_SHOGUN_UFOPEDIA.png
-  - type: AUTO_SHOGUN_SLUG_UFOPEDIA
+  - type: AUTO_SHOTGUN_SLUG_UFOPEDIA
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/UFOPAEDIA/AUTO_SHOGUN_SLUG_UFOPEDIA.png
-  - type: AUTO_SHOGUN_SHELLS_UFOPEDIA
+      0: Resources/UFOPAEDIA/AUTO_SHOTGUN_SLUG_UFOPEDIA.png
+  - type: AUTO_SHOTGUN_SHELLS_UFOPEDIA
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/UFOPAEDIA/AUTO_SHOGUN_SHELLS_UFOPEDIA.png
+      0: Resources/UFOPAEDIA/AUTO_SHOTGUN_SHELLS_UFOPEDIA.png
   - type: OLD_PLASMA_RIFLE_UFOPEDIA
     width: 320
     height: 200
@@ -460,20 +460,40 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/UNDERWATER_RIFLE_UFOPEDIA.png
+  - type: UNDERWATER_RIFLE_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_RIFLE_MAG_UFOPEDIA.png
+
 
   - type: UNDERWATER_AUTOPISTOL_UFOPEDIA
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/UFOPAEDIA/UNDERWATER_AUTOPISTOL_UFOPEDIA.png 
+      0: Resources/UFOPAEDIA/UNDERWATER_AUTOPISTOL_UFOPEDIA.png
+
+  - type: UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA.png 
   - type: UNDERWATER_LMG_UFOPEDIA
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/UNDERWATER_LMG_UFOPEDIA.png
-      
+  - type: UNDERWATER_LMG_MAG__UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_LMG_MAG_UFOPEDIA.png
+
   - type: NEPTUNE_TORPEDO_UFOPEDIA
     width: 320
     height: 200
