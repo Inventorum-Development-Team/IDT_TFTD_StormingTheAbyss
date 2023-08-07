@@ -174,35 +174,35 @@ extraSprites:
   - type: PAB_PAPERDOLLF0.SPK
     singleImage: true
     files:
-      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_F0.png
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_F0.png
   - type: PAB_PAPERDOLLF1.SPK
     singleImage: true
     files:
-      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_F1.png
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_F1.png
   - type: PAB_PAPERDOLLF2.SPK
     singleImage: true
     files:
-      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_F2.png
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_F2.png
   - type: PAB_PAPERDOLLF3.SPK
     singleImage: true
     files:
-      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_F3.png
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_F3.png
   - type: PAB_PAPERDOLLM0.SPK
     singleImage: true
     files:
-      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_M0.png
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_M0.png
   - type: PAB_PAPERDOLLM1.SPK
     singleImage: true
     files:
-      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_M1.png
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_M1.png
   - type: PAB_PAPERDOLLM2.SPK
     singleImage: true
     files:
-      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_M2.png
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_M2.png
   - type: PAB_PAPERDOLLM3.SPK
     singleImage: true
     files:
-      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_M3.png
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_M3.png
 
   - type: PERSONAL_ARMOR_BROWN_SPRITESHEET
     width: 512
