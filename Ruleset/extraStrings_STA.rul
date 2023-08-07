@@ -18,7 +18,7 @@ extraStrings:
       STR_PRINTER_RIFLE_UFOPEDIA: "Type 1A-3 rifle made by the Neo-Japanese company Shogun Heavy Industries. Automatically 3D prints its own 4.8mm SHIA ammunition, thus removing the need for reloading. The damage output is reduced compared to other weapons of the class, compensated by the improved accuracy."
       
       STR_SCAR: "Hybrid Battle Rifle"
-      STR_SCAR_UFOPEDIA: "FBE(H) 14, the culmination of the Southern Block utilitarian and ultra reliable philosophy. After the Benelux Sinking and subsequent collapse, Buenos Aires acquired all FN Herstal licenses for the SCAR and created a vastly improved version with alien tech but trustworthy and proven human ballistics."
+      STR_SCAR_UFOPEDIA: "FBE(H) 14, the culmination of the Southern Block utilitarian and hyper reliable philosophy. After the Benelux Sinking and subsequent collapse, Buenos Aires acquired all FN Herstal licenses for the SCAR and created a vastly improved version with alien tech but trustworthy and proven human ballistics."
       STR_SCAR_MAG: "Hybrid B. Rifle Mag"
       STR_SCAR_MAG_UFOPEDIA: "Regular-sized 5.56mm round, augmented with Alien Alloys. The bullet is showing it's age against modern armor, although it's very light and easy to mass produce."
 
@@ -30,7 +30,7 @@ extraStrings:
       STR_COMBAT_HANDGUN: "Combat Handgun"
       STR_COMBAT_HANDGUN_UFOPEDIA: "This Scandinavian weapon developed by Bofors Defense Unlimited is a heavy and reliable sidearm, designed for shock troops operating in extreme environments. Integrated targeting designator."
       STR_COMBAT_HANDGUN_MAG: "Combat Handgun Mag"
-      STR_COMBAT_HANDGUN_MAG_UFOPEDIA: "Forward-loaded 10-rounds .45 BDR magazine, used exclusively by Bofors weaponry. Labeled as 'the perfect round for a sidearm', it has considerably stopping power and decent armor penetration values."
+      STR_COMBAT_HANDGUN_MAG_UFOPEDIA: "Forward-loaded .45 BDR 10-rounds magazine, used exclusively by Bofors weaponry. Labeled as 'the perfect round for a sidearm', it has considerably stopping power and decent armor penetration values."
 
       STR_AUTO_SHOGUN: "Automatic Shotgun"
       STR_AUTO_SHOGUN_UFOPEDIA: "The EA-40 'Black Mamba' is the newest automatic assault weapon developed in the Brazilian Block for the law enforcement forces. The intimidating look of the weapon helps to dissuade any cartel member foolish enough to cause trouble."
