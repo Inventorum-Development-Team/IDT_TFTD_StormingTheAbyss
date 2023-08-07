@@ -116,6 +116,9 @@ extraStrings:
       STR_HEAVY_HARPOON: "M11 Combat Speargun"
       STR_HEAVY_HARPOON_UFOPEDIA: "This harpoon gun was designed entirely by USN engineers. Incorporates an improved ejection system that drives the same harpoons as the basic speargun, allowing them to be propelled at greater speed and distance, with considerably improved accuracy."
 
+      STR_BURST: "Burst"
+      STR_AUTO: "Full Auto"
+
 
 #############################
 # Crafts

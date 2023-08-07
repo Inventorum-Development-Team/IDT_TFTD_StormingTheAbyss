@@ -13,9 +13,9 @@ items:
     costBuy: 4650
     costSell: 3250
     weight: 8
-    bigSprite: 188
-    floorSprite: 201
-    handSprite: 608
+    bigSprite: 1000
+    floorSprite: 1000
+    handSprite: 1000
     bulletSprite: 2
     fireSound: 100
     compatibleAmmo:
@@ -42,9 +42,9 @@ items:
     costBuy: 450
     costSell: 250
     weight: 2
-    bigSprite: 192
-    floorSprite: 204
-    handSprite: 632
+    bigSprite: 1016
+    floorSprite: 1016
+    handSprite: 1016
     hitSound: 81
     hitAnimation: 26
     power: 45
@@ -65,9 +65,9 @@ items:
     costBuy: 450
     costSell: 250
     weight: 2
-    bigSprite: 192
-    floorSprite: 204
-    handSprite: 632
+    bigSprite: 1024
+    floorSprite: 1024
+    handSprite: 1024
     hitSound: 81
     hitAnimation: 26
     power: 50
@@ -91,9 +91,9 @@ items:
     costBuy: 450
     costSell: 250
     weight: 2
-    bigSprite: 192
-    floorSprite: 204
-    handSprite: 632
+    bigSprite: 1032
+    floorSprite: 1032
+    handSprite: 1032
     hitSound: 81
     hitAnimation: 26
     power: 30
@@ -115,9 +115,9 @@ items:
     costBuy: 4650
     costSell: 3250
     weight: 8
-    bigSprite: 188
-    floorSprite: 201
-    handSprite: 608
+    bigSprite: 1040
+    floorSprite: 1040
+    handSprite: 1040
     bulletSprite: 2
     fireSound: 80
     compatibleAmmo:
@@ -142,9 +142,9 @@ items:
     costBuy: 450
     costSell: 250
     weight: 2
-    bigSprite: 192
-    floorSprite: 204
-    handSprite: 632
+    bigSprite: 1056
+    floorSprite: 1056
+    handSprite: 1056
     hitSound: 81
     hitAnimation: 26
     power: 45
@@ -161,9 +161,9 @@ items:
     costBuy: 4650
     costSell: 3250
     weight: 8
-    bigSprite: 188
-    floorSprite: 201
-    handSprite: 608
+    bigSprite: 1064
+    floorSprite: 1064
+    handSprite: 1064
     bulletSprite: 2
     fireSound: 80
     accuracyAuto: 35
@@ -190,9 +190,9 @@ items:
     size: 0.3
     costSell: 61000
     weight: 18
-    bigSprite: 6
-    floorSprite: 6
-    handSprite: 16
+    bigSprite: 1080
+    floorSprite: 1080
+    handSprite: 1080
     bulletSprite: 7
     fireSound: 11
     hitSound: 19
@@ -203,11 +203,34 @@ items:
     accuracyAimed: 84
     tuSnap: 33
     tuAimed: 75
-    clipSize: -1
+    compatibleAmmo:
+      - STR_LASER_SNIPER_BATTERY
     battleType: 1
     twoHanded: true
     invWidth: 2
     invHeight: 3
+
+  - type: STR_LASER_SNIPER_BATTERY
+    size: 0.2
+    costBuy: 800
+    costSell: 600
+    weight: 3
+    bigSprite: 403
+    floorSprite: 403
+    bulletSprite: 25
+    fireSound: 201
+    hitSound: 202
+    hitAnimation: 76
+    power: 60
+    damageType: 11
+    clipSize: 24
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    vaporColor: 2
+    vaporDensity: 10 
+    listOrder: 3518
 
 # Old Plasma Rifle Mk.1
   - type: STR_OLD_PLASMA_RIFLE
@@ -287,9 +310,9 @@ items:
     floorSprite: 33
     hitSound: 19
     hitAnimation: 46
-    power: 80
+    power: 70
     damageType: 12
-    clipSize: 28
+    clipSize: 30
     battleType: 2
     recoveryPoints: 1
 
@@ -349,6 +372,16 @@ items:
     handSprite: 616
     bulletSprite: 2
     fireSound: 82
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 5
+      name: STR_AUTO
+      ammoSlot: 0
+      arcing: false
     compatibleAmmo:
       - STR_STREET_SWEEPER_MAG
     accuracySnap: 40
@@ -502,6 +535,12 @@ items:
       - STR_TACTICAL_LMG_AP
       - STR_TACTICAL_LMG_INC
       - STR_TACTICAL_LMG_HE
+    confSnap:
+      shots: 10
+      name: STR_BURST
+    confAuto:
+      shots: 30
+      name: STR_AUTO
     accuracyAuto: 32
     accuracySnap: 56
     accuracyAimed: 82
@@ -576,10 +615,9 @@ items:
     fireSound: 2966
     hitSound: 19
     hitAnimation: -1
-    power: 60
-    damageType: 4
-    damageAlter:
-      RandomType: 6
+    compatibleAmmo:
+      - STR_AUTO_LASER_BATTERY
+
     accuracyAuto: 40
     accuracySnap: 40
     confSnap:
@@ -587,15 +625,12 @@ items:
       name: STR_BURST
     confAuto:
       shots: 30
-      name: STR_SUPPRESSION
+      name: STR_AUTO
     costSnap:
       time: 28
-      mana: 10
     costAuto:
       time: 34
-      mana: 30
     twoHanded: true
-    clipSize: -1
     battleType: 1
     maxRange: 60
     snapRange: 35
@@ -605,6 +640,31 @@ items:
     sprayWaypoints: 2
     invWidth: 2
     invHeight: 3
+
+
+  - type: STR_AUTO_LASER_BATTERY
+    size: 0.2
+    costBuy: 800
+    costSell: 600
+    weight: 3
+    bigSprite: 403
+    floorSprite: 403
+    bulletSprite: 25
+    fireSound: 201
+    hitSound: 202
+    hitAnimation: 76
+    power: 60
+    damageType: 11
+    damageAlter:
+      RandomType: 6
+    clipSize: 24
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    vaporColor: 2
+    vaporDensity: 10 
+    listOrder: 3518
 
 #########################
 ####### AQUATIC ########
@@ -750,11 +810,12 @@ items:
     ammo:
       0:
         compatibleAmmo: [ STR_UNDERWATER_AUTOPISTOL_MAG ]
+    confSnap:
+      shots: 10
+      name: STR_BURST
     confAuto:
-      shots: 5
-      name: STR_RAPID_FIRE
-      ammoSlot: 0
-      arcing: false
+      shots: 30
+      name: STR_AUTO
     accuracySnap: 80
     accuracyAimed: 80
     accuracyAuto: 60
