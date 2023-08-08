@@ -49,6 +49,10 @@ extraSprites:
       1360: Resources/AquaticWeapons/BigNeptuneTorpedo.png
       #1368: Resources/AquaticWeapons/BigUnderwaterAntitankRifle.png
       #1376: Resources/AquaticWeapons/BigUnderwaterAntitankRifleMag.png
+      1384: Resources/AquaticWeapons/BigAutoShotty.png
+      1392: Resources/AquaticWeapons/BigAutoShotty.png
+      1400: Resources/AquaticWeapons/BigAutoShottyShell.png
+      1408: Resources/AquaticWeapons/BigAutoShottySlug.png   
       
   - type: FLOOROB.PCK
     files:
@@ -100,6 +104,10 @@ extraSprites:
       1360: Resources/AquaticWeapons/FloorNeptuneTorpedo.png
       #1368: Resources/AquaticWeapons/FloorUnderwaterAntitankRifle.png
       #1376: Resources/AquaticWeapons/FloorUnderwaterAntitankRifleMag.png
+      1384: Resources/AquaticWeapons/FloorAutoShotty.png
+      1392: Resources/AquaticWeapons/FloorAutoShotty.png
+      1400: Resources/AquaticWeapons/FloorAutoShottyShell.png
+      1408: Resources/AquaticWeapons/FloorAutoShottySlug.png   
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -154,6 +162,10 @@ extraSprites:
       1360: Resources/AquaticWeapons/HandNeptuneTorpedo.png
       #1368: Resources/AquaticWeapons/HandUnderwaterAntitankRifle.png
       #1376: Resources/AquaticWeapons/HandUnderwaterAntitankRifleMag.png
+      1384: Resources/AquaticWeapons/HandAutoShotty.png
+      1392: Resources/AquaticWeapons/HandAutoShotty.png
+      #1400: Resources/AquaticWeapons/BigAutoShottyShell.png
+      #1408: Resources/AquaticWeapons/BigAutoShottySlug.png   
 
 ###############
 

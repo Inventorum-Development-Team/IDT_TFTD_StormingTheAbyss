@@ -16,8 +16,8 @@ items:
     bigSprite: 1000
     floorSprite: 1000
     handSprite: 1000
-    bulletSprite: 2
     fireSound: 100
+    reloadSound: 101
     compatibleAmmo:
       - STR_VARIABLE_RIFLE_MAG
       - STR_VARIABLE_RIFLE_CQB_MAG
@@ -45,8 +45,11 @@ items:
     bigSprite: 1016
     floorSprite: 1016
     handSprite: 1016
-    hitSound: 81
-    hitAnimation: 26
+    bulletSprite: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 670
     power: 45
     damageType: 1
     damageAlter:
@@ -68,8 +71,11 @@ items:
     bigSprite: 1024
     floorSprite: 1024
     handSprite: 1024
-    hitSound: 81
+    hitSound: [301, 302, 303, 304]
     hitAnimation: 26
+    bulletSprite: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
     power: 50
     damageType: 1
     damageAlter:
@@ -94,8 +100,11 @@ items:
     bigSprite: 1032
     floorSprite: 1032
     handSprite: 1032
-    hitSound: 81
+    hitSound: [301, 302, 303, 304]
     hitAnimation: 26
+    bulletSprite: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
     power: 30
     damageType: 1
     damageAlter:
@@ -118,8 +127,8 @@ items:
     bigSprite: 1040
     floorSprite: 1040
     handSprite: 1040
-    bulletSprite: 2
-    fireSound: 80
+    fireSound: 104
+    reloadSound: 
     compatibleAmmo:
       - STR_SCAR_MAG
     accuracyAuto: 35
@@ -145,7 +154,7 @@ items:
     bigSprite: 1056
     floorSprite: 1056
     handSprite: 1056
-    hitSound: 81
+    hitSound: [301, 302, 303, 304]
     hitAnimation: 26
     power: 45
     damageType: 1
@@ -177,7 +186,7 @@ items:
     invWidth: 1
     invHeight: 3
     autoShots: 4
-    hitSound: 81
+    hitSound: [301, 302, 303, 304]
     hitAnimation: 26
     power: 35
     damageType: 1
@@ -349,7 +358,7 @@ items:
     weight: 2
     bigSprite: 1144
     floorSprite: 1144
-    hitSound: 81
+    hitSound: [301, 302, 303, 304]
     hitAnimation: 26
     power: 25
     damageType: 1
@@ -400,7 +409,7 @@ items:
     weight: 2
     bigSprite: 1168
     floorSprite: 1168
-    hitSound: 81
+    hitSound: [301, 302, 303, 304]
     hitAnimation: 26
     power: 25
     damageType: 1
@@ -417,9 +426,9 @@ items:
     size: 0.3
     costSell: 52000
     weight: 6
-    bigSprite: 1202
-    floorSprite: 1202
-    handSprite: 2900
+    bigSprite: 1384
+    floorSprite: 1384
+    handSprite: 1384
     bulletSprite: 31
     fireSound: 141
     reloadSound: [183, 184, 185]
@@ -460,8 +469,8 @@ items:
     size: 0.1
     costSell: 2500
     weight: 2
-    bigSprite: 1203
-    floorSprite: 1213
+    bigSprite: 1400
+    floorSprite: 1400
     handSprite: 0
     power: 35
     damageType: 1
@@ -492,8 +501,8 @@ items:
     size: 0.1
     costSell: 2500
     weight: 2
-    bigSprite: 1203
-    floorSprite: 1213
+    bigSprite: 1408
+    floorSprite: 1408
     handSprite: 0
     power: 35
     damageType: 1
@@ -922,9 +931,9 @@ items:
     costBuy: 850
     costSell: 950
     weight: 6
-    bigSprite: 1164
-    floorSprite: 1164
-    handSprite: 2740
+    bigSprite: 1360
+    floorSprite: 1360
+    handSprite: 1360
     bulletSprite: 4
     fireSound: 143
     power: 140
@@ -938,7 +947,7 @@ items:
     aimRange: 80 # 0
     snapRange: 15 # 0
     minRange: 8
-    dropoff: 2
+    #dropoff: 2
     clipSize: 1
     battleType: 1
     twoHanded: false
@@ -957,10 +966,9 @@ items:
     costBuy: 16000
     costSell: 10000
     weight: 10
-    bigSprite: 1158
-    floorSprite: 1158
-    handSprite: 2724
-    bulletSprite: 1
+    bigSprite: 1328
+    floorSprite: 1328
+    handSprite: 1328
     fireSound: 152
     compatibleAmmo:
       - STR_MATADOR_AP_TORPEDO
@@ -988,8 +996,8 @@ items:
     costBuy: 1600
     costSell: 1200
     weight: 6
-    bigSprite: 1159
-    floorSprite: 1159
+    bigSprite: 1336
+    floorSprite: 1336
     hitSound: 0
     hitAnimation: 0
     power: 75
@@ -1014,8 +1022,8 @@ items:
     costBuy: 6200
     costSell: 5000
     weight: 6
-    bigSprite: 1160
-    floorSprite: 1160
+    bigSprite: 1344
+    floorSprite: 1344
     hitSound: 0
     hitAnimation: 0
     power: 95
@@ -1041,8 +1049,8 @@ items:
     size: 0.1
     costSell: 22500
     weight: 3
-    bigSprite: 1161
-    floorSprite: 1161
+    bigSprite: 1352
+    floorSprite: 1352
     power: 50
     damageType: 1
     damageAlter:
