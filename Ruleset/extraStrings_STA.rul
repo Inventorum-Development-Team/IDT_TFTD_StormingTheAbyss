@@ -155,6 +155,12 @@ extraStrings:
       STR_CULTIST_AUTOPSY: "Cultist Autopsy"
       STR_CULTIST_AUTOPSY_UFOPEDIA: "Just a regular human corpse, albeit highly drugged. Analysis indicate extensive consumption of psychotropic substances, with traces of combat stimulants in the blood stream. This may indicate the Cultists are thrown into combat with little-to-none connection with the real world, which may explain their extreme resistance to pain."
 
-      
+# Gauss Tech
 
+
+
+# Aqua Plastic Weapons Tech
+      
+      STR_ELECTROMAGNETISM_TECH: "Electromagnetism Tech"
+      STR_ELECTROMAGNETISM_TECH_UFOPEDIA: "The research investment on Plasma technology allowed us to refine the practical application of electromagnetic energy. Our initial designs provide a simple yet effective system: a railgun. By accelerating a metallic projectile between two conductive rails using electrical pulses, we were able to cteate a powerful kinetic weapon."
       
