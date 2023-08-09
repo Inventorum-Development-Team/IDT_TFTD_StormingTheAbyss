@@ -159,8 +159,12 @@ extraStrings:
 
 
 
-# Aqua Plastic Weapons Tech
-      
+# Railguns Weapons Tech
+
+# Starting topic 
+    
       STR_ELECTROMAGNETISM_TECH: "Electromagnetism Tech"
-      STR_ELECTROMAGNETISM_TECH_UFOPEDIA: "The research investment on Plasma technology allowed us to refine the practical application of electromagnetic energy. Our initial designs provide a simple yet effective system: a railgun. By accelerating a metallic projectile between two conductive rails using electrical pulses, we were able to cteate a powerful kinetic weapon."
+      STR_ELECTROMAGNETISM_TECH_UFOPEDIA: "The research investment on Plasma technology allowed us to refine the practical application of electromagnetic energy. Our initial designs provide a simple yet effective system: a railgun. By accelerating a metallic projectile between two conductive rails using electrical pulses, we were able to create a powerful kinetic weapon."
+      
+      STR_PROTOTYPE_RAILGUN_RIFLE: "Prototype Rail Rifle"
       
