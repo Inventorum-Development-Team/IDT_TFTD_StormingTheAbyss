@@ -167,4 +167,4 @@ extraStrings:
       STR_ELECTROMAGNETISM_TECH_UFOPEDIA: "The research investment on Plasma technology allowed us to refine the practical application of electromagnetic energy. Our initial designs provide a simple yet effective system: a railgun. By accelerating a metallic projectile between two conductive rails using electrical pulses, we were able to create a powerful kinetic weapon."
       
       STR_PROTOTYPE_RAILGUN_RIFLE: "Prototype Rail Rifle"
-      
+      STR_PROTOTYPE_RAILGUN_RIFLE_UFOPEDIA: "A rather crude tech demonstrator model, fully build in Alien Alloys. Designed to engage heavily armored targets, its basically a rail system with a hastly put stock and pistol grip. There are concerns about the safety of the system, though." 
