@@ -53,6 +53,7 @@ extraSounds:
       303: Resources/Sounds/BallisticHitSound2.ogg
       304: Resources/Sounds/BallisticHitSound3.ogg
       305: Resources/Sounds/PlasmaHit.ogg
+      306: Resources/Sounds/LaserHit.ogg
 
   - type: BATTLE2.CAT
     files:
@@ -108,3 +109,4 @@ extraSounds:
       303: Resources/Sounds/BallisticHitSound2.ogg
       304: Resources/Sounds/BallisticHitSound3.ogg
       305: Resources/Sounds/PlasmaHit.ogg
+      306: Resources/Sounds/LaserHit.ogg
