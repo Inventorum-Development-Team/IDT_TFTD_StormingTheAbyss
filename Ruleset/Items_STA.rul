@@ -128,7 +128,7 @@ items:
     floorSprite: 1040
     handSprite: 1040
     fireSound: 104
-    reloadSound: 
+    reloadSound: 105
     compatibleAmmo:
       - STR_SCAR_MAG
     accuracyAuto: 35
@@ -158,7 +158,7 @@ items:
     hitAnimation: 26
     power: 45
     damageType: 1
-    clipSize: 8
+    clipSize: 30
     battleType: 2
     landOnly: true   
     listOrder: 3504  
@@ -173,8 +173,8 @@ items:
     bigSprite: 1064
     floorSprite: 1064
     handSprite: 1064
-    bulletSprite: 2
-    fireSound: 80
+    bulletSprite: 14
+    fireSound: 102
     accuracyAuto: 35
     accuracySnap: 55
     accuracyAimed: 80
@@ -202,10 +202,8 @@ items:
     bigSprite: 1080
     floorSprite: 1080
     handSprite: 1080
-    bulletSprite: 7
-    fireSound: 11
-    hitSound: 19
-    hitAnimation: 36
+    fireSound: [143, 144, 145]
+    reloadSound: 125
     power: 85
     damageType: 4
     accuracySnap: 50
@@ -226,9 +224,9 @@ items:
     weight: 3
     bigSprite: 1096
     floorSprite: 1096
-    bulletSprite: 25
+    bulletSprite: 16
     fireSound: 201
-    hitSound: 202
+    hitSound: 306
     hitAnimation: 76
     power: 60
     damageType: 11
@@ -250,8 +248,7 @@ items:
     bigSprite: 1176
     floorSprite: 1176
     handSprite: 1176
-    bulletSprite: 8
-    fireSound: 18
+    fireSound: 114
     compatibleAmmo:
       - STR_OLD_PLASMA_RIFLE_CLIP
     accuracyAuto: 55
@@ -273,8 +270,9 @@ items:
     weight: 3
     bigSprite: 1192
     floorSprite: 1192
-    hitSound: 19
+    hitSound: 305
     hitAnimation: 46
+    bulletSprite: 14
     power: 80
     damageType: 12
     clipSize: 28
@@ -292,8 +290,7 @@ items:
     bigSprite: 1200
     floorSprite: 1200
     handSprite: 1200
-    bulletSprite: 8
-    fireSound: 18
+    fireSound: 115
     compatibleAmmo:
       - STR_NEW_PLASMA_RIFLE_CLIP
     accuracyAuto: 55
@@ -317,7 +314,7 @@ items:
     weight: 3
     bigSprite: 1216
     floorSprite: 1216
-    hitSound: 19
+    hitSound: 305
     hitAnimation: 46
     power: 70
     damageType: 12
@@ -337,7 +334,8 @@ items:
     bigSprite: 1128
     floorSprite: 1128
     handSprite: 1128
-    fireSound: 82
+    fireSound: 108
+    reloadSound: 109
     compatibleAmmo:
       - STR_COMBAT_PISTOL_MAG
     accuracySnap: 40
@@ -362,7 +360,7 @@ items:
     hitAnimation: 26
     power: 25
     damageType: 1
-    clipSize: 16
+    clipSize: 10
     battleType: 2
     landOnly: true   
     listOrder: 3502 
@@ -377,7 +375,8 @@ items:
     bigSprite: 1152
     floorSprite: 1152
     handSprite: 1152
-    fireSound: 82
+    fireSound: 106
+    reloadSound: 107
     confSnap:
       shots: 3
       name: STR_BURST
@@ -413,7 +412,7 @@ items:
     hitAnimation: 26
     power: 25
     damageType: 1
-    clipSize: 16
+    clipSize: 25
     battleType: 2
     landOnly: true   
     listOrder: 3502 
@@ -429,9 +428,8 @@ items:
     bigSprite: 1384
     floorSprite: 1384
     handSprite: 1384
-    bulletSprite: 31
-    fireSound: 141
-    reloadSound: [183, 184, 185]
+    fireSound: 110
+    reloadSound: 111
     ammo:
       0:
         tuLoad: 10
@@ -455,11 +453,8 @@ items:
     snapRange: 8
     autoRange: 6
     dropoff: 1
-    shotgunBehavior: 1
-    shotgunPellets: 8
-    shotgunSpread: 65
     invHeight: 3
-    invWidth: 1
+    invWidth: 2
     battleType: 1
     twoHanded: true
     armor: 250
@@ -482,19 +477,16 @@ items:
       IgnoreOverKill: true
       ToWound: 0.8
       RandomWound: true
-    hitSound: 22
+    hitSound: [301, 302, 303, 304]
     hitAnimation: 26
     clipSize: 12
     invHeight: 1
-    invWidth: 1
+    invWidth: 2
     shotgunBehavior: 1
     shotgunPellets: 8
     shotgunSpread: 60
     battleType: 2
     armor: 250
-    vaporColorSurface: 0
-    vaporDensitySurface: 1
-    vaporProbabilitySurface: 33
 
   - type: STR_AUTO_SHOTGUN_SLUG
     categories: [STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_CLIPS]
@@ -503,7 +495,6 @@ items:
     weight: 2
     bigSprite: 1408
     floorSprite: 1408
-    handSprite: 0
     power: 35
     damageType: 1
     damageAlter:
@@ -518,7 +509,7 @@ items:
     hitAnimation: 26
     clipSize: 12
     invHeight: 1
-    invWidth: 1
+    invWidth: 2
     battleType: 2
     armor: 250
 
@@ -534,7 +525,8 @@ items:
     bigSprite: 1224
     floorSprite: 1224
     handSprite: 1224
-    fireSound: 12
+    fireSound: 118
+    reloadSound: 119
     compatibleAmmo:
       - STR_TACTICAL_LMG_AP
       - STR_TACTICAL_LMG_INC
@@ -563,7 +555,7 @@ items:
     weight: 5
     bigSprite: 1240
     floorSprite: 1240
-    hitSound: 13
+    hitSound: [301, 302, 303, 304]
     hitAnimation: 26
     power: 42
     damageType: 1
@@ -606,8 +598,6 @@ items:
 
   - type: STR_AUTO_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_LMGS, STR_US_TECH]
-    requiresBuy:
-      - STR_USA_LASER_HEAVY_WEAPONS
     size: 0.3
     costBuy: 50000
     costSell: 40000
@@ -616,8 +606,8 @@ items:
     floorSprite: 1104
     handSprite: 1104
     bulletSprite: 27
-    fireSound: 2966
-    hitSound: 19
+    fireSound: [143, 144, 145]
+    hitSound: 306
     hitAnimation: -1
     compatibleAmmo:
       - STR_AUTO_LASER_BATTERY
