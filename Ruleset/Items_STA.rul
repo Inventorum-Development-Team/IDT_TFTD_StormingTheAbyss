@@ -72,7 +72,7 @@ items:
     floorSprite: 1024
     handSprite: 1024
     hitSound: [301, 302, 303, 304]
-    hitAnimation: 26
+    hitAnimation: 670
     bulletSprite: 14
     explosionSpeed: 50
     bulletSpeed: 30
@@ -101,7 +101,7 @@ items:
     floorSprite: 1032
     handSprite: 1032
     hitSound: [301, 302, 303, 304]
-    hitAnimation: 26
+    hitAnimation: 670
     bulletSprite: 14
     explosionSpeed: 50
     bulletSpeed: 30
@@ -155,7 +155,7 @@ items:
     floorSprite: 1056
     handSprite: 1056
     hitSound: [301, 302, 303, 304]
-    hitAnimation: 26
+    hitAnimation: 670
     power: 45
     damageType: 1
     clipSize: 30
@@ -187,7 +187,7 @@ items:
     invHeight: 3
     autoShots: 4
     hitSound: [301, 302, 303, 304]
-    hitAnimation: 26
+    hitAnimation: 620
     power: 35
     damageType: 1
     clipSize: -1
@@ -227,7 +227,7 @@ items:
     bulletSprite: 16
     fireSound: 201
     hitSound: 306
-    hitAnimation: 76
+    hitAnimation: 640
     power: 60
     damageType: 11
     clipSize: 24
@@ -271,7 +271,7 @@ items:
     bigSprite: 1192
     floorSprite: 1192
     hitSound: 305
-    hitAnimation: 46
+    hitAnimation: 650
     bulletSprite: 14
     power: 80
     damageType: 12
@@ -315,7 +315,7 @@ items:
     bigSprite: 1216
     floorSprite: 1216
     hitSound: 305
-    hitAnimation: 46
+    hitAnimation: 650
     power: 70
     damageType: 12
     clipSize: 30
@@ -357,7 +357,7 @@ items:
     bigSprite: 1144
     floorSprite: 1144
     hitSound: [301, 302, 303, 304]
-    hitAnimation: 26
+    hitAnimation: 620
     power: 25
     damageType: 1
     clipSize: 10
@@ -409,7 +409,7 @@ items:
     bigSprite: 1168
     floorSprite: 1168
     hitSound: [301, 302, 303, 304]
-    hitAnimation: 26
+    hitAnimation: 620
     power: 25
     damageType: 1
     clipSize: 25
@@ -643,8 +643,6 @@ items:
     bigSprite: 1120
     floorSprite: 1120
     bulletSprite: 25
-    fireSound: 201
-    hitSound: 202
     hitAnimation: 76
     power: 60
     damageType: 11
@@ -676,8 +674,8 @@ items:
     bigSprite: 1264
     floorSprite: 1264
     handSprite: 1264
-    fireSound: 155
-    reloadSound: [186, 187, 188, 189]
+    fireSound: [135, 136, 137]
+    reloadSound: 103
     ammo:
       0: 
         tuLoad: 10
@@ -690,7 +688,7 @@ items:
       arcing: false
     confAuto:
       shots: 5
-      name: STR_CONTROL_AUTO
+      name: STR_AUTO
       ammoSlot: 0
       arcing: false
     accuracyCloseQuarters: 120
@@ -747,8 +745,8 @@ items:
     bigSprite: 1280
     floorSprite: 1280
     handSprite: 1280
-    fireSound: 146
-    reloadSound: [179, 180, 181, 182]
+    fireSound: [135, 136, 137]
+    reloadSound: 109
     accuracyCloseQuarters: 100
     ammo:
       0:
@@ -806,8 +804,8 @@ items:
     floorSprite: 1296
     handSprite: 1296
     bulletSprite: 2
-    fireSound: 136
-    reloadSound: [179, 180, 181, 182]
+    fireSound: [135, 136, 137]
+    reloadSound: 103
     ammo:
       0:
         compatibleAmmo: [ STR_UNDERWATER_REVOLVER_CLIP ]
@@ -856,7 +854,8 @@ items:
     floorSprite: 1312
     handSprite: 1312
     bulletSpeed: 20
-    fireSound: 160
+    fireSound: [135, 136, 137]
+    reloadSound: 119
     ammo:
       0: 
         compatibleAmmo: [ STR_UNDERWATER_LMG_MAG ]
@@ -959,7 +958,7 @@ items:
     bigSprite: 1328
     floorSprite: 1328
     handSprite: 1328
-    fireSound: 152
+    fireSound: 0
     compatibleAmmo:
       - STR_MATADOR_AP_TORPEDO
       - STR_MATADOR_HE_TORPEDO

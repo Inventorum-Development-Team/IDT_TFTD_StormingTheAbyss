@@ -249,6 +249,7 @@ extraSprites:
       650: Resources/Hits/GreenPlasma_Hit.png
       660: Resources/Hits/Gauss_Hit.png
       670: Resources/Hits/Ballistic_Hit.png
+      680: Resources/Hits/YellowLaser_Hit.png
       
       
 
