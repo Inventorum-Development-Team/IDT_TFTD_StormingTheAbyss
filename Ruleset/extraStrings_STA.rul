@@ -163,8 +163,13 @@ extraStrings:
 
 # Starting topic 
     
-      STR_ELECTROMAGNETISM_TECH: "Electromagnetism Tech"
-      STR_ELECTROMAGNETISM_TECH_UFOPEDIA: "The research investment on Plasma technology allowed us to refine the practical application of electromagnetic energy. Our initial designs provide a simple yet effective system: a railgun. By accelerating a metallic projectile between two conductive rails using electrical pulses, we were able to create a powerful kinetic weapon."
+      STR_RAILGUN_TECH: "Electromagnetism Tech"
+      STR_RAILGUN_TECH_UFOPEDIA: "The research investment on Plasma technology allowed us to refine the practical application of electromagnetic energy. Our initial designs provide a simple yet effective system: a railgun. By accelerating a metallic projectile between two conductive rails using electrical pulses, we were able to create a powerful kinetic weapon."
       
       STR_PROTOTYPE_RAILGUN_RIFLE: "Prototype Rail Rifle"
       STR_PROTOTYPE_RAILGUN_RIFLE_UFOPEDIA: "A rather crude tech demonstrator model, fully build in Alien Alloys. Designed to engage heavily armored targets, its basically a rail system with a hastly put stock and pistol grip. There are concerns about the safety of the system, though." 
+      STR_PROTOTYPE_RAILGUN_PISTOL: "Prototype Rail Pistol"
+      STR_PROTOTYPE_RAILGUN_RIFLE_UFOPEDIA: "Scaled-down version of the larger Rifle. Although its projectile is technically unaffected by the gravity nor wind, the heavy recoil and rough handling limits the accuracy."
+      
+      STR_ENHANCED_RAILGUN_TECH: "Enhanced Electromagnetic Tech"
+      STR_ENHANCED_RAILGUN_TECH_UFOPEDIA: "Based on the experience of the use of both our early Railguns and the Zrbite-powered Gauss weapons, we have developed a new set of Rail weapons. A sturdier frame allows for a harsher use, now reinforced with Aqua Plastics. After the perfectly understandable complains about the poor ergonomics of the first line of weapons, a major redesign brought them closer to a regular firearm, thus making it easier for novice user to acclimate. Rate of fire is reduced to diminish the extreme heat and avoid melting the rail system."
