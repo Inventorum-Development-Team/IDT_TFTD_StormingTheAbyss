@@ -266,6 +266,9 @@ extraSprites:
       595: Resources/Projectiles/Harpoon_bullet.png # 17
       630: Resources/Projectiles/Sonic_Bullet.png # 18
       665: Resources/Projectiles/Gauss_Bullet.png # 19
+      700: Resources/Projectiles/RedLaser_Bullet.png # 20
+      735: Resources/Projectiles/NeptuneTorpedo_Bullet.png # 20
+      
   - type: UnderwaterProjectiles
     width: 105
     height: 3
@@ -278,6 +281,8 @@ extraSprites:
       595: Resources/Projectiles/Harpoon_bullet.png # 17
       630: Resources/Projectiles/Sonic_Bullet.png # 18
       665: Resources/Projectiles/Gauss_Bullet.png # 19
+      700: Resources/Projectiles/RedLaser_Bullet.png # 20
+      735: Resources/Projectiles/NeptuneTorpedo_Bullet.png # 20
 
   - type: X1.PCK
     width: 1024
