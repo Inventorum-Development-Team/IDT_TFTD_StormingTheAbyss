@@ -367,7 +367,9 @@ items:
     floorSprite: 1144
     hitSound: [301, 302, 303, 304]
     hitAnimation: 620
-    power: 25
+    bulletSprite: 15
+    bulletSpeed: 20
+    power: 45
     damageType: 1
     clipSize: 10
     battleType: 2
@@ -421,6 +423,9 @@ items:
     hitAnimation: 620
     power: 25
     damageType: 1
+    bulletSprite: 15
+    explosionSpeed: 50
+    bulletSpeed: 30
     clipSize: 25
     battleType: 2
     landOnly: true   
@@ -465,7 +470,8 @@ items:
     invHeight: 3
     invWidth: 2
     battleType: 1
-    twoHanded: true
+    twoHanded: true 
+    landOnly: true
     armor: 250
 
   - type: STR_AUTO_SHOTGUN_SHELLS
@@ -475,7 +481,7 @@ items:
     weight: 2
     bigSprite: 1400
     floorSprite: 1400
-    handSprite: 0
+    hitAnimation: 620
     power: 35
     damageType: 1
     damageAlter:
@@ -487,13 +493,13 @@ items:
       ToWound: 0.8
       RandomWound: true
     hitSound: [301, 302, 303, 304]
-    hitAnimation: 26
     clipSize: 12
     invHeight: 1
     invWidth: 2
     shotgunBehavior: 1
     shotgunPellets: 8
-    shotgunSpread: 60
+    shotgunSpread: 60 
+    landOnly: true
     battleType: 2
     armor: 250
 
@@ -515,11 +521,12 @@ items:
       ToHealth: 0.4
       RandomWound: false
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: 670
     clipSize: 12
     invHeight: 1
     invWidth: 2
     battleType: 2
+    landOnly: true
     armor: 250
 
 # Machine Guns #
@@ -565,11 +572,15 @@ items:
     bigSprite: 1240
     floorSprite: 1240
     hitSound: [301, 302, 303, 304]
-    hitAnimation: 26
+    hitAnimation: 670
     power: 42
     damageType: 1
     clipSize: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
+    bulletSprite: 14
     battleType: 2
+    landOnly: true
     invWidth: 2
     invHeight: 1
   - type: STR_TACTICAL_LMG_HE
@@ -584,8 +595,12 @@ items:
     hitAnimation: 0
     power: 44
     damageType: 3
+    explosionSpeed: 50
+    bulletSpeed: 30
+    bulletSprite: 14
     clipSize: 14
     battleType: 2
+    landOnly: true 
     invWidth: 2
     invHeight: 1
   - type: STR_TACTICAL_LMG_INC
@@ -601,7 +616,11 @@ items:
     power: 48
     damageType: 2
     clipSize: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
+    bulletSprite: 14
     battleType: 2
+    landOnly: true
     invWidth: 2
     invHeight: 1
 
@@ -614,14 +633,12 @@ items:
     bigSprite: 1104
     floorSprite: 1104
     handSprite: 1104
-    bulletSprite: 27
     fireSound: [143, 144, 145]
     hitSound: 306
-    hitAnimation: -1
     compatibleAmmo:
       - STR_AUTO_LASER_BATTERY
     accuracyAuto: 40
-    accuracySnap: 40
+    accuracySnap: 45
     confSnap:
       shots: 10
       name: STR_BURST
@@ -634,6 +651,7 @@ items:
       time: 34
     twoHanded: true
     battleType: 1
+    landOnly: true
     maxRange: 60
     snapRange: 35
     autoRange: 30
@@ -651,19 +669,20 @@ items:
     weight: 3
     bigSprite: 1120
     floorSprite: 1120
-    bulletSprite: 25
-    hitAnimation: 76
+    bulletSprite: 20
+    hitAnimation: 640
+    explosionSpeed: 50
+    bulletSpeed: 30
     power: 60
     damageType: 11
     damageAlter:
       RandomType: 6
-    clipSize: 24
+    clipSize: 45
     battleType: 2
+    landOnly: true
     invWidth: 1
     invHeight: 1
     armor: 70
-    vaporColor: 2
-    vaporDensity: 10 
     listOrder: 3518
 
 #########################
@@ -719,6 +738,7 @@ items:
     maxRange: 25
     dropoff: 4
     powerRangeReduction: 3
+    underwaterOnly: true
     attraction: 8
     vaporColor: 4
     vaporDensity: 10
@@ -733,9 +753,11 @@ items:
     bigSprite: 1272
     floorSprite: 1272
     hitSound: 16
-    hitAnimation: 26
+    hitAnimation: 670
     power: 46
     damageType: 1
+    explosionSpeed: 50
+    bulletSpeed: 30
     clipSize: 26
     invWidth: 1
     invHeight: 1
@@ -776,13 +798,12 @@ items:
     battleType: 1
     invWidth: 1
     invHeight: 1
+    underwaterOnly: true
     armor: 35
     attraction: 10
 
   - type: STR_UNDERWATER_AUTOPISTOL_MAG
     categories: [STR_UNDERWATER, STR_FIREARMS, STR_NATO_TECH, STR_PISTOLS]
-    requires:
-      - STR_NATO_IMPROVED_AQUATIC_WEAPONS
     size: 0.1
     costBuy: 450
     costSell: 250
@@ -790,7 +811,7 @@ items:
     bigSprite: 1288
     floorSprite: 1288
     hitSound: 16
-    hitAnimation: 26
+    hitAnimation: 620
     power: 35
     damageType: 1
     clipSize: 5
@@ -799,6 +820,7 @@ items:
     invHeight: 1
     vaporColor: 2
     vaporDensity: 2
+    underwaterOnly: true
     maxRange: 15
     dropoff: 3
     powerRangeReduction: 3
@@ -812,7 +834,6 @@ items:
     bigSprite: 1296
     floorSprite: 1296
     handSprite: 1296
-    bulletSprite: 2
     fireSound: [135, 136, 137]
     reloadSound: 103
     ammo:
@@ -841,8 +862,8 @@ items:
     bigSprite: 1304
     floorSprite: 1304
     hitSound: 16
-    hitAnimation: 26
-    power: 40
+    hitAnimation: 620
+    power: 50
     damageType: 1
     invHeight: 1
     invWidth: 1
@@ -850,6 +871,7 @@ items:
     battleType: 2
     vaporColor: 0
     vaporDensity: 2
+    underwaterOnly: true
 
 # Machine Guns #
 
@@ -862,7 +884,6 @@ items:
     bigSprite: 1312
     floorSprite: 1312
     handSprite: 1312
-    bulletSpeed: 20
     fireSound: [135, 136, 137]
     reloadSound: 119
     ammo:
@@ -892,11 +913,11 @@ items:
     invWidth: 2
     invHeight: 3
     armor: 30
-    autoShots: 5
     sprayWaypoints: 2
     maxRange: 22
     dropoff: 5
     powerRangeReduction: 3
+    underwaterOnly: true
     attraction: 9
     vaporColor: 5
     vaporDensity: 10
@@ -911,7 +932,10 @@ items:
     bigSprite: 1320
     floorSprite: 1320
     hitSound: 16
-    hitAnimation: 26
+    hitAnimation: 670
+    explosionSpeed: 50
+    bulletSpeed: 30
+    underwaterOnly: true
     power: 50
     damageType: 1
     clipSize: 40
@@ -932,7 +956,7 @@ items:
     bigSprite: 1360
     floorSprite: 1360
     handSprite: 1360
-    bulletSprite: 4
+    bulletSprite: 21
     fireSound: 143
     power: 140
     accuracySnap: 55
@@ -950,6 +974,7 @@ items:
     battleType: 1
     twoHanded: false
     blockBothHands: false
+    underwaterOnly: true
     invWidth: 1
     invHeight: 3
     armor: 20
@@ -963,7 +988,7 @@ items:
     size: 0.4
     costBuy: 16000
     costSell: 10000
-    weight: 10
+    weight: 15
     bigSprite: 1328
     floorSprite: 1328
     handSprite: 1328
@@ -985,6 +1010,9 @@ items:
     invHeight: 3
     attraction: 8
     maxRange: 25
+    underwaterOnly: true
+    vaporColor: 0
+    vaporDensity: 10
     waypoints: 3
     dropoff: 3
 
