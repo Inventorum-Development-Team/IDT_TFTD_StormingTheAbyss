@@ -306,7 +306,8 @@ items:
     tuSnap: 30
     tuAimed: 60
     battleType: 1
-    twoHanded: true
+    twoHanded: true 
+    landOnly: true
     invWidth: 1
     invHeight: 3
     recoveryPoints: 4
@@ -324,7 +325,8 @@ items:
     hitAnimation: 650
     bulletSprite: 8
     power: 70
-    damageType: 12
+    damageType: 12 
+    landOnly: true
     clipSize: 30
     battleType: 2
     recoveryPoints: 1
