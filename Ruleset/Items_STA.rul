@@ -156,7 +156,9 @@ items:
     handSprite: 1056
     hitSound: [301, 302, 303, 304]
     hitAnimation: 670
-    power: 45
+    explosionSpeed: 50
+    bulletSpeed: 30
+    power: 35
     damageType: 1
     clipSize: 30
     battleType: 2
@@ -174,6 +176,8 @@ items:
     floorSprite: 1064
     handSprite: 1064
     bulletSprite: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
     fireSound: 102
     accuracyAuto: 35
     accuracySnap: 55
@@ -213,7 +217,8 @@ items:
     compatibleAmmo:
       - STR_LASER_SNIPER_BATTERY
     battleType: 1
-    twoHanded: true
+    twoHanded: true 
+    landOnly: true
     invWidth: 2
     invHeight: 3
 
@@ -224,7 +229,7 @@ items:
     weight: 3
     bigSprite: 1096
     floorSprite: 1096
-    bulletSprite: 16
+    bulletSprite: 20
     fireSound: 201
     hitSound: 306
     hitAnimation: 640
@@ -233,10 +238,9 @@ items:
     clipSize: 24
     battleType: 2
     invWidth: 1
-    invHeight: 1
+    invHeight: 1 
+    landOnly: true
     armor: 70
-    vaporColor: 2
-    vaporDensity: 10 
     listOrder: 3518
 
 # Old Plasma Rifle Mk.1
@@ -258,7 +262,8 @@ items:
     tuSnap: 30
     tuAimed: 60
     battleType: 1
-    twoHanded: true
+    twoHanded: true 
+    landOnly: true
     invWidth: 1
     invHeight: 3
     recoveryPoints: 4
@@ -266,16 +271,17 @@ items:
   - type: STR_OLD_PLASMA_RIFLE_CLIP
     categories: [STR_PLASMA, STR_ALIEN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
     size: 0.1
-    costSell: 6290
+    costSell: 62900
     weight: 3
     bigSprite: 1192
     floorSprite: 1192
     hitSound: 305
     hitAnimation: 650
-    bulletSprite: 14
+    bulletSprite: 8
     power: 80
     damageType: 12
     clipSize: 28
+    landOnly: true
     battleType: 2
     recoveryPoints: 1
 
@@ -316,6 +322,7 @@ items:
     floorSprite: 1216
     hitSound: 305
     hitAnimation: 650
+    bulletSprite: 8
     power: 70
     damageType: 12
     clipSize: 30
