@@ -493,7 +493,8 @@ items:
   - type: STR_AUTO_SHOTGUN_SHELLS
     categories: [STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
-    requiresBuyCountry: STR_VARIABLE_RIFLE_CQB_MAG
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    costBuy: 3000
     costSell: 2500
     weight: 2
     bigSprite: 1400
@@ -523,7 +524,9 @@ items:
   - type: STR_AUTO_SHOTGUN_SLUG
     categories: [STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
-    costSell: 2500
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    costBuy: 3500
+    costSell: 3000
     weight: 2
     bigSprite: 1408
     floorSprite: 1408
@@ -552,8 +555,9 @@ items:
   - type: STR_TACTICAL_LMG
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS]
     size: 0.3
-    costBuy: 13500
-    costSell: 10125
+    requiresBuyCountry: STR_EU_SYNDICATE
+    costBuy: 23500
+    costSell: 20125
     weight: 19
     bigSprite: 1224
     floorSprite: 1224
@@ -583,8 +587,9 @@ items:
   - type: STR_TACTICAL_LMG_AP
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
     size: 0.1
-    costBuy: 500
-    costSell: 400
+    requiresBuyCountry: STR_EU_SYNDICATE
+    costBuy: 5000
+    costSell: 4000
     weight: 5
     bigSprite: 1240
     floorSprite: 1240
@@ -603,8 +608,9 @@ items:
   - type: STR_TACTICAL_LMG_HE
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
     size: 0.1
-    costBuy: 700
-    costSell: 560
+    requiresBuyCountry: STR_EU_SYNDICATE
+    costBuy: 7000
+    costSell: 5600
     weight: 5
     bigSprite: 1256
     floorSprite: 1256
@@ -623,8 +629,9 @@ items:
   - type: STR_TACTICAL_LMG_INC
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
     size: 0.1
-    costBuy: 650
-    costSell: 520
+    requiresBuyCountry: STR_EU_SYNDICATE
+    costBuy: 6500
+    costSell: 5200
     weight: 5
     bigSprite: 1248
     floorSprite: 1248
@@ -644,6 +651,7 @@ items:
   - type: STR_AUTO_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_LMGS, STR_US_TECH]
     size: 0.3
+    requiresBuyCountry: STR_AUSTRALASIA
     costBuy: 50000
     costSell: 40000
     weight: 15
@@ -681,8 +689,9 @@ items:
 
   - type: STR_AUTO_LASER_BATTERY
     size: 0.2
-    costBuy: 800
-    costSell: 600
+    requiresBuyCountry: STR_AUSTRALASIA
+    costBuy: 8000
+    costSell: 6000
     weight: 3
     bigSprite: 1120
     floorSprite: 1120
@@ -710,8 +719,7 @@ items:
 
   - type: STR_UNDERWATER_RIFLE
     categories: [STR_UNDERWATER, STR_FIREARMS, STR_SOVIET_TECH, STR_RIFLES]
-    requires:
-      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+    requiresBuyCountry: STR_EURASIA_UC
     size: 0.2
     costBuy: 3200
     costSell: 2000
@@ -764,6 +772,7 @@ items:
   - type: STR_UNDERWATER_RIFLE_MAG
     categories: [STR_UNDERWATER, STR_FIREARMS, STR_USSR_TECH, STR_RIFLES]
     size: 0.1
+    requiresBuyCountry: STR_EURASIA_UC
     costBuy: 550
     costSell: 450
     weight: 2
