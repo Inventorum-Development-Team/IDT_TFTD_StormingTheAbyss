@@ -10,6 +10,7 @@ items:
   - type: STR_VARIABLE_RIFLE
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
     size: 0.2
+    requiresBuyCountry: STR_USA
     costBuy: 4650
     costSell: 3250
     weight: 8
@@ -39,6 +40,7 @@ items:
   - type: STR_VARIABLE_RIFLE_MAG
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
     size: 0.1
+    requiresBuyCountry: STR_USA
     costBuy: 450
     costSell: 250
     weight: 2
@@ -65,6 +67,7 @@ items:
   - type: STR_VARIABLE_RIFLE_HIGH_POWER_MAG
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
     size: 0.1
+    requiresBuyCountry: STR_USA
     costBuy: 450
     costSell: 250
     weight: 2
@@ -94,6 +97,7 @@ items:
   - type: STR_VARIABLE_RIFLE_CQB_MAG
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
     size: 0.1
+    requiresBuyCountry: STR_USA
     costBuy: 450
     costSell: 250
     weight: 2
@@ -121,6 +125,7 @@ items:
   - type: STR_SCAR 
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
     size: 0.2
+    requiresBuyCountry: STR_BRAZILIAN_UNION
     costBuy: 4650
     costSell: 3250
     weight: 8
@@ -148,6 +153,7 @@ items:
   - type: STR_SCAR_MAG 
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
     size: 0.1
+    requiresBuyCountry: STR_BRAZILIAN_UNION
     costBuy: 450
     costSell: 250
     weight: 2
@@ -169,6 +175,7 @@ items:
   - type: STR_PRINTER_RIFLE
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
     size: 0.2
+    requiresBuyCountry: STR_NEO_JAPAN
     costBuy: 4650
     costSell: 3250
     weight: 8
@@ -201,6 +208,8 @@ items:
 # Laser Sniper
   - type: STR_LASER_SNIPER
     size: 0.3
+    requiresBuyCountry: STR_ASIAN_COALITION
+    costBuy: 72000
     costSell: 61000
     weight: 18
     bigSprite: 1080
@@ -209,9 +218,9 @@ items:
     fireSound: [143, 144, 145]
     reloadSound: 125
     power: 85
-    damageType: 4
-    accuracySnap: 50
-    accuracyAimed: 84
+    damageType: 11
+    accuracySnap: 65
+    accuracyAimed: 95
     tuSnap: 33
     tuAimed: 75
     compatibleAmmo:
@@ -224,8 +233,9 @@ items:
 
   - type: STR_LASER_SNIPER_BATTERY
     size: 0.2
-    costBuy: 800
-    costSell: 600
+    requiresBuyCountry: STR_ASIAN_COALITION
+    costBuy: 8000
+    costSell: 6000
     weight: 3
     bigSprite: 1096
     floorSprite: 1096
@@ -291,7 +301,7 @@ items:
     requires:
       - STR_NEW_PLASMA_RIFLE
     size: 0.2
-    costSell: 126500
+    costSell: 226500
     weight: 5
     bigSprite: 1200
     floorSprite: 1200
@@ -337,6 +347,7 @@ items:
   - type: STR_COMBAT_PISTOL
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
     size: 0.1
+    requiresBuyCountry: STR_SCANDINAVIA
     costBuy: 1250
     costSell: 950
     weight: 5
@@ -360,6 +371,7 @@ items:
   - type: STR_COMBAT_PISTOL_MAG
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS, STR_AMMO]
     size: 0.1
+    requiresBuyCountry: STR_SCANDINAVIA
     costBuy: 285
     costSell: 120
     weight: 2
@@ -380,6 +392,7 @@ items:
   - type: STR_STREET_SWEEPER
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
     size: 0.1
+    requiresBuyCountry: STR_NEW_MEXICO
     costBuy: 1250
     costSell: 950
     weight: 5
@@ -414,6 +427,7 @@ items:
   - type: STR_STREET_SWEEPER_MAG
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
     size: 0.1
+    requiresBuyCountry: STR_NEW_MEXICO
     costBuy: 285
     costSell: 120
     weight: 2
@@ -436,8 +450,10 @@ items:
 # Black Mamba Auto Shotgun
   - type: STR_AUTO_SHOTGUN
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS]
+    requiresBuyCountry: STR_BRAZILIAN_UNION
     size: 0.3
-    costSell: 52000
+    costBuy: 12000
+    costSell: 11200
     weight: 6
     bigSprite: 1384
     floorSprite: 1384
@@ -477,6 +493,7 @@ items:
   - type: STR_AUTO_SHOTGUN_SHELLS
     categories: [STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
+    requiresBuyCountry: STR_VARIABLE_RIFLE_CQB_MAG
     costSell: 2500
     weight: 2
     bigSprite: 1400
