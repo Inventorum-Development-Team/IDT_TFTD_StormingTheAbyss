@@ -64,6 +64,9 @@ extraStrings:
       STR_AUTO_LASER_BATTERY: "Auto Laser Battery"
       STR_AUTO_LASER_BATTERY_UFOPEDIA: "Large, heavy-duty Deuterium stack batteries provide enough energy for the demanding power requirements of continuous beam emissions."
       
+      STR_LASER_SNIPER: "Laser Sniper Rifle"
+      STR_LASER_SNIPER_UFOPEDIA: "After the First Alien War, Vikram Arms Corp. bought the license to produce an enhanced version of the XCOM Laser Rifle. Automatic fire was removed and the beam emitter improved to create a fine marksman weapon for long range encounters. Widely used by the Asian Coalition."
+      
       STR_LASER_PISTOL_UFOPEDIA: "A widespread Direct Energy Weapon sidearm, used by law enforcement forces all around the world. Reliable and efficient, albeit somewhat inaccurate."
       STR_LASER_PISTOL_CLIP_UFOPEDIA: "Deuterium-fuelled energy cell, used in the popular Police Laser Pistols. It has an impressively large amount of discharges compared to other handguns."
       STR_LASER_RIFLE_UFOPEDIA: "Standardized energy beam infantry weapon of most of the remaining governments. Similar in performance to the prototype Laser Rifles developed by XCOM during the First War, it's very appreciated by its users for the reliable power consumption and firepower."
