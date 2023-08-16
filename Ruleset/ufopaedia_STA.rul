@@ -62,16 +62,33 @@ ufopaedia:
     image_id: LASER_SNIPER_BATTERY_UFOPEDIA
     listOrder: 3505  
 
-# [=] Weapon - Minigun [=]
-  - id: STR_TFTD_MINIGUN
+# [=] Weapon - Plasma Rifle Mk.1 [=]
+  - id: STR_OLD_PLASMA_RIFLE
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_MINIGUN_TEXT
-    image_id: UFOpaedia_Minigun
+    text: STR_OLD_PLASMA_RIFLE_UFOPEDIA
+    image_id: OLD_PLASMA_RIFLE_UFOPEDIA
     listOrder: 3504   
-  - id: STR_TFTD_MINIGUN_CLIP
+  - id: STR_OLD_PLASMA_RIFLE_CLIP
     type_id: 14
-    section: STR_NOT_AVAILABLE
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_OLD_PLASMA_RIFLE_CLIP_UFOPEDIA
+    image_id: OLD_PLASMA_RIFLE_CLIP_UFOPEDIA
+    listOrder: 3504   
+
+# [=] Weapon - Plasma Rifle Mk.2 [=]
+  - id: STR_NEW_PLASMA_RIFLE
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_NEW_PLASMA_RIFLE_UFOPEDIA
+    image_id: NEW_PLASMA_RIFLE_UFOPEDIA
+    listOrder: 3504   
+  - id: STR_NEW_PLASMA_RIFLE_CLIP
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_NEW_PLASMA_RIFLE_CLIP_UFOPEDIA
+    image_id: NEW_PLASMA_RIFLE_CLIP_UFOPEDIA
+    listOrder: 3504
 
 # [=] Weapon - Volley [=]
   - id: STR_TFTD_VOLLEY
