@@ -1,5 +1,21 @@
 ufopaedia:
 
+# [=] Exosuit Armor [=]
+  - id: STR_EXOSUIT_UC
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_EXOSUIT_UFOPEDIA
+    image_id: EXOSUITS_UFOPEDIA
+    listOrder: 1950
+
+# [=] Personal Armor [=]
+  - id: STR_PERSONAL_ARMOR_BROWN_UC
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PERSONAL_ARMOR_UFOPEDIA
+    image_id: PERSONAL_ARMOR_UFOPEDIA
+    listOrder: 1950
+
 # [=] Weapon - Variable Combat Rifle [=]
   - id: STR_VARIABLE_RIFLE
     type_id: 14
@@ -171,50 +187,54 @@ ufopaedia:
     text: STR_AUTO_LASER_UFOPEDIA
     image_id: AUTO_LASER_UFOPEDIA
     listOrder: 4910  
-  - id: STR_AUTO_LASER
+  - id: STR_AUTO_LASER_BATTERY
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_AUTO_LASER_UFOPEDIA
-    image_id: AUTO_LASER_UFOPEDIA
+    text: STR_AUTO_LASER_BATTERY_UFOPEDIA
+    image_id: AUTO_LASER_BATTERY_UFOPEDIA
     listOrder: 4910  
   
-# [=] Weapon - CSpear [=]
-  - id: STR_TFTD_CSPEAR
+# [=] Weapon - Underwater Rifle [=]
+  - id: STR_UNDERWATER_RIFLE_UFOPEDIA
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_CSPEAR_TEXT
-    image_id: UFOpaedia_CSpear
+    text: STR_UNDERWATER_RIFLE_UFOPEDIA
+    image_id: UNDERWATER_RIFLE_UFOPEDIA
+    listOrder: 4911    
+  - id: STR_UNDERWATER_RIFLE_MAG
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UNDERWATER_RIFLE_MAG_UFOPEDIA
+    image_id: UNDERWATER_RIFLE_MAG_UFOPEDIA
     listOrder: 4911    
 
-# [=] Displacer Armor [=]
-  - id: STR_DISPLACER_ARMOR_UC
-    type_id: 15
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_DISPLACER_ARMOR_TEXT
-    image_id: UFOpaedia_Displacer_Armor
-    listOrder: 1950
-    requires:
-      - STR_DISPLACER_ARMOR
-
-# [=] Weapon - Ion Cannon [=]
-  - id: STR_ION_CANNON
+# [=] Weapon - Underwater Auto-Pistol [=]
+  - id: STR_UNDERWATER_AUTOPISTOL
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ION_CANNON_TEXT
-    image_id: UFOpaedia_Ion_Cannon
+    text: STR_UNDERWATER_AUTOPISTOL_UFOPEDIA
+    image_id: UNDERWATER_AUTOPISTOL_UFOPEDIA
     listOrder: 4193 
-    requires:
-      - STR_ION_CANNON 
-
-# [=] Weapon - Ion Cannon Clip [=]
-  - id: STR_ION_CANNON_CLIP
+  - id: STR_UNDERWATER_AUTOPISTOL_MAG
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ION_CANNON_CLIP_TEXT
-    image_id: UFOpaedia_Ion_Cannon_Clip
+    text: STR_UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA
+    image_id: UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA
+    listOrder: 4193 
+
+# [=] Weapon - Underwater Revolver [=]
+  - id: STR_UNDERWATER_REVOLVER
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UNDERWATER_REVOLVER_UFOPEDIA
+    image_id: UNDERWATER_REVOLVER_UFOPEDIA
     listOrder: 4194
-    requires:
-      - STR_ION_CANNON_CLIP 
+  - id: STR_UNDERWATER_REVOLVER_MAG
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UNDERWATER_REVOLVER_MAG_UFOPEDIA
+    image_id: UNDERWATER_REVOLVER_MAG_UFOPEDIA
+    listOrder: 4194
 
 # [=] Weapon - Ion Pistol [=]
   - id: STR_ION_PISTOL
