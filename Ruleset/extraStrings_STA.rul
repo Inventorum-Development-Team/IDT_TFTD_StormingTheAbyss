@@ -40,9 +40,9 @@ extraStrings:
       STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA: "A solid, 10-Gauge slug modified with an internal microflask of a chemical compound derived from the Amazonian snake's poison. Once hit, the flask breaks and the poison is injected into the body, freezing the nervous system and paralyzing the unfortunate receiving end." 
       
       STR_LASER_SHOTGUN: "Laser Scattergun"
-      STR_LASER_SHOTGUN_UFOPEDIA: "The diffraction lenses inside the Norwik m/32 shotgun-type weapon splits the emitted beam in different directions instead of one focused line. The futuristic aesthetic is an important marketing point for the Scandinavian enterprise."
+      STR_LASER_SHOTGUN_UFOPEDIA: "The diffraction lenses inside the Nordvik m19/42 'Fryktløs' (Dauntless in Norwegian) splits the emitted beam in different directions instead of one focused line. The futuristic aesthetic is an important marketing point for the Scandinavian enterprise."
       STR_LASER_SHOTGUN_BATTERY: "Laser Scattergun Battery"
-      STR_LASER_SHOTGUN_BATTERY_UFOPEDIA: "There was some controversy between Norwik and Vikram Arms due the striking similarities between the batteries used by their prime laser weapons. While not interchangeable, the internal function and overall structure is close enough and the Asian corporation was sued for corporate spying." 
+      STR_LASER_SHOTGUN_BATTERY_UFOPEDIA: "There was some controversy between Nordvik and Vikram Arms due the striking similarities between the batteries used by their prime laser weapons. While not interchangeable, the internal function and overall structure is close enough and the Asian corporation was sued for corporate espionage." 
 
       STR_OLD_PLASMA_RIFLE: "Plasma Rifle Mk.1"
       STR_OLD_PLASMA_RIFLE_UFOPEDIA: "A relic from the past, most samples were mothballed once the Elerium Crisis deepened.  We're not exactly allowed to use them, although we won't stop neither. All our Plasmas were secretly stored in a vault, perhaps the only ones actively remaining in the whole world."
@@ -104,9 +104,9 @@ extraStrings:
       STR_UNDERWATER_LMG_MAG_UFOPEDIA: "TsNIITochMash was selected to design and delivered the required ammunition, the 5.65mm MPS steel dart. Ammunition is fed into the weapon from a looped loose metal belt with a capacity of 40 rounds, enclosed within a metal box. A spring cocked by the bolt forwards the belt during recoil."
 
       STR_UNDERWATER_AUTOPISTOL: "Underwater Auto-Pistol"
-      STR_UNDERWATER_AUTOPISTOL_UFOPEDIA: "Fully automatic compact P110 pistol, made to provide a reliable sidearm for African frogmen. Nicknamed 'pepper-box' for it's unusual design, it can quickly fire all barrels at once."
+      STR_UNDERWATER_AUTOPISTOL_UFOPEDIA: "Fully automatic compact P110 pistol, made to provide a reliable sidearm for Icelandic frogmen. Nicknamed 'pepper-box' for it's unusual design, it can quickly fire all barrels at once."
       STR_UNDERWATER_AUTOPISTOL_MAG: "Underwater Pistol Mag"
-      STR_UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA: "The P110 uses a 5-round cylinder magazine with 7.62x36mm darts of 10 centimetres. The original design required the entire gun to be sent to the manufacturer for reloading, although recent modifications have created a useful removable magazine."
+      STR_UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA: "The P110 uses a 5-round cylinder magazine with 7.62x36mm darts of 10 centimetres. The original European design required the entire gun to be sent to the manufacturer for reloading, although recent modifications by Icelandic engineers have created a useful removable magazine."
 
 
       STR_UNDERWATER_SNIPER: "Underwater Anti-tank Gun"
