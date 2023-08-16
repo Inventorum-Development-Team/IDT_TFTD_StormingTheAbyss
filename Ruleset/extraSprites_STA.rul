@@ -291,6 +291,19 @@ extraSprites:
 
 ##############
 
+  - type: PERSONAL_ARMOR_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/PERSONAL_ARMOR_UFOPEDIA.png
+  - type: EXOSUITS_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/EXOSUITS_UFOPEDIA.png
+
   - type: VARIABLE_RIFLE_UFOPEDIA
     width: 320
     height: 200
@@ -482,6 +495,12 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/UNDERWATER_REVOLVER_UFOPEDIA.png
+  - type: UNDERWATER_REVOLVER_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_REVOLVER_MAG_UFOPEDIA.png
 
   - type: UNDERWATER_RIFLE_UFOPEDIA
     width: 320
