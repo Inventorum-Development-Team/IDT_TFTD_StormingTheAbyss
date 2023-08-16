@@ -333,6 +333,20 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/SCAR_MAG_UFOPEDIA.png
+
+  - type: LASER_SNIPER_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_SNIPER_UFOPEDIA.png
+  - type: LASER_SNIPER_BATTERY_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_SNIPER_BATTERY_UFOPEDIA.png
+      
   - type: STREET_SWEEPER_UFOPEDIA
     width: 320
     height: 200
