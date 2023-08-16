@@ -1,0 +1,22 @@
+extended:
+  tags:
+    RuleItem:
+      MuzzleFlash: int
+  scripts:
+    selectItemSprite:
+      - offset: 1
+        code: |
+          var int muzzleflash;
+          var int aiming;
+          var ptr BattleUnit owner;
+
+          item.getTag muzzleflash Tag.MuzzleFlash;
+          if eq muzzleflash 1;
+            owner.isAiming aiming;
+            if eq aiming 1;
+              if or eq blit_part blit_item_lefthand eq blit_part blit_item_righthand;
+                add sprite_index 8;
+              end;
+            end;
+          end;
+          return sprite_index;
