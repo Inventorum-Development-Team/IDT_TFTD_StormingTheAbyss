@@ -245,13 +245,18 @@ extraSprites:
     files:
       620: Resources/Hits/HansBallistic_Hit.png
       630: Resources/Hits/HansFire_Hit.png
-      640: Resources/Hits/RedLaser_Hit.png
-      650: Resources/Hits/GreenPlasma_Hit.png
       660: Resources/Hits/Gauss_Hit.png
       670: Resources/Hits/Ballistic_Hit.png
       680: Resources/Hits/YellowLaser_Hit.png
-      
-      
+
+  - type: SMOKE.PCK
+    width: 160
+    height: 80
+    subX: 32
+    subY: 40
+    files: 
+      640: Resources/Hits/RedLaser_Hit.png
+      650: Resources/Hits/GreenPlasma_Hit.png
 
   # 35 x [index] = files name
   - type: Projectiles 
@@ -283,14 +288,6 @@ extraSprites:
       665: Resources/Projectiles/Gauss_Bullet.png # 19
       700: Resources/Projectiles/RedLaser_Bullet.png # 20
       735: Resources/Projectiles/NeptuneTorpedo_Bullet.png # 20
-
-  - type: X1.PCK
-    width: 1024
-    height: 128
-    subX: 128
-    subY: 64
-    files:
-      16: Resources/Hits/test2.png
 
 ##############
 
