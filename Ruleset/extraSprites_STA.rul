@@ -52,7 +52,10 @@ extraSprites:
       1384: Resources/SurfaceWeapons/BigAutoShotty.png
       1392: Resources/SurfaceWeapons/BigAutoShotty.png
       1400: Resources/SurfaceWeapons/BigAutoShottyShell.png
-      1408: Resources/SurfaceWeapons/BigAutoShottySlug.png   
+      1408: Resources/SurfaceWeapons/BigAutoShottySlug.png
+      1416: Resources/SurfaceWeapons/BigAutoShotgun.png
+      1424: Resources/SurfaceWeapons/BigAutoShotgun.png
+      1432: Resources/SurfaceWeapons/BigAutoShotgunBattery.png
       
   - type: FLOOROB.PCK
     files:
@@ -107,7 +110,11 @@ extraSprites:
       1384: Resources/SurfaceWeapons/FloorAutoShotty.png
       1392: Resources/SurfaceWeapons/FloorAutoShotty.png
       1400: Resources/SurfaceWeapons/FloorAutoShottyShell.png
-      1408: Resources/SurfaceWeapons/FloorAutoShottySlug.png   
+      1408: Resources/SurfaceWeapons/FloorAutoShottySlug.png
+      1416: Resources/SurfaceWeapons/FloorAutoShotgun.png
+      1424: Resources/SurfaceWeapons/FloorAutoShotgun.png
+      1432: Resources/SurfaceWeapons/FloorAutoShotgunBattery.png
+      
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -164,8 +171,11 @@ extraSprites:
       #1376: Resources/AquaticWeapons/HandUnderwaterAntitankRifleMag.png
       1384: Resources/SurfaceWeapons/HandAutoShotty.png
       1392: Resources/SurfaceWeapons/HandAutoShotty.png
-      #1400: Resources/AquaticWeapons/BigAutoShottyShell.png
-      #1408: Resources/AquaticWeapons/BigAutoShottySlug.png   
+      #1400: Resources/AquaticWeapons/HandAutoShottyShell.png
+      #1408: Resources/AquaticWeapons/HandAutoShottySlug.png   
+      1416: Resources/SurfaceWeapons/HandAutoShotgun.png
+      1424: Resources/SurfaceWeapons/HandAutoShotgun_fire.png
+      #1432: Resources/SurfaceWeapons/HandAutoShotgunBattery.png
 
 ###############
 
@@ -384,6 +394,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/COMBAT_HANDGUN_MAG_UFOPEDIA.png
+
   - type: AUTO_SHOTGUN_UFOPEDIA
     width: 320
     height: 200
@@ -408,6 +419,20 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/OLD_PLASMA_RIFLE_UFOPEDIA.png
+
+  - type: LASER_SHOTGUN_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_SHOTGUN_UFOPEDIA.png
+  - type: LASER_SHOTGUN_BATTERY_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_SHOTGUN_BATTERY_UFOPEDIA.png
+
   - type: OLD_PLASMA_RIFLE_CLIP_UFOPEDIA
     width: 320
     height: 200
@@ -535,7 +560,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/UNDERWATER_LMG_UFOPEDIA.png
-  - type: UNDERWATER_LMG_MAG__UFOPEDIA
+  - type: UNDERWATER_LMG_MAG_UFOPEDIA
     width: 320
     height: 200
     singleImage: true
