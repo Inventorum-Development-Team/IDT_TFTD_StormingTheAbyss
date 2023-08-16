@@ -90,35 +90,53 @@ ufopaedia:
     image_id: NEW_PLASMA_RIFLE_CLIP_UFOPEDIA
     listOrder: 3504
 
-# [=] Weapon - Volley [=]
-  - id: STR_TFTD_VOLLEY
+# [=] Weapon - Combat Handgun [=]
+  - id: STR_COMBAT_HANDGUN_UFOPEDIA
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_VOLLEY_TEXT
-    image_id: UFOpaedia_Volley
-    listOrder: 3901  
-    requires:
-      - STR_TFTD_VOLLEY
+    text: STR_COMBAT_HANDGUN_UFOPEDIA
+    image_id: COMBAT_HANDGUN_UFOPEDIA
+    listOrder: 3901
+  - id: STR_COMBAT_HANDGUN_MAG
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_COMBAT_HANDGUN_MAG_UFOPEDIA
+    image_id: COMBAT_HANDGUN_MAG_UFOPEDIA
+    listOrder: 3901
 
-# [=] Weapon - Volley Clip [=]
-  - id: STR_TFTD_VOLLEY_CLIP
+# [=] Weapon - Street Sweeper [=]
+  - id: STR_STREET_SWEEPER
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_VOLLEY_CLIP_TEXT
-    image_id: UFOpaedia_Volley_Clip
+    text: STR_STREET_SWEEPER_UFOPEDIA
+    image_id: STREET_SWEEPER_UFOPEDIA
     listOrder: 3902
-    requires:
-      - STR_TFTD_VOLLEY_CLIP
- 
-# [=] Weapon - Accel [=]
-  - id: STR_TFTD_ACCEL
+  - id: STR_STREET_SWEEPER_MAG
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_ACCEL_TEXT
-    image_id: UFOpaedia_Accel
+    text: STR_STREET_SWEEPER_MAG_UFOPEDIA
+    image_id: STREET_SWEEPER_DRUM_UFOPEDIA
+    listOrder: 3902 
+ 
+# [=] Weapon - Black Mamba Auto Shotun [=]
+  - id: STR_AUTO_SHOTGUN
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUTO_SHOTGUN_UFOPEDIA
+    image_id: AUTO_SHOTGUN_UFOPEDIA
     listOrder: 4101
-    requires:
-      - STR_TFTD_ACCEL  
+  - id: STR_AUTO_SHOTGUN_SHELLS
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUTO_SHOTGUN_SHELLS_UFOPEDIA
+    image_id: AUTO_SHOTGUN_SHELLS_UFOPEDIA
+    listOrder: 4101
+  - id: STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA
+    image_id: AUTO_SHOTGUN_SLUG_UFOPEDIA
+    listOrder: 4101
 
 # [=] Weapon - Accel Clip [=]
   - id: STR_TFTD_ACCEL_CLIP
