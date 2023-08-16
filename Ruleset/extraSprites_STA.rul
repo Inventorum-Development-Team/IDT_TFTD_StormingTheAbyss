@@ -34,8 +34,8 @@ extraSprites:
       1240: Resources/SurfaceWeapons/BigTacticalLMGAPBox.png
       1248: Resources/SurfaceWeapons/BigTacticalLMGIncBox.png
       1256: Resources/SurfaceWeapons/BigTacticalLMGHEBox.png
-      1264: Resources/AquaticWeapons/BigUnderwaterAssaultRifle.png
-      1272: Resources/AquaticWeapons/BigUnderwaterAssaultRifleMag.png
+      1264: Resources/AquaticWeapons/BigUnderwaterRifle.png
+      1272: Resources/AquaticWeapons/BigUnderwaterRifleMag.png
       1280: Resources/AquaticWeapons/BigUnderwaterPistol.png
       1288: Resources/AquaticWeapons/BigUnderwaterPistolMag.png
       1296: Resources/AquaticWeapons/BigUnderwaterRevolver.png
@@ -49,10 +49,10 @@ extraSprites:
       1360: Resources/AquaticWeapons/BigNeptuneTorpedo.png
       #1368: Resources/AquaticWeapons/BigUnderwaterAntitankRifle.png
       #1376: Resources/AquaticWeapons/BigUnderwaterAntitankRifleMag.png
-      1384: Resources/AquaticWeapons/BigAutoShotty.png
-      1392: Resources/AquaticWeapons/BigAutoShotty.png
-      1400: Resources/AquaticWeapons/BigAutoShottyShell.png
-      1408: Resources/AquaticWeapons/BigAutoShottySlug.png   
+      1384: Resources/SurfaceWeapons/BigAutoShotty.png
+      1392: Resources/SurfaceWeapons/BigAutoShotty.png
+      1400: Resources/SurfaceWeapons/BigAutoShottyShell.png
+      1408: Resources/SurfaceWeapons/BigAutoShottySlug.png   
       
   - type: FLOOROB.PCK
     files:
@@ -89,8 +89,8 @@ extraSprites:
       1240: Resources/SurfaceWeapons/FloorTacticalLMGAPBox.png
       1248: Resources/SurfaceWeapons/FloorTacticalLMGIncBox.png
       1256: Resources/SurfaceWeapons/FloorTacticalLMGHEBox.png
-      1264: Resources/AquaticWeapons/FloorUnderwaterAssaultRifle.png
-      1272: Resources/AquaticWeapons/FloorUnderwaterAssaultRifleMag.png
+      1264: Resources/AquaticWeapons/FloorUnderwaterRifle.png
+      1272: Resources/AquaticWeapons/FloorUnderwaterRifleMag.png
       1280: Resources/AquaticWeapons/FloorUnderwaterPistol.png
       1288: Resources/AquaticWeapons/FloorUnderwaterPistolMag.png
       1296: Resources/AquaticWeapons/FloorUnderwaterRevolver.png
@@ -104,10 +104,10 @@ extraSprites:
       1360: Resources/AquaticWeapons/FloorNeptuneTorpedo.png
       #1368: Resources/AquaticWeapons/FloorUnderwaterAntitankRifle.png
       #1376: Resources/AquaticWeapons/FloorUnderwaterAntitankRifleMag.png
-      1384: Resources/AquaticWeapons/FloorAutoShotty.png
-      1392: Resources/AquaticWeapons/FloorAutoShotty.png
-      1400: Resources/AquaticWeapons/FloorAutoShottyShell.png
-      1408: Resources/AquaticWeapons/FloorAutoShottySlug.png   
+      1384: Resources/SurfaceWeapons/FloorAutoShotty.png
+      1392: Resources/SurfaceWeapons/FloorAutoShotty.png
+      1400: Resources/SurfaceWeapons/FloorAutoShottyShell.png
+      1408: Resources/SurfaceWeapons/FloorAutoShottySlug.png   
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -147,8 +147,8 @@ extraSprites:
       #1240: Resources/SurfaceWeapons/HandTacticalLMGAPBox.png
       #1248: Resources/SurfaceWeapons/HandTacticalLMGIncBox.png
       #1256: Resources/SurfaceWeapons/HandTacticalLMGHEBox.png
-      1264: Resources/AquaticWeapons/HandUnderwaterAssaultRifle.png
-      #1272: Resources/AquaticWeapons/HandUnderwaterAssaultRifleMag.png
+      1264: Resources/AquaticWeapons/HandUnderwaterRifle.png
+      #1272: Resources/AquaticWeapons/HandUnderwaterRifleMag.png
       1280: Resources/AquaticWeapons/HandUnderwaterPistol.png
       #1288: Resources/AquaticWeapons/HandUnderwaterPistolMag.png
       1296: Resources/AquaticWeapons/HandUnderwaterRevolver.png
@@ -162,8 +162,8 @@ extraSprites:
       1360: Resources/AquaticWeapons/HandNeptuneTorpedo.png
       #1368: Resources/AquaticWeapons/HandUnderwaterAntitankRifle.png
       #1376: Resources/AquaticWeapons/HandUnderwaterAntitankRifleMag.png
-      1384: Resources/AquaticWeapons/HandAutoShotty.png
-      1392: Resources/AquaticWeapons/HandAutoShotty.png
+      1384: Resources/SurfaceWeapons/HandAutoShotty.png
+      1392: Resources/SurfaceWeapons/HandAutoShotty.png
       #1400: Resources/AquaticWeapons/BigAutoShottyShell.png
       #1408: Resources/AquaticWeapons/BigAutoShottySlug.png   
 
