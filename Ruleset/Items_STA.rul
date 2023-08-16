@@ -523,7 +523,7 @@ items:
     battleType: 2
     armor: 250
 
-  - type: STR_AUTO_SHOTGUN_SLUG
+  - type: STR_AUTO_SHOTGUN_SLUGS
     categories: [STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_BRAZILIAN_UNION
