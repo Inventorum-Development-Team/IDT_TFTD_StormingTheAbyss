@@ -138,22 +138,44 @@ ufopaedia:
     image_id: AUTO_SHOTGUN_SLUG_UFOPEDIA
     listOrder: 4101
 
-# [=] Weapon - Accel Clip [=]
-  - id: STR_TFTD_ACCEL_CLIP
+# [=] Weapon - Tactical LMG [=]
+  - id: STR_TACTICAL_LMG
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_ACCEL_CLIP_TEXT
-    image_id: UFOpaedia_Accel_Clip
+    text: STR_TACTICAL_LMG_UFOPEDIA
+    image_id: TACTICAL_LMG_UFOPEDIA
     listOrder: 4102 
-    requires:
-      - STR_TFTD_ACCEL_CLIP 
-
-# [=] Weapon - CKnife [=]
-  - id: STR_TFTD_CKNIFE
+  - id: STR_TACTICAL_LMG_AP
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_CKNIFE_TEXT
-    image_id: UFOpaedia_CKnife
+    text: STR_TACTICAL_LMG_AP_UFOPEDIA
+    image_id: TACTICAL_LMG_AP_UFOPEDIA
+    listOrder: 4102 
+  - id: STR_TACTICAL_LMG_INC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TACTICAL_LMG_INC_UFOPEDIA
+    image_id: TACTICAL_LMG_INC_UFOPEDIA
+    listOrder: 4102     
+  - id: STR_TACTICAL_LMG_HE_UFOPEDIA
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TACTICAL_LMG_HE_UFOPEDIA
+    image_id: TACTICAL_LMG_HE_UFOPEDIA
+    listOrder: 4102 
+
+# [=] Weapon - Auto Laser [=]
+  - id: STR_AUTO_LASER
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUTO_LASER_UFOPEDIA
+    image_id: AUTO_LASER_UFOPEDIA
+    listOrder: 4910  
+  - id: STR_AUTO_LASER
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUTO_LASER_UFOPEDIA
+    image_id: AUTO_LASER_UFOPEDIA
     listOrder: 4910  
   
 # [=] Weapon - CSpear [=]
