@@ -51,7 +51,6 @@ extraStrings:
 
       STR_NEW_PLASMA_RIFLE: "Plasma Rifle Mk.2"
       STR_NEW_PLASMA_RIFLE_UFOPEDIA: "By swapping from Elerium to Zrbite, we were able to create a more economic  variant. While less powerful than the First War weapons, the reduced production costs worth the downsides."
-      
       STR_NEW_PLASMA_RIFLE_CLIP: "Plasma Rifle Mk.2 Cell"
       STR_NEW_PLASMA_RIFLE_CLIP_UFOPEDIA: "The conversion from Elerium to Zrbite revived the use of Plasma weaponry, albeit with reduced raw damage and unwanted side effects in the health of the user, among them dizziness and disorientation. The uncontrolled radiation emitted by the modified Plasma Rifles inflicts a random number of Freezing damage on the operator."  
       
@@ -107,7 +106,6 @@ extraStrings:
       STR_UNDERWATER_AUTOPISTOL_UFOPEDIA: "Fully automatic compact P110 pistol, made to provide a reliable sidearm for Icelandic frogmen. Nicknamed 'pepper-box' for it's unusual design, it can quickly fire all barrels at once."
       STR_UNDERWATER_AUTOPISTOL_MAG: "Underwater Pistol Mag"
       STR_UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA: "The P110 uses a 5-round cylinder magazine with 7.62x36mm darts of 10 centimetres. The original European design required the entire gun to be sent to the manufacturer for reloading, although recent modifications by Icelandic Union military engineers have created a useful removable magazine."
-
 
       STR_UNDERWATER_SNIPER: "Underwater Anti-tank Gun"
       STR_UNDERWATER_SNIPER_UFOPEDIA: "The Type 38 'Qinglong' Special Purpose Anti-material Heavy Rifle made by the Free Chinese State Corp. The super cavitation 12.7mm rounds inflict severe damage on target. The main disadvantage is the limited handling and weight."

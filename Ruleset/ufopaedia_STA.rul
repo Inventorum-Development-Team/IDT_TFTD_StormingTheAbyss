@@ -134,7 +134,7 @@ ufopaedia:
     image_id: STREET_SWEEPER_DRUM_UFOPEDIA
     listOrder: 3902 
  
-# [=] Weapon - Black Mamba Auto Shotun [=]
+# [=] Weapon - Black Mamba Auto Shotgun [=]
   - id: STR_AUTO_SHOTGUN
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -152,6 +152,20 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA
     image_id: AUTO_SHOTGUN_SLUG_UFOPEDIA
+    listOrder: 4101
+
+# [=] Weapon - Dauntless Laser Shotgun [=]
+  - id: STR_SHOTGUN_LASER
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LASER_SHOTGUN_UFOPEDIA
+    image_id: LASER_SHOTGUN_UFOPEDIA
+    listOrder: 4101
+  - id: STR_LASER_SHOTGUN_BATTERY
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LASER_SHOTGUN_BATTERY_UFOPEDIA
+    image_id: LASER_SHOTGUN_BATTERY_UFOPEDIA
     listOrder: 4101
 
 # [=] Weapon - Tactical LMG [=]
@@ -236,130 +250,53 @@ ufopaedia:
     image_id: UNDERWATER_REVOLVER_MAG_UFOPEDIA
     listOrder: 4194
 
-# [=] Weapon - Ion Pistol [=]
-  - id: STR_ION_PISTOL
+# [=] Weapon - Underwater LMG [=]
+  - id: STR_UNDERWATER_LMG
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ION_PISTOL_TEXT
-    image_id: UFOpaedia_Ion_Pistol
-    listOrder: 4191
-    requires:
-      - STR_ION_PISTOL 
+    text: STR_UNDERWATER_LMG_UFOPEDIA
+    image_id: UNDERWATER_LMG_UFOPEDIA
+    listOrder: 4194
+  - id: STR_UNDERWATER_LMG_MAG
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UNDERWATER_LMG_MAG_UFOPEDIA
+    image_id: UNDERWATER_LMG_MAG_UFOPEDIA
+    listOrder: 4194
 
-# [=] Weapon - Ion Pistol Clip [=]
-  - id: STR_ION_PISTOL_CLIP
+# [=] Weapon - Neptune Torpedo [=]
+  - id: STR_NEPTUNE_TORPEDO
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ION_PISTOL_CLIP_TEXT
-    image_id: UFOpaedia_Ion_Pistol_Clip
+    text: STR_NEPTUNE_TORPEDO_UFOPEDIA
+    image_id: NEPTUNE_TORPEDO_UFOPEDIA
     listOrder: 4192
-    requires:
-      - STR_ION_PISTOL_CLIP 
 
-# [=] Weapon - Heavy Laser[=]
-  - id: STR_HEAVY_LASER
+# [=] Weapon - MATADOR Torpedo Launcher [=]
+  - id: STR_MATADOR_TORPEDO_LAUNCHER
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HEAVY_LASER_TEXT
-    image_id: UFOpaedia_Heavy_Laser
+    text: STR_MATADOR_TORPEDO_LAUNCHER_UFOPEDIA
+    image_id: MATADOR_TORPEDO_LAUNCHER_UFOPEDIA
     listOrder: 4106
-    requires:
-      - STR_HEAVY_LASER 
 
-# [=] Weapon - Laser Carbine [=]
-  - id: STR_LASER_CARBINE
+  - id: STR_MATADOR_AP_TORPEDO_UFOPEDIA
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LASER_CARBINE_TEXT
-    image_id: UFOpaedia_Laser_Carbine
+    text: STR_MATADOR_AP_TORPEDO_UFOPEDIA
+    image_id: MATADOR_AP_TORPEDO_UFOPEDIA
     listOrder: 4105
-    requires:
-      - STR_LASER_CARBINE 
 
-# [=] Weapon - Laser Pistol [=]
-  - id: STR_LASER_PISTOL
+  - id: STR_MATADOR_HE_TORPEDO_UFOPEDIA
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LASER_PISTOL_TEXT
-    image_id: UFOpaedia_Laser_Pistol
+    text: STR_MATADOR_HE_TORPEDO_UFOPEDIA
+    image_id: MATADOR_HE_TORPEDO_UFOPEDIA
     listOrder: 4104
-    requires:
-      - STR_LASER_PISTOL 
 
-# [=] Weapon - Zrbite Flare [=]
-  - id: STR_ZRBITE_FLARE
+  - id: STR_MATADOR_SWARM_TORPEDO_UFOPEDIA
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ZRBITE_FLARE_UFOPEDIA
-    image_id: UFOpaedia_Zrbite_Flare
+    text: STR_MATADOR_SWARM_TORPEDO_UFOPEDIA
+    image_id: MATADOR_SWARM_TORPEDO_UFOPEDIA
     listOrder: 5001
-
-# [=] Weapon - HSonic Cannon [=]
-  - id: STR_TFTD_HSONIC_CANNON
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_HSONIC_CANNON_UFOPAEDIA_TEXT
-    image_id: UFOpaedia_HSonic_Cannon
-    requires:
-      - STR_RSH_HSONIC_CANNON
-    listOrder: 4111
-
-# [=] Weapon - HSonic Cannon Clip[=]
-  - id: STR_TFTD_HSONIC_CANNON_CLIP
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_HSONIC_CCLIP_UFOPAEDIA_TEXT
-    image_id: UFOpaedia_HSonic_Cannon_Clip
-    requires:
-      - STR_RSH_HSONIC_CANNON
-    listOrder: 4112
-
-# [=] Weapon - HSonic Rifle[=]
-  - id: STR_TFTD_HSONIC_RIFLE
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_HSONIC_RIFLE_UFOPAEDIA_TEXT
-    image_id: UFOpaedia_HSonic_Rifle
-    requires:
-      - STR_RSH_HSONIC_RIFLE
-    listOrder: 4109
-
-# [=] Weapon - HSonic Rifle Clip[=]
-  - id: STR_TFTD_HSONIC_RIFLE_CLIP
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_HSONIC_RCLIP_UFOPAEDIA_TEXT
-    image_id: UFOpaedia_HSonic_Rifle_Clip
-    requires:
-      - STR_RSH_HSONIC_RIFLE
-    listOrder: 4110
-
-# [=] Weapon - HSonic Pistol  [=]
-  - id: STR_TFTD_HSONIC_PISTOL
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_HSONIC_PISTOL_UFOPAEDIA_TEXT
-    image_id: UFOpaedia_HSonic_Pistol
-    requires:
-      - STR_RSH_HSONIC_PISTOL
-    listOrder: 4107
-
-# [=] Weapon - HSonic Pistol Clip [=]
-  - id: STR_TFTD_HSONIC_PISTOL_CLIP
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_HSONIC_PCLIP_UFOPAEDIA_TEXT
-    image_id: UFOpaedia_HSonic_Pistol_Clip
-    requires:
-      - STR_RSH_HSONIC_PISTOL
-    listOrder: 4108
-
-# [=] Weapon - HSonic Grenade [=]
-  - id: STR_TFTD_HSONIC_GRENADE
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TFTD_HSONIC_GRENADE_UFOPAEDIA_TEXT
-    image_id: UFOpaedia_HSonic_Grenade
-    requires:
-      - STR_RSH_HSONIC_GRENADE
-    listOrder: 4195

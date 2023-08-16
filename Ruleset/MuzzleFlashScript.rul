@@ -1,3 +1,41 @@
+items:
+  - type: STR_VARIABLE_RIFLE #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+  - type: STR_PRINTER_RIFLE #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+  - type: STR_SCAR #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+  - type: STR_STREET_SWEEPER #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+  - type: STR_COMBAT_HANDGUN #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+  - type: STR_AUTO_SHOTGUN #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+  - type: STR_LASER_SHOTGUN #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+  - type: STR_OLD_PLASMA_RIFLE #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+  - type: STR_NEW_PLASMA_RIFLE #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+  - type: STR_TACTICAL_LMG #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+  - type: STR_AUTO_LASER #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+  - type: STR_LASER_SNIPER #ignoreDuplicate
+    tags:
+      MuzzleFlash: 1
+
 extended:
   tags:
     RuleItem:

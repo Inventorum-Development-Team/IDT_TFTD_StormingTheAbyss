@@ -493,7 +493,7 @@ items:
     armor: 250
 
   - type: STR_AUTO_SHOTGUN_SHELLS
-    categories: [STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_BRAZILIAN_UNION
     costBuy: 3000
@@ -524,7 +524,7 @@ items:
     armor: 250
 
   - type: STR_AUTO_SHOTGUN_SLUGS
-    categories: [STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_BRAZILIAN_UNION
     costBuy: 3500
@@ -550,6 +550,63 @@ items:
     battleType: 2
     landOnly: true
     armor: 250
+
+  - type: STR_LASER_SHOTGUN
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
+    requiresBuyCountry: STR_SCANDINAVIA
+    size: 0.3
+    costBuy: 38000
+    costSell: 32000
+    weight: 7
+    bigSprite: 1416
+    floorSprite: 1416
+    handSprite: 1416
+    fireSound: [132, 133, 134]
+    reloadSound: 
+    accuracySnap: 60
+    accuracyAimed: 75
+    compatibleAmmo:
+      - STR_LASER_SHOTGUN_BATTERY
+    costSnap:
+      time: 40
+    costAimed:
+      time: 60
+    maxRange: 60
+    snapRange: 12
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    landOnly: true
+    armor: 250
+
+  - type: STR_LASER_SHOTGUN_BATTERY
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    size: 0.2
+    requiresBuyCountry: STR_SCANDINAVIA
+    costBuy: 8000
+    costSell: 6000
+    weight: 3
+    bigSprite: 1432
+    floorSprite: 1432
+    bulletSprite: 20
+    hitAnimation: 640
+    hitSound: 306
+    explosionSpeed: 50
+    bulletSpeed: 30
+    power: 40
+    damageType: 11
+    damageAlter:
+      RandomType: 6
+    clipSize: 20
+    battleType: 2
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 50
+    landOnly: true
+    invWidth: 1
+    invHeight: 1
+    armor: 70
 
 # Machine Guns #
 
@@ -991,7 +1048,7 @@ items:
     bigSprite: 1360
     floorSprite: 1360
     handSprite: 1360
-    bulletSprite: 21
+    bulletSprite: 22
     fireSound: 143
     power: 140
     accuracySnap: 55

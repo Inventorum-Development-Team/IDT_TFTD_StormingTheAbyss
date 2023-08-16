@@ -489,30 +489,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/AUTO_LASER_BATTERY_UFOPEDIA.png
-  - type: MATADOR_TORPEDO_LAUNCHER_UFOPEDIA
-    width: 320
-    height: 200
-    singleImage: true
-    files:
-      0: Resources/UFOPAEDIA/MATADOR_TORPEDO_LAUNCHER_UFOPEDIA.png
-  - type: MATADOR_AP_TORPEDO_UFOPEDIA
-    width: 320
-    height: 200
-    singleImage: true
-    files:
-      0: Resources/UFOPAEDIA/MATADOR_AP_TORPEDO_UFOPEDIA.png
-  - type: MATADOR_HE_TORPEDO_UFOPEDIA
-    width: 320
-    height: 200
-    singleImage: true
-    files:
-      0: Resources/UFOPAEDIA/MATADOR_HE_TORPEDO_UFOPEDIA.png
-  - type: MATADOR_SWARM_TORPEDO_UFOPEDIA
-    width: 320
-    height: 200
-    singleImage: true
-    files:
-      0: Resources/UFOPAEDIA/MATADOR_SWARM_TORPEDO_UFOPEDIA.png
 
   - type: UNDERWATER_REVOLVER_UFOPEDIA
     width: 320
@@ -573,3 +549,28 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/NEPTUNE_TORPEDO_UFOPEDIA.png
+
+  - type: MATADOR_TORPEDO_LAUNCHER_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MATADOR_TORPEDO_LAUNCHER_UFOPEDIA.png
+  - type: MATADOR_AP_TORPEDO_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MATADOR_AP_TORPEDO_UFOPEDIA.png
+  - type: MATADOR_HE_TORPEDO_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MATADOR_HE_TORPEDO_UFOPEDIA.png
+  - type: MATADOR_SWARM_TORPEDO_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MATADOR_SWARM_TORPEDO_UFOPEDIA.png
