@@ -106,7 +106,7 @@ extraStrings:
       STR_UNDERWATER_AUTOPISTOL: "Underwater Auto-Pistol"
       STR_UNDERWATER_AUTOPISTOL_UFOPEDIA: "Fully automatic compact P110 pistol, made to provide a reliable sidearm for Icelandic frogmen. Nicknamed 'pepper-box' for it's unusual design, it can quickly fire all barrels at once."
       STR_UNDERWATER_AUTOPISTOL_MAG: "Underwater Pistol Mag"
-      STR_UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA: "The P110 uses a 5-round cylinder magazine with 7.62x36mm darts of 10 centimetres. The original European design required the entire gun to be sent to the manufacturer for reloading, although recent modifications by Icelandic engineers have created a useful removable magazine."
+      STR_UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA: "The P110 uses a 5-round cylinder magazine with 7.62x36mm darts of 10 centimetres. The original European design required the entire gun to be sent to the manufacturer for reloading, although recent modifications by Icelandic Union military engineers have created a useful removable magazine."
 
 
       STR_UNDERWATER_SNIPER: "Underwater Anti-tank Gun"
