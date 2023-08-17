@@ -2,8 +2,11 @@ extraStrings:
   - type: en-US
     strings:
 
+      STR_EXTERNAL_EQUIPMENT_ACQUISITION: "External Equipment Acquisition"
+      STR_EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA: "The various governments and corporations member of the Council of Funding States provide standardized equipment. Still, if XCOM consider it necessary, we could peek around in the global arms trade. Military markets all over the world could sell us their assets, after opening a regional commercial channel. Take in consideration, though: regions with larger industrial outputs (this is, more weapons available at once) may take longer to contact, due the higher demand. If the providing  country leaves the XCOM initiative, it will stop selling us their items until their return."
+      
       STR_SURFACE_WEAPONS: "Surface-only Weaponry"
-      STR_SURFACE_WEAPONS_UFOPEDIA: "The land is our preferred environment, of course. We have fought, bleed, bleed, died and won above the ground for centuries. It is only natural our surface weapons have better quality, although obviously these won't work below the waves. Over the course of the next 40 years after the First Alien War, the ballistics have become better, specially since the widespread of Alien Alloys. Direct Energy Weapons as lasers have become common as well."
+      STR_SURFACE_WEAPONS_UFOPEDIA: "The land is our preferred environment, of course. We have fought, bleed, bleed, died and won above the ground for centuries. It is only natural our surface weapons have better quality, although obviously these won't work below the waves. Over the course of the next 40 years after the First Alien War, the ballistics have become better, specially since the widespread of Alien Alloys. Direct Energy Weapons as lasers have become common as well, although considerably more expensive than regular kinetic  weapons."
 
       STR_VARIABLE_RIFLE: "Variable Combat Rifle"
       STR_VARIABLE_RIFLE_UFOPEDIA: "Standard issue M7A2 rifle of the US Armed Forces, since 2027. Capable of firing three distinct types of 6.8mm rounds, for a wide range of situations."
@@ -33,7 +36,7 @@ extraStrings:
       STR_COMBAT_HANDGUN_MAG_UFOPEDIA: "Forward-loaded .45 BDR 10-rounds magazine, used exclusively by Bofors weaponry. Labeled as 'the perfect round for a sidearm', it has considerably stopping power and decent armor penetration values."
 
       STR_AUTO_SHOTGUN: "Automatic Shotgun"
-      STR_AUTO_SHOTGUN_UFOPEDIA: "The EA-40 'Black Mamba' is the newest automatic assault weapon developed in the Brazilian Block for the law enforcement forces. The intimidating look of the weapon helps to dissuade any cartel member foolish enough to cause trouble."
+      STR_AUTO_SHOTGUN_UFOPEDIA: "The EA-40 'Black Mamba' is the newest automatic assault weapon developed in Brazil for the law enforcement forces. The intimidating look of the weapon helps to dissuade any cartel member foolish enough to cause trouble."
       STR_AUTO_SHOTGUN_SHELLS: "Auto-Shotgun Shells"
       STR_AUTO_SHOTGUN_SHELLS_UFOPEDIA: "Powerful 10-Gauge buckshot shells with dozens of Alien Alloys pellets. Meant when the negotiations were short and you need to use the force to show the enemy who rules." 
       STR_AUTO_SHOTGUN_SLUGS: "Auto-Shotgun Less-Lethal Slugs"
