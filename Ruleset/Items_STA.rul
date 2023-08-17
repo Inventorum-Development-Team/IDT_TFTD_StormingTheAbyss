@@ -731,6 +731,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_EU_SYNDICATE
+    requiresBuy:
+      - STR_EUROPEAN_MARKET
     costBuy: 6500
     costSell: 5200
     weight: 5
@@ -753,6 +755,8 @@ items:
     categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS]
     size: 0.3
     requiresBuyCountry: STR_AUSTRALASIA
+    requiresBuy:
+      - STR_PACIFIC_MARKET
     costBuy: 50000
     costSell: 40000
     weight: 15
@@ -787,11 +791,12 @@ items:
     invWidth: 2
     invHeight: 3
 
-
   - type: STR_AUTO_LASER_BATTERY
     categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
     size: 0.2
     requiresBuyCountry: STR_AUSTRALASIA
+    requiresBuy:
+      - STR_PACIFIC_MARKET
     costBuy: 8000
     costSell: 6000
     weight: 3
@@ -822,6 +827,8 @@ items:
   - type: STR_UNDERWATER_RIFLE
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_RIFLES]
     requiresBuyCountry: STR_EURASIA_UC
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
     size: 0.2
     costBuy: 3200
     costSell: 2000
@@ -875,6 +882,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_RIFLES, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_EURASIA_UC
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
     costBuy: 550
     costSell: 450
     weight: 2
@@ -899,6 +908,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS]
     size: 0.1
     requiresBuyCountry: STR_ICELANDIC_UNION
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
     costBuy: 700
     costSell: 580
     weight: 4
@@ -935,6 +946,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_ICELANDIC_UNION
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
     costBuy: 450
     costSell: 250
     weight: 2
@@ -959,6 +972,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS]
     size: 0.1
     requiresBuyCountry: STR_USA
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
     costBuy: 2500
     costSell: 900
     weight: 3
@@ -988,6 +1003,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_USA
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
     costBuy: 600
     costSell: 750
     weight: 2
@@ -1011,6 +1028,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_MACHINE_GUNS]
     size: 0.3
     requiresBuyCountry: STR_EURASIA_UC
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
     costBuy: 9000
     costSell: 8000
     weight: 12
@@ -1055,11 +1074,12 @@ items:
     vaporColor: 5
     vaporDensity: 10
 
-
   - type: STR_UNDERWATER_LMG_MAG
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_MACHINE_GUNS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_EURASIA_UC
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
     costBuy: 1450
     costSell: 1250
     weight: 5
@@ -1085,6 +1105,8 @@ items:
     categories: [STR_EXPLOSIVE, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS]
     size: 0.4
     costBuy: 12500
+    requiresBuy:
+      - STR_PACIFIC_MARKET
     costSell: 13050
     weight: 6
     bigSprite: 1360
