@@ -207,7 +207,7 @@ items:
 
 # Laser Sniper
   - type: STR_LASER_SNIPER
-    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SNIPER_RIFLES]
     size: 0.3
     requiresBuyCountry: STR_ASIAN_COALITION
     costBuy: 72000
@@ -233,7 +233,7 @@ items:
     invHeight: 3
 
   - type: STR_LASER_SNIPER_BATTERY
-    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SNIPER_RIFLES, STR_AMMO]
     size: 0.2
     requiresBuyCountry: STR_ASIAN_COALITION
     costBuy: 8000
