@@ -53,9 +53,9 @@ extraSprites:
       1392: Resources/SurfaceWeapons/BigAutoShotty.png
       1400: Resources/SurfaceWeapons/BigAutoShottyShell.png
       1408: Resources/SurfaceWeapons/BigAutoShottySlug.png
-      1416: Resources/SurfaceWeapons/BigAutoShotgun.png
-      1424: Resources/SurfaceWeapons/BigAutoShotgun.png
-      1432: Resources/SurfaceWeapons/BigAutoShotgunBattery.png
+      1416: Resources/SurfaceWeapons/BigLaserShotgun.png
+      1424: Resources/SurfaceWeapons/BigLaserShotgun.png
+      1432: Resources/SurfaceWeapons/BigLaserShotgunBattery.png
       
   - type: FLOOROB.PCK
     files:
@@ -111,9 +111,9 @@ extraSprites:
       1392: Resources/SurfaceWeapons/FloorAutoShotty.png
       1400: Resources/SurfaceWeapons/FloorAutoShottyShell.png
       1408: Resources/SurfaceWeapons/FloorAutoShottySlug.png
-      1416: Resources/SurfaceWeapons/FloorAutoShotgun.png
-      1424: Resources/SurfaceWeapons/FloorAutoShotgun.png
-      1432: Resources/SurfaceWeapons/FloorAutoShotgunBattery.png
+      1416: Resources/SurfaceWeapons/FloorLaserShotgun.png
+      1424: Resources/SurfaceWeapons/FloorLaserShotgun.png
+      1432: Resources/SurfaceWeapons/FloorLasetShotgunBattery.png
       
   - type: HANDOB.PCK
     width: 256
@@ -173,9 +173,9 @@ extraSprites:
       1392: Resources/SurfaceWeapons/HandAutoShotty.png
       #1400: Resources/AquaticWeapons/HandAutoShottyShell.png
       #1408: Resources/AquaticWeapons/HandAutoShottySlug.png   
-      1416: Resources/SurfaceWeapons/HandAutoShotgun.png
-      1424: Resources/SurfaceWeapons/HandAutoShotgun_fire.png
-      #1432: Resources/SurfaceWeapons/HandAutoShotgunBattery.png
+      1416: Resources/SurfaceWeapons/HandLaserShotgun.png
+      1424: Resources/SurfaceWeapons/HandLaserShotgun_fire.png
+      #1432: Resources/SurfaceWeapons/HandLaserShotgunBattery.png
 
 ###############
 
