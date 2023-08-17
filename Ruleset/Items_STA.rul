@@ -10,6 +10,8 @@ items:
   - type: STR_VARIABLE_RIFLE
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
     size: 0.2
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
     requiresBuyCountry: STR_USA
     costBuy: 4650
     costSell: 3250
@@ -41,6 +43,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_USA
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
     costBuy: 450
     costSell: 250
     weight: 2
@@ -68,6 +72,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_USA
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
     costBuy: 450
     costSell: 250
     weight: 2
@@ -98,6 +104,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_USA
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
     costBuy: 450
     costSell: 250
     weight: 2
@@ -126,6 +134,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
     size: 0.2
     requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
     costBuy: 4650
     costSell: 3250
     weight: 8
@@ -154,6 +164,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
     costBuy: 450
     costSell: 250
     weight: 2
@@ -176,6 +188,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
     size: 0.2
     requiresBuyCountry: STR_NEO_JAPAN
+    requiresBuy:
+      - STR_ASIAN_MARKET
     costBuy: 4650
     costSell: 3250
     weight: 8
@@ -210,6 +224,8 @@ items:
     categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SNIPER_RIFLES]
     size: 0.3
     requiresBuyCountry: STR_ASIAN_COALITION
+    requiresBuy:
+      - STR_ASIAN_MARKET
     costBuy: 72000
     costSell: 61000
     weight: 18
@@ -236,6 +252,8 @@ items:
     categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SNIPER_RIFLES, STR_AMMO]
     size: 0.2
     requiresBuyCountry: STR_ASIAN_COALITION
+    requiresBuy:
+      - STR_ASIAN_MARKET
     costBuy: 8000
     costSell: 6000
     weight: 3
