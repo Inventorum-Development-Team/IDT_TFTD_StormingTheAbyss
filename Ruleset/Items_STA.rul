@@ -368,6 +368,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
     size: 0.1
     requiresBuyCountry: STR_SCANDINAVIA
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
     costBuy: 1250
     costSell: 950
     weight: 5
@@ -392,6 +394,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_SCANDINAVIA
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
     costBuy: 285
     costSell: 120
     weight: 2
@@ -413,6 +417,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
     size: 0.1
     requiresBuyCountry: STR_NEW_MEXICO
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
     costBuy: 1250
     costSell: 950
     weight: 5
@@ -448,6 +454,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
     size: 0.1
     requiresBuyCountry: STR_NEW_MEXICO
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
     costBuy: 285
     costSell: 120
     weight: 2
@@ -471,6 +479,8 @@ items:
   - type: STR_AUTO_SHOTGUN
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS]
     requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
     size: 0.3
     costBuy: 12000
     costSell: 11200
@@ -514,6 +524,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
     costBuy: 3000
     costSell: 2500
     weight: 2
@@ -545,6 +557,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
     costBuy: 3500
     costSell: 3000
     weight: 2
@@ -572,6 +586,8 @@ items:
   - type: STR_LASER_SHOTGUN
     categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
     requiresBuyCountry: STR_SCANDINAVIA
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
     size: 0.3
     costBuy: 38000
     costSell: 32000
@@ -602,6 +618,8 @@ items:
     categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
     size: 0.2
     requiresBuyCountry: STR_SCANDINAVIA
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
     costBuy: 8000
     costSell: 6000
     weight: 3
@@ -633,6 +651,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS]
     size: 0.3
     requiresBuyCountry: STR_EU_SYNDICATE
+    requiresBuy:
+      - STR_EUROPEAN_MARKET
     costBuy: 23500
     costSell: 20125
     weight: 19
@@ -665,6 +685,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_EU_SYNDICATE
+    requiresBuy:
+      - STR_EUROPEAN_MARKET
     costBuy: 5000
     costSell: 4000
     weight: 5
@@ -686,6 +708,8 @@ items:
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
     size: 0.1
     requiresBuyCountry: STR_EU_SYNDICATE
+    requiresBuy:
+      - STR_EUROPEAN_MARKET
     costBuy: 7000
     costSell: 5600
     weight: 5
