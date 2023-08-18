@@ -1173,7 +1173,7 @@ items:
     dropoff: 3
 
   - type: STR_MATADOR_AP_TORPEDO
-    categories: [STR_FIREARMS, STR_ARTILLERY, STR_US_TECH, STR_CLIPS]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_AMMO]
     size: 0.2
     costBuy: 8600
     costSell: 9200
@@ -1199,7 +1199,7 @@ items:
     vaporDensity: 10
 
   - type: STR_MATADOR_HE_TORPEDO
-    categories: [STR_FIREARMS, STR_ARTILLERY, STR_US_TECH, STR_CLIPS]
+    categories: [STR_EXPLOSIVE, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_AMMO]
     size: 0.2
     costBuy: 7200
     costSell: 8000
@@ -1227,7 +1227,7 @@ items:
     vaporDensity: 10
 
   - type: STR_MATADOR_SWARM_TORPEDO
-    categories: [STR_FIREARMS, STR_ARTILLERY, STR_UNDERWATER, STR_US_TECH, STR_CLIPS]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_SHOTGUNS, STR_AMMO]
     size: 0.1
     costBuy: 9000
     costSell: 11500
