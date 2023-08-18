@@ -260,7 +260,6 @@ items:
     bigSprite: 1096
     floorSprite: 1096
     bulletSprite: 20
-    fireSound: 201
     hitSound: 306
     hitAnimation: 640
     power: 60
