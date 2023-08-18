@@ -61,6 +61,8 @@ ufopaedia:
     listOrder: 3502
   - id: STR_SCAR_MAG
     type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SCAR_MAG_UFOPEDIA
     image_id: SCAR_MAG_UFOPEDIA
@@ -69,6 +71,8 @@ ufopaedia:
 # [=] Weapon - Printer Rifle [=]
   - id: STR_PRINTER_RIFLE
     type_id: 14
+    requires:
+      - STR_ASIAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PRINTER_RIFLE_UFOPEDIA
     image_id: PRINTER_RIFLE_UFOPEDIA
@@ -77,12 +81,16 @@ ufopaedia:
 # [=] Weapon - Laser Sniper [=]
   - id: STR_LASER_SNIPER
     type_id: 14
+    requires:
+      - STR_ASIAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_SNIPER_UFOPEDIA
     image_id: LASER_SNIPER_UFOPEDIA
     listOrder: 3505  
   - id: STR_LASER_SNIPER_BATTERY
     type_id: 14
+    requires:
+      - STR_ASIAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_SNIPER_BATTERY_UFOPEDIA
     image_id: LASER_SNIPER_BATTERY_UFOPEDIA
@@ -105,12 +113,16 @@ ufopaedia:
 # [=] Weapon - Plasma Rifle Mk.2 [=]
   - id: STR_NEW_PLASMA_RIFLE
     type_id: 14
+    requires:
+      - STR_NEW_PLASMA_RIFLE
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_NEW_PLASMA_RIFLE_UFOPEDIA
     image_id: NEW_PLASMA_RIFLE_UFOPEDIA
     listOrder: 3504   
   - id: STR_NEW_PLASMA_RIFLE_CLIP
     type_id: 14
+    requires:
+      - STR_NEW_PLASMA_RIFLE
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_NEW_PLASMA_RIFLE_CLIP_UFOPEDIA
     image_id: NEW_PLASMA_RIFLE_CLIP_UFOPEDIA
@@ -119,12 +131,16 @@ ufopaedia:
 # [=] Weapon - Combat Handgun [=]
   - id: STR_COMBAT_HANDGUN_UFOPEDIA
     type_id: 14
+    requires:
+      - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_COMBAT_HANDGUN_UFOPEDIA
     image_id: COMBAT_HANDGUN_UFOPEDIA
     listOrder: 3901
   - id: STR_COMBAT_HANDGUN_MAG
     type_id: 14
+    requires:
+      - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_COMBAT_HANDGUN_MAG_UFOPEDIA
     image_id: COMBAT_HANDGUN_MAG_UFOPEDIA
@@ -133,6 +149,8 @@ ufopaedia:
 # [=] Weapon - Street Sweeper [=]
   - id: STR_STREET_SWEEPER
     type_id: 14
+    requires:
+      - STR_NORTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_STREET_SWEEPER_UFOPEDIA
     image_id: STREET_SWEEPER_UFOPEDIA
@@ -165,7 +183,7 @@ ufopaedia:
     listOrder: 4101
 
 # [=] Weapon - Dauntless Laser Shotgun [=]
-  - id: STR_SHOTGUN_LASER
+  - id: STR_LASER_SHOTGUN
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_SHOTGUN_UFOPEDIA
