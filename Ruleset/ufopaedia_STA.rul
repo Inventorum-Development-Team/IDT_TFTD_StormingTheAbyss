@@ -157,6 +157,8 @@ ufopaedia:
     listOrder: 3902
   - id: STR_STREET_SWEEPER_MAG
     type_id: 14
+    requires:
+      - STR_NORTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_STREET_SWEEPER_MAG_UFOPEDIA
     image_id: STREET_SWEEPER_DRUM_UFOPEDIA
@@ -165,18 +167,24 @@ ufopaedia:
 # [=] Weapon - Black Mamba Auto Shotgun [=]
   - id: STR_AUTO_SHOTGUN
     type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTO_SHOTGUN_UFOPEDIA
     image_id: AUTO_SHOTGUN_UFOPEDIA
     listOrder: 4101
   - id: STR_AUTO_SHOTGUN_SHELLS
     type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTO_SHOTGUN_SHELLS_UFOPEDIA
     image_id: AUTO_SHOTGUN_SHELLS_UFOPEDIA
     listOrder: 4101
   - id: STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA
     type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA
     image_id: AUTO_SHOTGUN_SLUG_UFOPEDIA
@@ -185,12 +193,16 @@ ufopaedia:
 # [=] Weapon - Dauntless Laser Shotgun [=]
   - id: STR_LASER_SHOTGUN
     type_id: 14
+    requires:
+      - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_SHOTGUN_UFOPEDIA
     image_id: LASER_SHOTGUN_UFOPEDIA
     listOrder: 4101
   - id: STR_LASER_SHOTGUN_BATTERY
     type_id: 14
+    requires:
+      - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_SHOTGUN_BATTERY_UFOPEDIA
     image_id: LASER_SHOTGUN_BATTERY_UFOPEDIA
@@ -199,12 +211,15 @@ ufopaedia:
 # [=] Weapon - Tactical LMG [=]
   - id: STR_TACTICAL_LMG
     type_id: 14
+    requires:
+      - STR_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TACTICAL_LMG_UFOPEDIA
     image_id: TACTICAL_LMG_UFOPEDIA
     listOrder: 4102 
   - id: STR_TACTICAL_LMG_AP
     type_id: 14
+    
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TACTICAL_LMG_AP_UFOPEDIA
     image_id: TACTICAL_LMG_AP_UFOPEDIA
