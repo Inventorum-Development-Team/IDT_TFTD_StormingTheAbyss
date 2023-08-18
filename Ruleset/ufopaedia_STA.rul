@@ -219,19 +219,24 @@ ufopaedia:
     listOrder: 4102 
   - id: STR_TACTICAL_LMG_AP
     type_id: 14
-    
+    requires:
+      - STR_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TACTICAL_LMG_AP_UFOPEDIA
     image_id: TACTICAL_LMG_AP_UFOPEDIA
     listOrder: 4102 
   - id: STR_TACTICAL_LMG_INC
     type_id: 14
+    requires:
+      - STR_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TACTICAL_LMG_INC_UFOPEDIA
     image_id: TACTICAL_LMG_INC_UFOPEDIA
     listOrder: 4102     
   - id: STR_TACTICAL_LMG_HE_UFOPEDIA
     type_id: 14
+    requires:
+      - STR_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TACTICAL_LMG_HE_UFOPEDIA
     image_id: TACTICAL_LMG_HE_UFOPEDIA
@@ -240,12 +245,16 @@ ufopaedia:
 # [=] Weapon - Auto Laser [=]
   - id: STR_AUTO_LASER
     type_id: 14
+    requires:
+      - STR_PACIFIC_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTO_LASER_UFOPEDIA
     image_id: AUTO_LASER_UFOPEDIA
     listOrder: 4910  
   - id: STR_AUTO_LASER_BATTERY
     type_id: 14
+    requires:
+      - STR_PACIFIC_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTO_LASER_BATTERY_UFOPEDIA
     image_id: AUTO_LASER_BATTERY_UFOPEDIA
@@ -254,12 +263,16 @@ ufopaedia:
 # [=] Weapon - Underwater Rifle [=]
   - id: STR_UNDERWATER_RIFLE_UFOPEDIA
     type_id: 14
+    requires:
+      - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_RIFLE_UFOPEDIA
     image_id: UNDERWATER_RIFLE_UFOPEDIA
     listOrder: 4911    
   - id: STR_UNDERWATER_RIFLE_MAG
     type_id: 14
+    requires:
+      - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_RIFLE_MAG_UFOPEDIA
     image_id: UNDERWATER_RIFLE_MAG_UFOPEDIA
@@ -268,12 +281,16 @@ ufopaedia:
 # [=] Weapon - Underwater Auto-Pistol [=]
   - id: STR_UNDERWATER_AUTOPISTOL
     type_id: 14
+    requires:
+      - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_AUTOPISTOL_UFOPEDIA
     image_id: UNDERWATER_AUTOPISTOL_UFOPEDIA
     listOrder: 4193 
   - id: STR_UNDERWATER_AUTOPISTOL_MAG
     type_id: 14
+    requires:
+      - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA
     image_id: UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA
@@ -282,12 +299,16 @@ ufopaedia:
 # [=] Weapon - Underwater Revolver [=]
   - id: STR_UNDERWATER_REVOLVER
     type_id: 14
+    requires:
+      - STR_NORTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_REVOLVER_UFOPEDIA
     image_id: UNDERWATER_REVOLVER_UFOPEDIA
     listOrder: 4194
   - id: STR_UNDERWATER_REVOLVER_MAG
     type_id: 14
+    requires:
+      - STR_NORTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_REVOLVER_MAG_UFOPEDIA
     image_id: UNDERWATER_REVOLVER_MAG_UFOPEDIA
@@ -296,12 +317,16 @@ ufopaedia:
 # [=] Weapon - Underwater LMG [=]
   - id: STR_UNDERWATER_LMG
     type_id: 14
+    requires:
+      - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_LMG_UFOPEDIA
     image_id: UNDERWATER_LMG_UFOPEDIA
     listOrder: 4194
   - id: STR_UNDERWATER_LMG_MAG
     type_id: 14
+    requires:
+      - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_LMG_MAG_UFOPEDIA
     image_id: UNDERWATER_LMG_MAG_UFOPEDIA
@@ -310,6 +335,8 @@ ufopaedia:
 # [=] Weapon - Neptune Torpedo [=]
   - id: STR_NEPTUNE_TORPEDO
     type_id: 14
+    requires:
+      - STR_PACIFIC_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_NEPTUNE_TORPEDO_UFOPEDIA
     image_id: NEPTUNE_TORPEDO_UFOPEDIA
