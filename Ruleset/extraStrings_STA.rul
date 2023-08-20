@@ -131,19 +131,19 @@ extraStrings:
       STR_MATADOR_SWARM_TORPEDO: "MATADOR - Swarm Warhead"
       STR_MATADOR_SWARM_TORPEDO_UFOPEDIA: The unusual design of the T4-25 torpedo essentially turns the MATADOR into a heavy shotgun. Dozens of small flechettes are dispersed as soon as the projectile leaves the launcher. The resulting 'swarm' of razor-sharp metal is lethal for all kind of enemies. Due the lack of hydrodynamic characteristics, the flechettes travel very few meters at full speed, eventually slowing down and losing power." 
 
-      STR_MILITARY_HARPOON: "Military Speargun"
-      STR_MILITARY_HARPOON_UFOPEDIA: "This prototype speargun was the result of the upgrading of a civilian speargun -like those used on submarine hunting- to military standards. Fires one harpoon bolt at once."
+      STR_MILITARY_HARPOON: "Military Harpoon Gun"
+      STR_MILITARY_HARPOON_UFOPEDIA: "This prototype harpoon thrower was the result of the upgrading of a civilian speargun -like those used on submarine hunting- to military standards. Fires one harpoon bolt at once."
       STR_HARPOON_AP: "Harpoon AP"
       STR_HARPOON_AP_UFOPEDIA: "Classic harpoon bolt, the solid steel alloy tip of this projectile allows to increased penetration on soft and hard targets alike."
       STR_HARPOON_HE: "Harpoon HE" 
-      STR_HARPOON_HE_UFOPEDIA: "This harpoon bolt has a small explosive charge that explodes once the steel tip" 
+      STR_HARPOON_HE_UFOPEDIA: "This harpoon bolt has a small explosive charge that explodes once the steel tip penetrates the target." 
       STR_HARPOON_ACID: "Harpoon Acid"
       STR_HARPOON_ACID_UFOPEDIA: "This harpoon has a hollow point conected to a small flask, filled by corrosive chemical subsance of secret composition. Once it penetrates the enemy armor, it releases its poisonous content directly into the flesh, affecting both the organic tissue and nervious systems (stuning and tiring the target). Very dangerous."
       STR_HARPOON_INC: "Harpoon Phosphor"
       STR_HARPOON_INC_UFOPEDIA: "Modified harpoon bolt, the tip is made with a mix of Alien Alloys and a White Phosphorus charge that causes high explosive damage once it detonates. Could be considerated a greatly upgraded version of the HE Harpoon."
 
       STR_HEAVY_HARPOON: "M11 Combat Speargun"
-      STR_HEAVY_HARPOON_UFOPEDIA: "This harpoon gun was designed entirely by USN engineers. Incorporates an improved ejection system that drives the same harpoons as the basic speargun, allowing them to be propelled at greater speed and distance, with considerably improved accuracy."
+      STR_HEAVY_HARPOON_UFOPEDIA: "This heavy harpoon gun was designed entirely by USN engineers. Incorporates an improved ejection system that drives the same harpoons as the basic speargun, allowing them to be propelled at greater speed and distance, with considerably improved accuracy."
 
       STR_BURST: "Burst"
       STR_BURST_SHORT: "Burst (x{0})"
@@ -156,14 +156,16 @@ extraStrings:
 # Armors
 
       STR_EXOSUIT_UC: "EXOSUIT"
-      STR_EXOSUIT_UFOPEDIA: "The Elerium Shortages meant most Power Suits and Flying Suits armors couldn't be regularly used. The need of protection for assault troops pushed the development of the Exo-skeleton Armored Suit, or 'Exosuit' for short. An augmented external frame with Alloys plates protects the user and vastly improves the physical resistance and abilities, albeit without the full armor rating of the First War armored units. Capable of surface and underwater operations."
+      STR_EXOSUIT_UFOPEDIA: "Powerful augmented exo-skeleton, reinforced with Alien Alloys. Increases the resistance and speed of the user, with improved damage protection. Capable of surface and underwater operations"
+      STR_EXOSUIT_INTEL: "Exosuit Intel"
+      STR_EXOSUIT_INTEL_UFOPEDIA: "The Elerium Shortages meant most Power Suits and Flying Suits armors couldn't be regularly used. The need of protection for assault troops pushed the development of the Exo-skeleton Armored Suit, or 'Exosuit' for short. An augmented external frame with Alloys plates protects the user and vastly improves the physical resistance and abilities, albeit without the full armor rating of the First War armored units."
       STR_EXOSUIT_ARMOR_CORPSE: "Corpse"
       STR_WRECKED_EXOSUIT_ARMOR: "Wrecked Exosuit"
       STR_EXOSUIT_ARMOR: "Exosuit"
 
       STR_PERSONAL_ARMOR_BROWN_UC: "Personal Armor (Desert)"
       STR_DUMMY_PERSONAL_ARMOR: "PERSONAL ARMOR"
-      STR_PERSONAL_ARMOR_UFOPEDIA: "The legendary exuberant Personal Armors used by XCOM in the Alien Conflict saw relatively few use in regular Human vs Human combat, as it was difficult to conceal. The massive industrial use of Alien Alloys, starting since the 2010s allowed the widespread employment of more conventional-looking personal protection. FAST-type helmets are the norm in armed forces all over the world. Our operatives will be automatically equipped with a standard body armor in Land missions. "
+      STR_PERSONAL_ARMOR_UFOPEDIA: "Since the 2010s, conventional-looking Personal Armors replaced the old ones. FAST-type helmets are the norm in armed forces all over the world. Our operatives will be automatically equipped with a standard body armor in Land missions. "
       STR_PERSONAL_ARMOR_BROWN_CORPSE: "Corpse"
       STR_PERSONAL_ARMOR_GREEN_UC: "Personal Armor (Forest)"
       STR_PERSONAL_ARMOR_GREEN_CORPSE: "Corpse"

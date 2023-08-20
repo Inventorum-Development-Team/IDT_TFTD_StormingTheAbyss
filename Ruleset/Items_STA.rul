@@ -203,9 +203,9 @@ items:
     explosionSpeed: 50
     bulletSpeed: 30
     fireSound: 102
-    accuracyAuto: 35
-    accuracySnap: 55
-    accuracyAimed: 80
+    accuracyAuto: 65
+    accuracySnap: 85
+    accuracyAimed: 100
     tuAuto: 35
     tuSnap: 25
     tuAimed: 40
@@ -879,7 +879,7 @@ items:
     size: 0.2
     costBuy: 2600
     costSell: 1000
-    weight: 11
+    weight: 8
     bigSprite: 1448
     floorSprite: 1448
     handSprite: 1448
@@ -924,9 +924,9 @@ items:
     bulletSpeed: 20
     ammo:
       0: 
-        compatibleAmmo: [ STR_HARPOON_AP, STR_HARPOON_HE, STR_HARPOON_ELERIUM, STR_HARPOON_ACID ]
+        compatibleAmmo: [ STR_HARPOON_AP, STR_HARPOON_HE, STR_HARPOON_INC, STR_HARPOON_ACID ]
     accuracyCloseQuarters: 40
-    accuracySnap: 60
+    accuracySnap: 80
     accuracyAimed: 135
     tuSnap: 40
     tuAimed: 60

@@ -404,7 +404,7 @@ ufopaedia:
     image_id: MATADOR_TORPEDO_LAUNCHER_UFOPEDIA
     listOrder: 3151
 
-  - id: STR_MATADOR_AP_TORPEDO_UFOPEDIA
+  - id: STR_MATADOR_AP_TORPEDO
     type_id: 14
     requires:
       - STR_SOUTH_AMERICAN_MARKET
@@ -413,7 +413,7 @@ ufopaedia:
     image_id: MATADOR_AP_TORPEDO_UFOPEDIA
     listOrder: 3152
 
-  - id: STR_MATADOR_HE_TORPEDO_UFOPEDIA
+  - id: STR_MATADOR_HE_TORPEDO
     type_id: 14
     requires:
       - STR_SOUTH_AMERICAN_MARKET
@@ -422,7 +422,7 @@ ufopaedia:
     image_id: MATADOR_HE_TORPEDO_UFOPEDIA
     listOrder: 3153
 
-  - id: STR_MATADOR_SWARM_TORPEDO_UFOPEDIA
+  - id: STR_MATADOR_SWARM_TORPEDO
     type_id: 14
     requires:
       - STR_SOUTH_AMERICAN_MARKET

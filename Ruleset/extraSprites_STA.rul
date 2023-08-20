@@ -622,7 +622,7 @@ extraSprites:
     height: 200
     singleImage: true
     files:
-      0: Resources/UFOPAEDIA/MILITARY_HARPOON_UFOPEDIA.png
+      0: Resources/UFOPAEDIA/HEAVY_HARPOON_UFOPEDIA.png
 
   - type: HARPOON_ACID_UFOPEDIA
     width: 320
@@ -636,12 +636,12 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/HARPOON_AP_UFOPEDIA.png
-  - type: HARPOON_HE_UFOPEDIA
+  - type: HARPOON_INC_UFOPEDIA
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/UFOPAEDIA/HARPOON_HE_UFOPEDIA.png
+      0: Resources/UFOPAEDIA/HARPOON_INC_UFOPEDIA.png
   - type: HARPOON_HE_UFOPEDIA
     width: 320
     height: 200
