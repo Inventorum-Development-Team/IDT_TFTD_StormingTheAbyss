@@ -16,6 +16,22 @@ ufopaedia:
     image_id: PERSONAL_ARMOR_UFOPEDIA
     listOrder: 1660
 
+# [=] Arms Trade Pedia [=]
+  - id: STR_EXTERNAL_EQUIPMENT_ACQUISITION
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA
+    image_id: EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA
+    listOrder: 3518
+
+# [=] Surface Weapons Pedia [=]
+  - id: STR_SURFACE_WEAPONS
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SURFACE_WEAPONS_UFOPEDIA
+    image_id: SURFACE_WEAPONS_UFOPEDIA
+    listOrder: 3519
+
 # [=] Weapon - Variable Combat Rifle [=]
   - id: STR_VARIABLE_RIFLE
     type_id: 14
@@ -268,6 +284,13 @@ ufopaedia:
     image_id: AUTO_LASER_BATTERY_UFOPEDIA
     listOrder: 3564  
 
+# [=] Underwater Weapons Pedia [=]
+  - id: STR_UNDERWATER_WEAPONS
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UNDERWATER_WEAPONS_UFOPEDIA
+    image_id: UNDERWATER_WEAPONS_UFOPEDIA
+    listOrder: 1999
 
 # [=] Weapon - Military Harpoon [=]
   - id: STR_MILITARY_HARPOON

@@ -426,6 +426,45 @@ extraSprites:
     files:
       0: Resources/UFOPAEDIA/EXOSUITS_UFOPEDIA.png
 
+  - type: DESPERATE_MEASURES_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/DESPERATE_MEASURES_UFOPEDIA.png
+  - type: NEW_WORLD_ORDER_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/NEW_WORLD_ORDER_UFOPEDIA.png
+  - type: RISING_TIDES_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/RISING_TIDES_UFOPEDIA.png
+  - type: EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA.png
+  - type: UNDERWATER_WEAPONS_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_WEAPONS_UFOPEDIA.png
+  - type: SURFACE_WEAPONS_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SURFACE_WEAPONS_UFOPEDIA.png
+
+
+
   - type: VARIABLE_RIFLE_UFOPEDIA
     width: 320
     height: 200
@@ -481,7 +520,34 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/LASER_SNIPER_BATTERY_UFOPEDIA.png
-      
+
+
+  - type: LASER_RIFLE_CLIP_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_RIFLE_CLIP_UFOPEDIA.png
+  - type: LASER_RIFLE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_RIFLE_UFOPEDIA.png
+
+  - type: LASER_PISTOL_CLIP_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_PISTOL_CLIP_UFOPEDIA.png
+  - type: LASER_PISTOL_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_PISTOL_UFOPEDIA.png
+
   - type: STREET_SWEEPER_UFOPEDIA
     width: 320
     height: 200
