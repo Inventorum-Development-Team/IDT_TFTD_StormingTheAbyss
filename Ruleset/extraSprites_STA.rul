@@ -55,7 +55,8 @@ extraSprites:
       1408: Resources/SurfaceWeapons/BigAutoShottySlug.png
       1416: Resources/SurfaceWeapons/BigLaserShotgun.png
       1424: Resources/SurfaceWeapons/BigLaserShotgun.png
-      1432: Resources/SurfaceWeapons/BigLaserShotgunBattery.png
+      1432: Resources/SurfaceWeapons/BigLaserShotgunFocusedBattery.png
+      1440: Resources/SurfaceWeapons/BigLaserShotgunDispersionBattery.png
       
   - type: FLOOROB.PCK
     files:
@@ -113,7 +114,8 @@ extraSprites:
       1408: Resources/SurfaceWeapons/FloorAutoShottySlug.png
       1416: Resources/SurfaceWeapons/FloorLaserShotgun.png
       1424: Resources/SurfaceWeapons/FloorLaserShotgun.png
-      1432: Resources/SurfaceWeapons/FloorLasetShotgunBattery.png
+      1432: Resources/SurfaceWeapons/FloorLaserShotgunFocusedBattery.png
+      1440: Resources/SurfaceWeapons/FloorLaserShotgunDispersionBattery.png
       
   - type: HANDOB.PCK
     width: 256
@@ -226,6 +228,74 @@ extraSprites:
     files:
       0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_M3.png
 
+# Personal Armor - Green Variant
+  - type: PAG_PAPERDOLLF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_F0.png
+  - type: PAG_PAPERDOLLF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_F1.png
+  - type: PAG_PAPERDOLLF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_F2.png
+  - type: PAG_PAPERDOLLF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_F3.png
+  - type: PAG_PAPERDOLLM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_M0.png
+  - type: PAG_PAPERDOLLM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_M1.png
+  - type: PAG_PAPERDOLLM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_M2.png
+  - type: PAG_PAPERDOLLM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_M3.png
+
+# Personal Armor - Gray Variant
+  - type: PAGR_PAPERDOLLF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_F0.png
+  - type: PAGR_PAPERDOLLF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_F1.png
+  - type: PAGR_PAPERDOLLF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_F2.png
+  - type: PAGR_PAPERDOLLF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_F3.png
+  - type: PAGR_PAPERDOLLM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_M0.png
+  - type: PAGR_PAPERDOLLM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_M1.png
+  - type: PAGR_PAPERDOLLM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_M2.png
+  - type: PAGR_PAPERDOLLM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_M3.png
+
   - type: PERSONAL_ARMOR_BROWN_SPRITESHEET
     width: 512
     height: 720
@@ -234,16 +304,36 @@ extraSprites:
     files:
       0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_SPRITESHEET.png
 
+  - type: PERSONAL_ARMOR_GREEN_SPRITESHEET
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armor/PersonalArmor/Green/PERSONAL_ARMOR_SPRITESHEET.png
+
+  - type: PERSONAL_ARMOR_GRAY_SPRITESHEET
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_SPRITESHEET.png
+
 #
   - type: FLOOROB.PCK
     files:
       300: Resources/Armor/Exosuit/EXO_CORPSE_FLOOROB.png
       301: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_CORPSE_FLOOROB.png
+      302: Resources/Armor/PersonalArmor/Green/PERSONAL_ARMOR_CORPSE_FLOOROB.png
+      303: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_CORPSE_FLOOROB.png
 
   - type: BIGOB.PCK
     files:
       300: Resources/Armor/Exosuit/EXO_CORPSE_BIGOB.png
       301: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_CORPSE_BIGOB.png
+      302: Resources/Armor/PersonalArmor/Green/PERSONAL_ARMOR_CORPSE_BIGOB.png
+      303: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_CORPSE_BIGOB.png
 
 #############
       
@@ -258,6 +348,8 @@ extraSprites:
       660: Resources/Hits/Gauss_Hit.png
       670: Resources/Hits/Ballistic_Hit.png
       680: Resources/Hits/YellowLaser_Hit.png
+      690: Resources/Hits/AlloyBallistic_Hit.png
+      700: Resources/Hits/FragBallistic_Hit.png
 
   - type: SMOKE.PCK
     width: 160
@@ -332,12 +424,12 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/VARIABLE_RIFLE_HIPOW_MAG_UFOPEDIA.png
-  - type: VARIABLE_RIFLE_SHREDDER_MAG_UFOPEDIA
+  - type: VARIABLE_RIFLE_CQB_MAG_UFOPEDIA
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/UFOPAEDIA/VARIABLE_RIFLE_SHREDDER_MAG_UFOPEDIA.png
+      0: Resources/UFOPAEDIA/VARIABLE_RIFLE_CQB_MAG_UFOPEDIA.png
   - type: PRINTER_RIFLE_UFOPEDIA
     width: 320
     height: 200
@@ -426,12 +518,18 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/LASER_SHOTGUN_UFOPEDIA.png
-  - type: LASER_SHOTGUN_BATTERY_UFOPEDIA
+  - type: LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/UFOPAEDIA/LASER_SHOTGUN_BATTERY_UFOPEDIA.png
+      0: Resources/UFOPAEDIA/LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA.png
+  - type: LASER_SHOTGUN_DISPERSION_BATTERY_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_SHOTGUN_DISPERSION_BATTERY_UFOPEDIA.png
 
   - type: OLD_PLASMA_RIFLE_CLIP_UFOPEDIA
     width: 320

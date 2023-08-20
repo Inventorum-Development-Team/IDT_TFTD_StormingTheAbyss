@@ -5,54 +5,48 @@ research:
     dependencies:
       - STR_ZRBITE
 
- - name: STR_EXTERNAL_EQUIPMENT_ACQUISITION
-   cost: 500
-   points: 50
+  - name: STR_EXTERNAL_EQUIPMENT_ACQUISITION
+    cost: 500
+    points: 50
 
- - name: STR_NORTH_AMERICAN_MARKET
-   cost: 600
-   points: 50
-   dependencies:
-     - STR_EXTERNAL_EQUIPMENT_ACQUISITION
+  - name: STR_NORTH_AMERICAN_MARKET
+    cost: 600
+    points: 50
+    dependencies:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
 
- - name: STR_NORTH_AMERICAN_MARKET
-   cost: 600
-   points: 50
-   dependencies:
-     - STR_EXTERNAL_EQUIPMENT_ACQUISITION
+  - name: STR_SOUTH_AMERICAN_MARKET
+    cost: 400
+    points: 50
+    dependencies:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
 
- - name: STR_SOUTH_AMERICAN_MARKET
-   cost: 400
-   points: 50
-   dependencies:
-     - STR_EXTERNAL_EQUIPMENT_ACQUISITION
+  - name: STR_EUROPEAN_MARKET
+    cost: 700
+    points: 50
+    dependencies:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
 
- - name: STR_EUROPEAN_MARKET
-   cost: 700
-   points: 50
-   dependencies:
-     - STR_EXTERNAL_EQUIPMENT_ACQUISITION
+  - name: STR_NORTH_EUROPEAN_MARKET
+    cost: 800
+    points: 50
+    dependencies:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
 
- - name: STR_NORTH_EUROPEAN_MARKET
-   cost: 800
-   points: 50
-   dependencies:
-     - STR_EXTERNAL_EQUIPMENT_ACQUISITION
-
- - name: STR_AFRICAN_MARKET
-   cost: 300
-   points: 50
-   dependencies:
-     - STR_EXTERNAL_EQUIPMENT_ACQUISITION   
+  - name: STR_AFRICAN_MARKET
+    cost: 300
+    points: 50
+    dependencies:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION   
      
- - name: STR_ASIAN_MARKET
-   cost: 400
-   points: 50
-   dependencies:
-     - STR_EXTERNAL_EQUIPMENT_ACQUISITION  
+  - name: STR_ASIAN_MARKET
+    cost: 400
+    points: 50
+    dependencies:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION  
      
- - name: STR_PACIFIC_MARKET
-   cost: 300
-   points: 50
-   dependencies:
-     - STR_EXTERNAL_EQUIPMENT_ACQUISITION    
+  - name: STR_PACIFIC_MARKET
+    cost: 300
+    points: 50
+    dependencies:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION    

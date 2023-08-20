@@ -47,7 +47,7 @@ ufopaedia:
       - STR_NORTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_VARIABLE_RIFLE_CQB_MAG_UFOPEDIA
-    image_id: VARIABLE_RIFLE_SHREDDER_MAG_UFOPEDIA
+    image_id: VARIABLE_RIFLE_CQB_MAG_UFOPEDIA
     listOrder: 3503    
 
 # [=] Weapon - Hybrid Battle Rifle [=]
@@ -233,7 +233,7 @@ ufopaedia:
     text: STR_TACTICAL_LMG_INC_UFOPEDIA
     image_id: TACTICAL_LMG_INC_UFOPEDIA
     listOrder: 4102     
-  - id: STR_TACTICAL_LMG_HE_UFOPEDIA
+  - id: STR_TACTICAL_LMG_HE
     type_id: 14
     requires:
       - STR_EUROPEAN_MARKET
@@ -261,7 +261,7 @@ ufopaedia:
     listOrder: 4910  
   
 # [=] Weapon - Underwater Rifle [=]
-  - id: STR_UNDERWATER_RIFLE_UFOPEDIA
+  - id: STR_UNDERWATER_RIFLE
     type_id: 14
     requires:
       - STR_NORTH_EUROPEAN_MARKET
@@ -305,12 +305,12 @@ ufopaedia:
     text: STR_UNDERWATER_REVOLVER_UFOPEDIA
     image_id: UNDERWATER_REVOLVER_UFOPEDIA
     listOrder: 4194
-  - id: STR_UNDERWATER_REVOLVER_MAG
+  - id: STR_UNDERWATER_REVOLVER_CLIP
     type_id: 14
     requires:
       - STR_NORTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_UNDERWATER_REVOLVER_MAG_UFOPEDIA
+    text: STR_UNDERWATER_REVOLVER_CLIP_UFOPEDIA
     image_id: UNDERWATER_REVOLVER_MAG_UFOPEDIA
     listOrder: 4194
 

@@ -4,6 +4,13 @@ extraStrings:
 
       STR_EXTERNAL_EQUIPMENT_ACQUISITION: "External Equipment Acquisition"
       STR_EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA: "The various governments and corporations member of the Council of Funding States provide standardized equipment. Still, if XCOM consider it necessary, we could peek around in the global arms trade. Military markets all over the world could sell us their assets, after opening a regional commercial channel. Take in consideration, though: regions with larger industrial outputs (this is, more weapons available at once) may take longer to contact, due the higher demand. If the providing  country leaves the XCOM initiative, it will stop selling us their items until their return."
+      STR_NORTH_AMERICAN_MARKET: "North American Trade"
+      STR_SOUTH_AMERICAN_MARKET: "South American Exchange"
+      STR_EUROPEAN_MARKET: "European Military Market"
+      STR_NORTH_EUROPEAN_MARKET: "North European Arms Market"
+      STR_AFRICAN_MARKET: "African Defense Industry"
+      STR_ASIAN_MARKET: "Asian Economic Agreement"
+      STR_PACIFIC_MARKET: "Pacific Oceanic Market"
       
       STR_SURFACE_WEAPONS: "Surface-only Weaponry"
       STR_SURFACE_WEAPONS_UFOPEDIA: "The land is our preferred environment, of course. We have fought, bleed, bleed, died and won above the ground for centuries. It is only natural our surface weapons have better quality, although obviously these won't work below the waves. Over the course of the next 40 years after the First Alien War, the ballistics have become better, specially since the widespread of Alien Alloys. Direct Energy Weapons as lasers have become common as well, although considerably more expensive than regular kinetic  weapons."
@@ -43,9 +50,11 @@ extraStrings:
       STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA: "A solid, 10-Gauge slug modified with an internal microflask of a chemical compound derived from the Amazonian snake's poison. Once hit, the flask breaks and the poison is injected into the body, freezing the nervous system and paralyzing the unfortunate receiving end." 
       
       STR_LASER_SHOTGUN: "Laser Scattergun"
-      STR_LASER_SHOTGUN_UFOPEDIA: "The diffraction lenses inside the Nordvik m19/42 'Fryktløs' (Dauntless in Norwegian) splits the emitted beam in different directions instead of one focused line. The futuristic aesthetic is an important marketing point for the Scandinavian enterprise."
-      STR_LASER_SHOTGUN_BATTERY: "Laser Scattergun Battery"
-      STR_LASER_SHOTGUN_BATTERY_UFOPEDIA: "There was some controversy between Nordvik and Vikram Arms due the striking similarities between the batteries used by their prime laser weapons. While not interchangeable, the internal function and overall structure is close enough and the Asian corporation was sued for corporate espionage." 
+      STR_LASER_SHOTGUN_UFOPEDIA: "The diffraction lenses inside the Nordvik m19/42 'Fryktløs' (Dauntless in Norwegian) splits the emitted beam in different directions instead of one straight line. The futuristic aesthetic is an important marketing point for the Scandinavian enterprise."
+      STR_LASER_SHOTGUN_FOCUSED_BATTERY: "Las. Scattergun Battery -FOCUSED- "
+      STR_LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA: "Standard variant of the Dauntless Laser Scattergun power source. The internal configuration allows for a tightly focused beam discharge, with 20% of spead. There was some controversy between Nordvik and Vikram Arms due the striking similarities between the batteries used by their prime laser weapons." 
+      STR_LASER_SHOTGUN_DISPERSION_BATTERY: "Las. Scattergun Battery -DISPERSION- "
+      STR_LASER_SHOTGUN_DISPERSION_BATTERY_UFOPEDIA: "By loading this battery on the Scattergun, the laser beams are emitted with an wide 75% arc spread, useful for engaging large groups of enemies in the open. While not interchangeable, the internal function and overall structure of the Laser Snipers and Scatterguns are close enough and the Asian corporation was sued for corporate espionage."
 
       STR_OLD_PLASMA_RIFLE: "Plasma Rifle Mk.1"
       STR_OLD_PLASMA_RIFLE_UFOPEDIA: "A relic from the past, most samples were mothballed once the Elerium Crisis deepened.  We're not exactly allowed to use them, although we won't stop neither. All our Plasmas were secretly stored in a vault, perhaps the only ones actively remaining in the whole world."
@@ -90,7 +99,7 @@ extraStrings:
       STR_UNDERWATER_REVOLVER: "Underwater Revolver"
       STR_UNDERWATER_REVOLVER_UFOPEDIA: "Hard hitting sidearm Mark 1, developed by Morgan & Marston Firearms Ltd in USA. Its removable cylinder magazine fits into the side of a gun, being inserted and removed through a door on the left side of the gun. The frame, cylinder, door assembly, and action are made of aluminum, the trigger is made of self-lubricating nylon, and all other parts are made of stainless steel. Slow and hard-hitting, it packs a punch at close range."
       STR_UNDERWATER_REVOLVER_CLIP: "Underwater Revolver Canister"
-      STR_UNDERWATER_REVOLVER_CLIP_CLIP_UFOPEDIA: "The ammo used by the Mk 1 is a stainless steel cylinder containing a single 4.25 inch heavy tungsten darts, long and thin, and it has four fins machined into its rear section, with each fin having a small angle cut into it that causes water to flow over it and give the projectile a stabilizing spin. The shape of the dart helps it to penetrate the water while retaining a high velocity."
+      STR_UNDERWATER_REVOLVER_CLIP_UFOPEDIA: "The ammo used by the Mk 1 is a stainless steel cylinder containing a single 4.25 inch heavy tungsten darts, long and thin, and it has four fins machined into its rear section, with each fin having a small angle cut into it that causes water to flow over it and give the projectile a stabilizing spin. The shape of the dart helps it to penetrate the water while retaining a high velocity."
 
       STR_UNDERWATER_RIFLE: "Underwater Rifle"
       STR_UNDERWATER_RIFLE_UFOPEDIA: "APS-29, produced by Kalashnikov Group for the Eurasian submariner forces. Derived from a mid-Cold War design, fires tungsten darts at mid-range. Its introduction to the open market made it the most successful underwater automatic weapon, used all around the world."
@@ -112,6 +121,15 @@ extraStrings:
 
       STR_UNDERWATER_SNIPER: "Underwater Anti-tank Gun"
       STR_UNDERWATER_SNIPER_UFOPEDIA: "The Type 38 'Qinglong' Special Purpose Anti-material Heavy Rifle made by the Free Chinese State Corp. The super cavitation 12.7mm rounds inflict severe damage on target. The main disadvantage is the limited handling and weight."
+        
+      STR_MATADOR_TORPEDO_LAUNCHER: "MATADOR Torpedo-launcher"
+      STR_MATADOR_TORPEDO_LAUNCHER_UFOPEDIA: "MAn-portable Torpedo-launcher, Assault/Demolition ORdnance. Advanced and versatile heavy support underwater system. Originally designed as a conventional anti-tank launcher, it was reconverted to submarine use to counter the growing threat of pirate raids on deep sea facilities."
+      STR_MATADOR_AP_TORPEDO: "MATADOR - Anti-Personnel Warhead"
+      STR_MATADOR_AP_TORPEDO_UFOPEDIA: "A specialized variant meant to inflict gruesome wounds on organic targets. The T20-K torpedo warhead has a small effective radius where all unarmored enemies are affected. Protected units are reported to receive few to no damage, though."
+      STR_MATADOR_HE_TORPEDO: "MATADOR - Anti-Structure Warhead"
+      STR_MATADOR_HE_TORPEDO_UFOPEDIA: "The standard contact/impact T30-F torpedo warhead, designed to inflict high damage on fortifications and terrains. The use against armored enemies is not adviced, although a certain degree of damage could be inflicted."
+      STR_MATADOR_SWARM_TORPEDO: "MATADOR - Swarm Warhead"
+      STR_MATADOR_SWARM_TORPEDO_UFOPEDIA: The unusual design of the T4-25 torpedo essentially turns the MATADOR into a heavy shotgun. Dozens of small flechettes are dispersed as soon as the projectile leaves the launcher. The resulting 'swarm' of razor-sharp metal is lethal for all kind of enemies. Due the lack of hydrodynamic characteristics, the flechettes travel very few meters at full speed, eventually slowing down and losing power." 
 
       STR_MILITARY_HARPOON: "Military Speargun"
       STR_MILITARY_HARPOON_UFOPEDIA: "This prototype speargun was the result of the upgrading of a civilian speargun -like those used on submarine hunting- to military standards. Fires one harpoon bolt at once."
@@ -128,8 +146,26 @@ extraStrings:
       STR_HEAVY_HARPOON_UFOPEDIA: "This harpoon gun was designed entirely by USN engineers. Incorporates an improved ejection system that drives the same harpoons as the basic speargun, allowing them to be propelled at greater speed and distance, with considerably improved accuracy."
 
       STR_BURST: "Burst"
+      STR_BURST_SHORT: "Burst (x{0})"
       STR_AUTO: "Full Auto"
 
+      STR_DAMAGE_11: "Laser"
+      STR_DAMAGE_TYPE_12: "Plasma"
+
+############################
+# Armors
+
+      STR_EXOSUIT_UC: "EXOSUIT"
+      STR_EXOSUIT_ARMOR_CORPSE: "Corpse"
+      STR_WRECKED_EXOSUIT_ARMOR: "Wrecked Exosuit"
+      STR_EXOSUIT_ARMOR: "Exosuit"
+
+      STR_PERSONAL_ARMOR_BROWN_UC: "Personal Armor (Desert)"
+      STR_PERSONAL_ARMOR_BROWN_CORPSE: "Corpse"
+      STR_PERSONAL_ARMOR_GREEN_UC: "Personal Armor (Forest)"
+      STR_PERSONAL_ARMOR_GREEN_CORPSE: "Corpse"
+      STR_PERSONAL_ARMOR_GRAY_UC: "Personal Armor (Urban)"
+      STR_PERSONAL_ARMOR_GRAY_CORPSE: "Corpse"
 
 #############################
 # Crafts
@@ -180,7 +216,7 @@ extraStrings:
       STR_PROTOTYPE_RAILGUN_RIFLE: "Prototype Rail Rifle"
       STR_PROTOTYPE_RAILGUN_RIFLE_UFOPEDIA: "A rather crude tech demonstrator model, fully build in Alien Alloys. Designed to engage heavily armored targets, its basically a rail system with a hastly put stock and pistol grip. There are concerns about the safety of the system, though." 
       STR_PROTOTYPE_RAILGUN_PISTOL: "Prototype Rail Pistol"
-      STR_PROTOTYPE_RAILGUN_RIFLE_UFOPEDIA: "Scaled-down version of the larger Rifle. Although its projectile is technically unaffected by the gravity nor wind, the heavy recoil and rough handling limits the accuracy."
+      STR_PROTOTYPE_RAILGUN_PISTOL_UFOPEDIA: "Scaled-down version of the larger Rifle. Although its projectile is technically unaffected by the gravity nor wind, the heavy recoil and rough handling limits the accuracy."
       
       STR_ENHANCED_RAILGUN_TECH: "Enhanced Electromagnetic Tech"
       STR_ENHANCED_RAILGUN_TECH_UFOPEDIA: "Based on the experience of the use of both our early Railguns and the Zrbite-powered Gauss weapons, we have developed a new set of Rail weapons. A sturdier frame allows for a harsher use, now reinforced with Aqua Plastics. After the perfectly understandable complains about the poor ergonomics of the first line of weapons, a major redesign brought them closer to a regular firearm, thus making it easier for novice user to acclimate. Rate of fire is reduced to diminish the extreme heat and avoid melting the rail system."

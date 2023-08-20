@@ -1,0 +1,8 @@
+name: "Storming the Abyss"
+version: "1.0"
+author: "Inventorum Development Team"
+description: "Weapon and Armor expansion for TFTD"
+id: "IDT_STA"
+master: xcom2
+resourceConfig: transparency.rul
+reservedSpace: 6

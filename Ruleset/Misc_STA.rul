@@ -1,0 +1,34 @@
+﻿enviroEffects:
+  - type: STR_SURFACE_ENVIRO_BROWN
+    armorTransformations: 
+      STR_NONE_UC: STR_PERSONAL_ARMOR_BROWN_UC
+
+  - type: STR_SURFACE_ENVIRO_GREEN
+    armorTransformations: 
+      STR_NONE_UC: STR_PERSONAL_ARMOR_GREEN_UC
+
+  - type: STR_SURFACE_ENVIRO_GRAY
+    armorTransformations: 
+      STR_NONE_UC: STR_PERSONAL_ARMOR_GRAY_UC
+
+alienDeployments:
+  - type: STR_ISLAND_TERROR
+    enviroEffects: STR_SURFACE_ENVIRO_GREEN
+
+  - type: STR_PORT_TERROR
+    enviroEffects: STR_SURFACE_ENVIRO_BROWN
+
+  - type: STR_BASE_DEFENSE
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY
+
+  - type: STR_CRUISE_SHIP_P1
+    enviroEffects: STR_SURFACE_ENVIRO_GREEN
+
+  - type: STR_CRUISE_SHIP_P2
+    enviroEffects: STR_SURFACE_ENVIRO_GREEN
+
+  - type: STR_CARGO_SHIP_P1
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY
+
+  - type: STR_CARGO_SHIP_P2
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY

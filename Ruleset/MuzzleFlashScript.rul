@@ -44,12 +44,12 @@ extended:
     selectItemSprite:
       - offset: 1
         code: |
-          var int muzzleflash;
+          var int MuzzleFlash;
           var int aiming;
           var ptr BattleUnit owner;
 
-          item.getTag muzzleflash Tag.MuzzleFlash;
-          if eq muzzleflash 1;
+          item.getTag MuzzleFlash Tag.MuzzleFlash;
+          if eq MuzzleFlash 1;
             owner.isAiming aiming;
             if eq aiming 1;
               if or eq blit_part blit_item_lefthand eq blit_part blit_item_righthand;
