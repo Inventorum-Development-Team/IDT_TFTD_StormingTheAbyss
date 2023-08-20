@@ -1,6 +1,12 @@
 extraSprites:
   - type: BIGOBS.PCK
     files:
+
+      300: Resources/Armor/Exosuit/EXO_CORPSE_BIGOB.png
+      301: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_CORPSE_BIGOB.png
+      302: Resources/Armor/PersonalArmor/Green/PERSONAL_ARMOR_CORPSE_BIGOB.png
+      303: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_CORPSE_BIGOB.png
+
       1000: Resources/SurfaceWeapons/BigVariableRifle.png
       1008: Resources/SurfaceWeapons/BigVariableRifle.png
       1016: Resources/SurfaceWeapons/BigVariableRifleMag.png
@@ -66,6 +72,12 @@ extraSprites:
       
   - type: FLOOROB.PCK
     files:
+
+      300: Resources/Armor/Exosuit/EXO_CORPSE_FLOOROB.png
+      301: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_CORPSE_FLOOROB.png
+      302: Resources/Armor/PersonalArmor/Green/PERSONAL_ARMOR_CORPSE_FLOOROB.png
+      303: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_CORPSE_FLOOROB.png
+
       1000: Resources/SurfaceWeapons/FloorVariableRifle.png
       1008: Resources/SurfaceWeapons/FloorVariableRifle.png
       1016: Resources/SurfaceWeapons/FloorVariableRifleMag.png
@@ -340,19 +352,8 @@ extraSprites:
       0: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_SPRITESHEET.png
 
 #
-  - type: FLOOROB.PCK
-    files:
-      300: Resources/Armor/Exosuit/EXO_CORPSE_FLOOROB.png
-      301: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_CORPSE_FLOOROB.png
-      302: Resources/Armor/PersonalArmor/Green/PERSONAL_ARMOR_CORPSE_FLOOROB.png
-      303: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_CORPSE_FLOOROB.png
 
-  - type: BIGOB.PCK
-    files:
-      300: Resources/Armor/Exosuit/EXO_CORPSE_BIGOB.png
-      301: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_CORPSE_BIGOB.png
-      302: Resources/Armor/PersonalArmor/Green/PERSONAL_ARMOR_CORPSE_BIGOB.png
-      303: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_CORPSE_BIGOB.png
+
 
 #############
       

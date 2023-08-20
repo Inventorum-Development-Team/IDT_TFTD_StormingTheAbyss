@@ -883,7 +883,7 @@ items:
     bigSprite: 1448
     floorSprite: 1448
     handSprite: 1448
-    bulletSprite: 2
+    bulletSprite: 17
     fireSound: 19
     bulletSpeed: 10
     ammo:
@@ -919,7 +919,7 @@ items:
     bigSprite: 1456
     floorSprite: 1456
     handSprite: 1456
-    bulletSprite: 2
+    bulletSprite: 17
     fireSound: 24
     bulletSpeed: 20
     ammo:
