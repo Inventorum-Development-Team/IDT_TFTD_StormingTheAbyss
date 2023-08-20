@@ -8,12 +8,7 @@ items:
   - type: STR_SCAR #ignoreDuplicate
     tags:
       MuzzleFlash: 1
-  - type: STR_STREET_SWEEPER #ignoreDuplicate
-    tags:
-      MuzzleFlash: 1
-  - type: STR_COMBAT_HANDGUN #ignoreDuplicate
-    tags:
-      MuzzleFlash: 1
+
   - type: STR_AUTO_SHOTGUN #ignoreDuplicate
     tags:
       MuzzleFlash: 1
