@@ -6,15 +6,15 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_EXOSUIT_UFOPEDIA
     image_id: EXOSUITS_UFOPEDIA
-    listOrder: 1950
+    listOrder: 1650
 
 # [=] Personal Armor [=]
-  - id: STR_PERSONAL_ARMOR_BROWN_UC
+  - id: STR_DUMMY_PERSONAL_ARMOR
     type_id: 15
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PERSONAL_ARMOR_UFOPEDIA
     image_id: PERSONAL_ARMOR_UFOPEDIA
-    listOrder: 1950
+    listOrder: 1660
 
 # [=] Weapon - Variable Combat Rifle [=]
   - id: STR_VARIABLE_RIFLE
@@ -24,7 +24,7 @@ ufopaedia:
     image_id: VARIABLE_RIFLE_UFOPEDIA
     requires:
       - STR_NORTH_AMERICAN_MARKET
-    listOrder: 3503
+    listOrder: 3520
   - id: STR_VARIABLE_RIFLE_MAG
     type_id: 14
     requires:
@@ -32,7 +32,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_VARIABLE_RIFLE_MAG_UFOPEDIA
     image_id: VARIABLE_RIFLE_MAG_UFOPEDIA
-    listOrder: 3503
+    listOrder: 3521
   - id: STR_VARIABLE_RIFLE_HIGH_POWER_MAG
     type_id: 14
     requires:
@@ -40,7 +40,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_VARIABLE_RIFLE_HIGH_POWER_MAG_UFOPEDIA
     image_id: VARIABLE_RIFLE_HIPOW_MAG_UFOPEDIA
-    listOrder: 3503
+    listOrder: 3522
   - id: STR_VARIABLE_RIFLE_CQB_MAG
     type_id: 14
     requires:
@@ -48,7 +48,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_VARIABLE_RIFLE_CQB_MAG_UFOPEDIA
     image_id: VARIABLE_RIFLE_CQB_MAG_UFOPEDIA
-    listOrder: 3503    
+    listOrder: 3523    
 
 # [=] Weapon - Hybrid Battle Rifle [=]
   - id: STR_SCAR
@@ -58,7 +58,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SCAR_UFOPEDIA
     image_id: SCAR_UFOPEDIA
-    listOrder: 3502
+    listOrder: 3524
   - id: STR_SCAR_MAG
     type_id: 14
     requires:
@@ -66,7 +66,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SCAR_MAG_UFOPEDIA
     image_id: SCAR_MAG_UFOPEDIA
-    listOrder: 3502
+    listOrder: 3525
   
 # [=] Weapon - Printer Rifle [=]
   - id: STR_PRINTER_RIFLE
@@ -76,7 +76,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PRINTER_RIFLE_UFOPEDIA
     image_id: PRINTER_RIFLE_UFOPEDIA
-    listOrder: 3501
+    listOrder: 3526
 
 # [=] Weapon - Laser Sniper [=]
   - id: STR_LASER_SNIPER
@@ -86,7 +86,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_SNIPER_UFOPEDIA
     image_id: LASER_SNIPER_UFOPEDIA
-    listOrder: 3505  
+    listOrder: 3527  
   - id: STR_LASER_SNIPER_BATTERY
     type_id: 14
     requires:
@@ -94,7 +94,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_SNIPER_BATTERY_UFOPEDIA
     image_id: LASER_SNIPER_BATTERY_UFOPEDIA
-    listOrder: 3505  
+    listOrder: 3528  
 
 # [=] Weapon - Plasma Rifle Mk.1 [=]
   - id: STR_OLD_PLASMA_RIFLE
@@ -102,13 +102,13 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_OLD_PLASMA_RIFLE_UFOPEDIA
     image_id: OLD_PLASMA_RIFLE_UFOPEDIA
-    listOrder: 3504   
+    listOrder: 3529   
   - id: STR_OLD_PLASMA_RIFLE_CLIP
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_OLD_PLASMA_RIFLE_CLIP_UFOPEDIA
     image_id: OLD_PLASMA_RIFLE_CLIP_UFOPEDIA
-    listOrder: 3504   
+    listOrder: 3530   
 
 # [=] Weapon - Plasma Rifle Mk.2 [=]
   - id: STR_NEW_PLASMA_RIFLE
@@ -118,7 +118,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_NEW_PLASMA_RIFLE_UFOPEDIA
     image_id: NEW_PLASMA_RIFLE_UFOPEDIA
-    listOrder: 3504   
+    listOrder: 3531   
   - id: STR_NEW_PLASMA_RIFLE_CLIP
     type_id: 14
     requires:
@@ -126,7 +126,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_NEW_PLASMA_RIFLE_CLIP_UFOPEDIA
     image_id: NEW_PLASMA_RIFLE_CLIP_UFOPEDIA
-    listOrder: 3504
+    listOrder: 3532
 
 # [=] Weapon - Combat Handgun [=]
   - id: STR_COMBAT_HANDGUN_UFOPEDIA
@@ -136,7 +136,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_COMBAT_HANDGUN_UFOPEDIA
     image_id: COMBAT_HANDGUN_UFOPEDIA
-    listOrder: 3901
+    listOrder: 3540
   - id: STR_COMBAT_HANDGUN_MAG
     type_id: 14
     requires:
@@ -144,7 +144,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_COMBAT_HANDGUN_MAG_UFOPEDIA
     image_id: COMBAT_HANDGUN_MAG_UFOPEDIA
-    listOrder: 3901
+    listOrder: 3541
 
 # [=] Weapon - Street Sweeper [=]
   - id: STR_STREET_SWEEPER
@@ -154,7 +154,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_STREET_SWEEPER_UFOPEDIA
     image_id: STREET_SWEEPER_UFOPEDIA
-    listOrder: 3902
+    listOrder: 3542
   - id: STR_STREET_SWEEPER_MAG
     type_id: 14
     requires:
@@ -162,7 +162,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_STREET_SWEEPER_MAG_UFOPEDIA
     image_id: STREET_SWEEPER_DRUM_UFOPEDIA
-    listOrder: 3902 
+    listOrder: 3543 
  
 # [=] Weapon - Black Mamba Auto Shotgun [=]
   - id: STR_AUTO_SHOTGUN
@@ -172,7 +172,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTO_SHOTGUN_UFOPEDIA
     image_id: AUTO_SHOTGUN_UFOPEDIA
-    listOrder: 4101
+    listOrder: 3550
   - id: STR_AUTO_SHOTGUN_SHELLS
     type_id: 14
     requires:
@@ -180,7 +180,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTO_SHOTGUN_SHELLS_UFOPEDIA
     image_id: AUTO_SHOTGUN_SHELLS_UFOPEDIA
-    listOrder: 4101
+    listOrder: 3551
   - id: STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA
     type_id: 14
     requires:
@@ -188,7 +188,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA
     image_id: AUTO_SHOTGUN_SLUG_UFOPEDIA
-    listOrder: 4101
+    listOrder: 3552
 
 # [=] Weapon - Dauntless Laser Shotgun [=]
   - id: STR_LASER_SHOTGUN
@@ -198,15 +198,23 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_SHOTGUN_UFOPEDIA
     image_id: LASER_SHOTGUN_UFOPEDIA
-    listOrder: 4101
-  - id: STR_LASER_SHOTGUN_BATTERY
+    listOrder: 3553
+  - id: STR_LASER_SHOTGUN_FOCUSED_BATTERY
     type_id: 14
     requires:
       - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LASER_SHOTGUN_BATTERY_UFOPEDIA
-    image_id: LASER_SHOTGUN_BATTERY_UFOPEDIA
-    listOrder: 4101
+    text: STR_LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA
+    image_id: LASER_SHOTGUN_BATTERY_FOCUSED_UFOPEDIA
+    listOrder: 3554
+  - id: STR_LASER_SHOTGUN_DISPERSION_BATTERY
+    type_id: 14
+    requires:
+      - STR_NORTH_EUROPEAN_MARKET
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LASER_SHOTGUN_DISPERSION_BATTERY_UFOPEDIA
+    image_id: LASER_SHOTGUN_DISPERSION_BATTERY_UFOPEDIA
+    listOrder: 3555
 
 # [=] Weapon - Tactical LMG [=]
   - id: STR_TACTICAL_LMG
@@ -216,7 +224,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TACTICAL_LMG_UFOPEDIA
     image_id: TACTICAL_LMG_UFOPEDIA
-    listOrder: 4102 
+    listOrder: 3559 
   - id: STR_TACTICAL_LMG_AP
     type_id: 14
     requires:
@@ -224,7 +232,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TACTICAL_LMG_AP_UFOPEDIA
     image_id: TACTICAL_LMG_AP_UFOPEDIA
-    listOrder: 4102 
+    listOrder: 3560 
   - id: STR_TACTICAL_LMG_INC
     type_id: 14
     requires:
@@ -232,7 +240,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TACTICAL_LMG_INC_UFOPEDIA
     image_id: TACTICAL_LMG_INC_UFOPEDIA
-    listOrder: 4102     
+    listOrder: 3561     
   - id: STR_TACTICAL_LMG_HE
     type_id: 14
     requires:
@@ -240,7 +248,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TACTICAL_LMG_HE_UFOPEDIA
     image_id: TACTICAL_LMG_HE_UFOPEDIA
-    listOrder: 4102 
+    listOrder: 3562 
 
 # [=] Weapon - Auto Laser [=]
   - id: STR_AUTO_LASER
@@ -250,7 +258,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTO_LASER_UFOPEDIA
     image_id: AUTO_LASER_UFOPEDIA
-    listOrder: 4910  
+    listOrder: 3563  
   - id: STR_AUTO_LASER_BATTERY
     type_id: 14
     requires:
@@ -258,8 +266,52 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTO_LASER_BATTERY_UFOPEDIA
     image_id: AUTO_LASER_BATTERY_UFOPEDIA
-    listOrder: 4910  
-  
+    listOrder: 3564  
+
+
+# [=] Weapon - Military Harpoon [=]
+  - id: STR_MILITARY_HARPOON
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MILITARY_HARPOON_UFOPEDIA
+    image_id: MILITARY_HARPOON_UFOPEDIA
+    listOrder: 2310
+
+  - id: STR_HEAVY_HARPOON
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HEAVY_HARPOON_UFOPEDIA
+    image_id: HEAVY_HARPOON_UFOPEDIA
+    listOrder: 2311
+
+  - id: STR_HARPOON_AP
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HARPOON_AP_UFOPEDIA
+    image_id: HARPOON_AP_UFOPEDIA
+    listOrder: 2315
+
+  - id: STR_HARPOON_HE
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HARPOON_HE_UFOPEDIA
+    image_id: HARPOON_HE_UFOPEDIA
+    listOrder: 2316
+
+  - id: STR_HARPOON_INC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HARPOON_INC_UFOPEDIA
+    image_id: HARPOON_INC_UFOPEDIA
+    listOrder: 2317
+
+  - id: STR_HARPOON_ACID
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HARPOON_ACID_UFOPEDIA
+    image_id: HARPOON_ACID_UFOPEDIA
+    listOrder: 2318
+
 # [=] Weapon - Underwater Rifle [=]
   - id: STR_UNDERWATER_RIFLE
     type_id: 14
@@ -268,7 +320,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_RIFLE_UFOPEDIA
     image_id: UNDERWATER_RIFLE_UFOPEDIA
-    listOrder: 4911    
+    listOrder: 2150    
   - id: STR_UNDERWATER_RIFLE_MAG
     type_id: 14
     requires:
@@ -276,7 +328,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_RIFLE_MAG_UFOPEDIA
     image_id: UNDERWATER_RIFLE_MAG_UFOPEDIA
-    listOrder: 4911    
+    listOrder: 2151    
 
 # [=] Weapon - Underwater Auto-Pistol [=]
   - id: STR_UNDERWATER_AUTOPISTOL
@@ -286,7 +338,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_AUTOPISTOL_UFOPEDIA
     image_id: UNDERWATER_AUTOPISTOL_UFOPEDIA
-    listOrder: 4193 
+    listOrder: 2110 
   - id: STR_UNDERWATER_AUTOPISTOL_MAG
     type_id: 14
     requires:
@@ -294,7 +346,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA
     image_id: UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA
-    listOrder: 4193 
+    listOrder: 2111 
 
 # [=] Weapon - Underwater Revolver [=]
   - id: STR_UNDERWATER_REVOLVER
@@ -304,7 +356,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_REVOLVER_UFOPEDIA
     image_id: UNDERWATER_REVOLVER_UFOPEDIA
-    listOrder: 4194
+    listOrder: 2120
   - id: STR_UNDERWATER_REVOLVER_CLIP
     type_id: 14
     requires:
@@ -312,7 +364,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_REVOLVER_CLIP_UFOPEDIA
     image_id: UNDERWATER_REVOLVER_MAG_UFOPEDIA
-    listOrder: 4194
+    listOrder: 2122
 
 # [=] Weapon - Underwater LMG [=]
   - id: STR_UNDERWATER_LMG
@@ -322,7 +374,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_LMG_UFOPEDIA
     image_id: UNDERWATER_LMG_UFOPEDIA
-    listOrder: 4194
+    listOrder: 2160
   - id: STR_UNDERWATER_LMG_MAG
     type_id: 14
     requires:
@@ -330,7 +382,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_LMG_MAG_UFOPEDIA
     image_id: UNDERWATER_LMG_MAG_UFOPEDIA
-    listOrder: 4194
+    listOrder: 2161
 
 # [=] Weapon - Neptune Torpedo [=]
   - id: STR_NEPTUNE_TORPEDO
@@ -340,33 +392,41 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_NEPTUNE_TORPEDO_UFOPEDIA
     image_id: NEPTUNE_TORPEDO_UFOPEDIA
-    listOrder: 4192
+    listOrder: 3150
 
 # [=] Weapon - MATADOR Torpedo Launcher [=]
   - id: STR_MATADOR_TORPEDO_LAUNCHER
     type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MATADOR_TORPEDO_LAUNCHER_UFOPEDIA
     image_id: MATADOR_TORPEDO_LAUNCHER_UFOPEDIA
-    listOrder: 4106
+    listOrder: 3151
 
   - id: STR_MATADOR_AP_TORPEDO_UFOPEDIA
     type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MATADOR_AP_TORPEDO_UFOPEDIA
     image_id: MATADOR_AP_TORPEDO_UFOPEDIA
-    listOrder: 4105
+    listOrder: 3152
 
   - id: STR_MATADOR_HE_TORPEDO_UFOPEDIA
     type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MATADOR_HE_TORPEDO_UFOPEDIA
     image_id: MATADOR_HE_TORPEDO_UFOPEDIA
-    listOrder: 4104
+    listOrder: 3153
 
   - id: STR_MATADOR_SWARM_TORPEDO_UFOPEDIA
     type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MATADOR_SWARM_TORPEDO_UFOPEDIA
     image_id: MATADOR_SWARM_TORPEDO_UFOPEDIA
-    listOrder: 5001
+    listOrder: 3154

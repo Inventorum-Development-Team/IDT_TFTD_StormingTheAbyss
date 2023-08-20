@@ -57,6 +57,12 @@ extraSprites:
       1424: Resources/SurfaceWeapons/BigLaserShotgun.png
       1432: Resources/SurfaceWeapons/BigLaserShotgunFocusedBattery.png
       1440: Resources/SurfaceWeapons/BigLaserShotgunDispersionBattery.png
+      1448: Resources/AquaticWeapons/BigHarpoon.png
+      1456: Resources/AquaticWeapons/BigHeavyHarpoon.png
+      1464: Resources/AquaticWeapons/BigHarpoonAcid.png
+      1472: Resources/AquaticWeapons/BigHarpoonAP.png
+      1480: Resources/AquaticWeapons/BigHarpoonHE.png
+      1488: Resources/AquaticWeapons/BigHarpoonINC.png
       
   - type: FLOOROB.PCK
     files:
@@ -116,7 +122,14 @@ extraSprites:
       1424: Resources/SurfaceWeapons/FloorLaserShotgun.png
       1432: Resources/SurfaceWeapons/FloorLaserShotgunFocusedBattery.png
       1440: Resources/SurfaceWeapons/FloorLaserShotgunDispersionBattery.png
-      
+      1448: Resources/AquaticWeapons/FloorHarpoon.png
+      1456: Resources/AquaticWeapons/FloorHeavyHarpoon.png
+      1464: Resources/AquaticWeapons/FloorHarpoonAcid.png
+      1472: Resources/AquaticWeapons/FloorHarpoonAP.png
+      1480: Resources/AquaticWeapons/FloorHarpoonHE.png
+      1488: Resources/AquaticWeapons/FloorHarpoonINC.png
+
+
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -178,6 +191,12 @@ extraSprites:
       1416: Resources/SurfaceWeapons/HandLaserShotgun.png
       1424: Resources/SurfaceWeapons/HandLaserShotgun_fire.png
       #1432: Resources/SurfaceWeapons/HandLaserShotgunBattery.png
+      1448: Resources/AquaticWeapons/HandHarpoon.png
+      1456: Resources/AquaticWeapons/HandHeavyHarpoon.png
+      #1464: Resources/AquaticWeapons/BigHarpoonAcid.png
+      #1472: Resources/AquaticWeapons/BigHarpoonAP.png
+      #1480: Resources/AquaticWeapons/BigHarpoonHE.png
+      #1488: Resources/AquaticWeapons/BigHarpoonINC.png
 
 ###############
 
@@ -587,6 +606,57 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/AUTO_LASER_BATTERY_UFOPEDIA.png
+
+###############################33
+
+
+  - type: MILITARY_HARPOON_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MILITARY_HARPOON_UFOPEDIA.png
+
+  - type: HEAVY_HARPOON_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MILITARY_HARPOON_UFOPEDIA.png
+
+  - type: HARPOON_ACID_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HARPOON_ACID_UFOPEDIA.png
+  - type: HARPOON_AP_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HARPOON_AP_UFOPEDIA.png
+  - type: HARPOON_HE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HARPOON_HE_UFOPEDIA.png
+  - type: HARPOON_HE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HARPOON_HE_UFOPEDIA.png
+
+
+
+  - type: UNDERWATER_AUTOPISTOL_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_AUTOPISTOL_UFOPEDIA.png
 
   - type: UNDERWATER_REVOLVER_UFOPEDIA
     width: 320
