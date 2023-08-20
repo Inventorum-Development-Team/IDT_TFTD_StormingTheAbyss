@@ -49,9 +49,10 @@ extended:
           var ptr BattleUnit owner;
 
           item.getTag MuzzleFlash Tag.MuzzleFlash;
+          item.getOwner owner;
           if eq MuzzleFlash 1;
             owner.isAiming aiming;
-            if eq aiming 1;
+            if neq aiming 0;
               if or eq blit_part blit_item_lefthand eq blit_part blit_item_righthand;
                 add sprite_index 8;
               end;
