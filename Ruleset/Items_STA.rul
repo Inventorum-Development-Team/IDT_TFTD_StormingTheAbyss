@@ -31,18 +31,29 @@ items:
     tuAuto: 35
     tuSnap: 25
     tuAimed: 40
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 5
+      name: STR_AUTO
+      ammoSlot: 0
+      arcing: false
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    autoShots: 5
+    #autoShots: 5
     landOnly: true  
     listOrder: 3520 
     tags:
       MuzzleFlash: 1 
 
   - type: STR_VARIABLE_RIFLE_MAG
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_USA
     requiresBuy:
@@ -71,7 +82,7 @@ items:
     listOrder: 3521  
 
   - type: STR_VARIABLE_RIFLE_HIGH_POWER_MAG
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_USA
     requiresBuy:
@@ -87,7 +98,7 @@ items:
     bulletSprite: 14
     explosionSpeed: 50
     bulletSpeed: 30
-    power: 50
+    power: 60
     damageType: 1
     damageAlter:
       RandomType: 3
@@ -103,7 +114,7 @@ items:
     listOrder: 3522  
 
   - type: STR_VARIABLE_RIFLE_CQB_MAG
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_USA
     requiresBuy:
@@ -138,7 +149,7 @@ items:
     requiresBuyCountry: STR_BRAZILIAN_UNION
     requiresBuy:
       - STR_SOUTH_AMERICAN_MARKET
-    costBuy: 4650
+    costBuy: 2650
     costSell: 3250
     weight: 8
     bigSprite: 1040
@@ -154,16 +165,27 @@ items:
     tuAuto: 35
     tuSnap: 25
     tuAimed: 40
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 5
+      name: STR_AUTO
+      ammoSlot: 0
+      arcing: false
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    autoShots: 5
+    #autoShots: 5
     landOnly: true  
     listOrder: 3524 
 
   - type: STR_SCAR_MAG 
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_BRAZILIAN_UNION
     requiresBuy:
@@ -206,9 +228,20 @@ items:
     accuracyAuto: 65
     accuracySnap: 85
     accuracyAimed: 100
-    tuAuto: 35
-    tuSnap: 25
+    tuAuto: 50
+    tuSnap: 30
     tuAimed: 40
+    confSnap:
+      shots: 4
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 8
+      name: STR_AUTO
+      ammoSlot: 0
+      arcing: false
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -253,7 +286,7 @@ items:
     listOrder: 3527
 
   - type: STR_LASER_SNIPER_BATTERY
-    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SNIPER_RIFLES, STR_AMMO]
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SNIPER_RIFLES, STR_AMMO_CAT]
     size: 0.2
     requiresBuyCountry: STR_ASIAN_COALITION
     requiresBuy:
@@ -303,7 +336,7 @@ items:
     armor: 50
     listOrder: 3529
   - type: STR_OLD_PLASMA_RIFLE_CLIP
-    categories: [STR_PLASMA, STR_ALIEN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    categories: [STR_PLASMA, STR_ALIEN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO_CAT]
     size: 0.1
     costSell: 62900
     weight: 3
@@ -337,9 +370,20 @@ items:
     accuracyAuto: 55
     accuracySnap: 86
     accuracyAimed: 100
-    tuAuto: 36
+    costAuto:
+     time: 40
+     energy: 15
+     stun: 8
     tuSnap: 30
+    costSnap:
+     time: 30
+     energy: 10
+     stun: 5
     tuAimed: 60
+    costAimed:
+     time: 60
+     energy: 10
+     stun: 5
     battleType: 1
     twoHanded: true 
     landOnly: true
@@ -349,7 +393,7 @@ items:
     armor: 50
     listOrder: 3531
   - type: STR_NEW_PLASMA_RIFLE_CLIP
-    categories: [STR_PLASMA, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    categories: [STR_PLASMA, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO_CAT]
     requires:
       - STR_NEW_PLASMA_RIFLE
     size: 0.1
@@ -398,7 +442,7 @@ items:
     listOrder: 3540
 
   - type: STR_COMBAT_HANDGUN_MAG
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_SCANDINAVIA
     requiresBuy:
@@ -473,10 +517,16 @@ items:
     hitAnimation: 620
     power: 25
     damageType: 1
+    damageAlter:
+      RandomType: 7
+      ToHealth: 0.5
+      ToStun: 0.7
+      IgnoreOverKill: true
+      ToWound: 0.3
     bulletSprite: 15
     explosionSpeed: 50
     bulletSpeed: 30
-    clipSize: 25
+    clipSize: 50
     battleType: 2
     landOnly: true   
     listOrder: 3543 
@@ -530,7 +580,7 @@ items:
     listOrder: 3550
 
   - type: STR_AUTO_SHOTGUN_SHELLS
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_BRAZILIAN_UNION
     requiresBuy:
@@ -544,7 +594,7 @@ items:
     power: 35
     damageType: 1
     damageAlter:
-      ArmorEffectiveness: 1.5
+      ArmorEffectiveness: 0.8
       RandomType: 7
       ToArmor: 0.1
       ToHealth: 1.3
@@ -564,7 +614,7 @@ items:
     listOrder: 3551
 
   - type: STR_AUTO_SHOTGUN_SLUGS
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_BRAZILIAN_UNION
     requiresBuy:
@@ -595,7 +645,7 @@ items:
     listOrder: 3552
 
   - type: STR_LASER_SHOTGUN
-    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO_CAT]
     requiresBuyCountry: STR_SCANDINAVIA
     requiresBuy:
       - STR_NORTH_EUROPEAN_MARKET
@@ -628,7 +678,7 @@ items:
     listOrder: 3553
 
   - type: STR_LASER_SHOTGUN_FOCUSED_BATTERY
-    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO_CAT]
     size: 0.2
     requiresBuyCountry: STR_SCANDINAVIA
     requiresBuy:
@@ -659,7 +709,7 @@ items:
     listOrder: 3554
 
   - type: STR_LASER_SHOTGUN_DISPERSION_BATTERY
-    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO_CAT]
     size: 0.2
     requiresBuyCountry: STR_SCANDINAVIA
     requiresBuy:
@@ -711,10 +761,10 @@ items:
       - STR_TACTICAL_LMG_INC
       - STR_TACTICAL_LMG_HE
     confSnap:
-      shots: 10
+      shots: 5
       name: STR_BURST
     confAuto:
-      shots: 30
+      shots: 15
       name: STR_AUTO
     accuracyAuto: 32
     accuracySnap: 56
@@ -728,7 +778,7 @@ items:
     invHeight: 3
     listOrder: 3559
   - type: STR_TACTICAL_LMG_AP
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_EU_SYNDICATE
     requiresBuy:
@@ -742,7 +792,7 @@ items:
     hitAnimation: 670
     power: 42
     damageType: 1
-    clipSize: 14
+    clipSize: 50
     explosionSpeed: 50
     bulletSpeed: 30
     bulletSprite: 14
@@ -752,7 +802,7 @@ items:
     invHeight: 1
     listOrder: 3560
   - type: STR_TACTICAL_LMG_HE
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_EU_SYNDICATE
     requiresBuy:
@@ -769,14 +819,14 @@ items:
     explosionSpeed: 50
     bulletSpeed: 30
     bulletSprite: 14
-    clipSize: 14
+    clipSize: 50
     battleType: 2
     landOnly: true 
     invWidth: 2
     invHeight: 1
     listOrder: 3561
   - type: STR_TACTICAL_LMG_INC
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_EU_SYNDICATE
     requiresBuy:
@@ -790,7 +840,7 @@ items:
     hitAnimation: 0
     power: 48
     damageType: 2
-    clipSize: 14
+    clipSize: 50
     explosionSpeed: 50
     bulletSpeed: 30
     bulletSprite: 14
@@ -812,17 +862,17 @@ items:
     bigSprite: 1104
     floorSprite: 1104
     handSprite: 1104
-    fireSound: [143, 144, 145]
+    fireSound: [132, 133, 134]
     hitSound: 306
     compatibleAmmo:
       - STR_AUTO_LASER_BATTERY
     accuracyAuto: 40
     accuracySnap: 45
     confSnap:
-      shots: 10
+      shots: 5
       name: STR_BURST
     confAuto:
-      shots: 30
+      shots: 15
       name: STR_AUTO
     costSnap:
       time: 28
@@ -842,7 +892,7 @@ items:
     listOrder: 3563
 
   - type: STR_AUTO_LASER_BATTERY
-    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO_CAT]
     size: 0.2
     requiresBuyCountry: STR_AUSTRALASIA
     requiresBuy:
@@ -899,13 +949,13 @@ items:
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 30
-    invWidth: 2
+    invWidth: 1
     invHeight: 3
     armor: 30
     attraction: 7
-    maxRange: 22
+    maxRange: 60
     dropoff: 3
-    powerRangeReduction: 3
+    powerRangeReduction: 1
     listOrder: 2310
 
   - type: STR_HEAVY_HARPOON
@@ -939,13 +989,13 @@ items:
     invHeight: 3
     armor: 30
     attraction: 7
-    maxRange: 30
+    maxRange: 70
     dropoff: 3
     powerRangeReduction: 2
     listOrder: 2311
 
   - type: STR_HARPOON_AP
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO_CAT]
     size: 0.1
     costBuy: 450
     costSell: 250
@@ -954,7 +1004,7 @@ items:
     floorSprite: 1472
     hitSound: 16
     hitAnimation: 26
-    power: 30
+    power: 55
     damageAlter:
       RandomType: 6
       IgnoreOverKill: false
@@ -970,7 +1020,7 @@ items:
     listOrder: 2315
 
   - type: STR_HARPOON_HE
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO_CAT]
     size: 0.1
     costBuy: 450
     costSell: 250
@@ -996,7 +1046,7 @@ items:
     listOrder: 2316
 
   - type: STR_HARPOON_INC
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO] 
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO_CAT] 
     size: 0.1
     costBuy: 1500
     costSell: 1000
@@ -1017,7 +1067,7 @@ items:
     listOrder: 2317
 
   - type: STR_HARPOON_ACID
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO_CAT]
     size: 0.1
     costBuy: 450
     costSell: 250
@@ -1029,9 +1079,10 @@ items:
     power: 30
     damageType: 8
     damageAlter:
-      ToStun: 0.5
+      ToStun: 0.8
       ToWound: 0.2
       ToEnergy: 0.8
+      ToTime: 0.8
       ToArmor: 0.4
     clipSize: 1
     invHeight: 2
@@ -1065,6 +1116,7 @@ items:
     confAimed:
       shots: 3
       name: STR_BURST
+      shortName: STR_BURST_SHORT
       ammoSlot: 0
       arcing: false
     confAuto:
@@ -1074,8 +1126,8 @@ items:
       arcing: false
     accuracyCloseQuarters: 120
     accuracyAuto: 50
-    accuracySnap: 72
-    accuracyAimed: 65
+    accuracySnap: 65
+    accuracyAimed: 75
     bulletSpeed: 10
     tuAuto: 32
     tuSnap: 24
@@ -1099,7 +1151,7 @@ items:
 
 
   - type: STR_UNDERWATER_RIFLE_MAG
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_RIFLES, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_RIFLES, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_EURASIA_UC
     requiresBuy:
@@ -1116,6 +1168,11 @@ items:
     explosionSpeed: 50
     bulletSpeed: 30
     clipSize: 26
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: false
+      ToArmor: 0.5
+      ToArmorPre: 0.3
     invWidth: 1
     invHeight: 1
     battleType: 2
@@ -1165,7 +1222,7 @@ items:
     listOrder: 2110
 
   - type: STR_UNDERWATER_AUTOPISTOL_MAG
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_ICELANDIC_UNION
     requiresBuy:
@@ -1224,7 +1281,7 @@ items:
     listOrder: 2120
 
   - type: STR_UNDERWATER_REVOLVER_CLIP
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_USA
     requiresBuy:
@@ -1301,7 +1358,7 @@ items:
     listOrder: 2160
 
   - type: STR_UNDERWATER_LMG_MAG
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_MACHINE_GUNS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_EURASIA_UC
     requiresBuy:
@@ -1405,7 +1462,7 @@ items:
     listOrder: 3151
 
   - type: STR_MATADOR_AP_TORPEDO
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_AMMO_CAT]
     size: 0.2
     requiresBuyCountry: STR_BRAZILIAN_UNION
     requiresBuy:
@@ -1435,7 +1492,7 @@ items:
     listOrder: 3152
 
   - type: STR_MATADOR_HE_TORPEDO
-    categories: [STR_EXPLOSIVE, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_AMMO]
+    categories: [STR_EXPLOSIVE, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_AMMO_CAT]
     size: 0.2
     requiresBuyCountry: STR_BRAZILIAN_UNION
     requiresBuy:
@@ -1467,7 +1524,7 @@ items:
     listOrder: 3153
 
   - type: STR_MATADOR_SWARM_TORPEDO
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_SHOTGUNS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_SHOTGUNS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_BRAZILIAN_UNION
     requiresBuy:
@@ -1527,7 +1584,7 @@ items:
     invHeight: 2
     armor: 70
   - type: STR_GAUSS_PISTOL_CLIP
-    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS, STR_AMMO]
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS, STR_AMMO_CAT]
     size: 0.2
     costSell: 1050
     weight: 2
@@ -1574,7 +1631,7 @@ items:
     invHeight: 3
     armor: 70
   - type: STR_GAUSS_RIFLE_CLIP
-    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_AMMO]
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_AMMO_CAT]
     size: 0.2
     costSell: 1950
     weight: 3
@@ -1620,7 +1677,7 @@ items:
     invWidth: 2
     invHeight: 3
   - type: STR_HEAVY_GAUSS_CLIP
-    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_HEAVY_WEAPONS, STR_SNIPER_RIFLES, STR_AMMO]
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_HEAVY_WEAPONS, STR_SNIPER_RIFLES, STR_AMMO_CAT]
     size: 0.2
     costSell: 3220
     weight: 4
@@ -1651,13 +1708,16 @@ items:
 #######################
 
   - type: STR_EXOSUIT_ARMOR
+    categories: [STR_ARMOR_CAT]
     size: 0.8
-    costBuy: 100000
-    costSell: 80000
+    costBuy: 300000
+    costSell: 280000
   - type: STR_WRECKED_EXOSUIT_ARMOR
+    categories: [STR_ARMOR_CAT]
     size: 0.8
     costSell: 65000
   - type: STR_EXOSUIT_ARMOR_CORPSE
+    categories: [STR_ARMOR_CAT]
     weight: 35
     bigSprite: 300
     floorSprite: 300
@@ -1665,7 +1725,7 @@ items:
     invHeight: 3
     armor: 0
     battleType: 11
-    recover: false
+    recover: true
 
   - type: STR_PERSONAL_ARMOR_BROWN_CORPSE
     weight: 35
