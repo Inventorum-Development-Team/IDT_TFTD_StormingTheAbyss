@@ -32,7 +32,9 @@ ufopaedia:
 
 # [=] Arms Trade Pedia [=]
   - id: STR_EXTERNAL_EQUIPMENT_ACQUISITION
-    type_id: 15
+    type_id: 10
+    requires:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA
     image_id: EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA
@@ -40,7 +42,7 @@ ufopaedia:
 
 # [=] Surface Weapons Pedia [=]
   - id: STR_SURFACE_WEAPONS
-    type_id: 15
+    type_id: 10
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SURFACE_WEAPONS_UFOPEDIA
     image_id: SURFACE_WEAPONS_UFOPEDIA
@@ -300,7 +302,7 @@ ufopaedia:
 
 # [=] Underwater Weapons Pedia [=]
   - id: STR_UNDERWATER_WEAPONS
-    type_id: 15
+    type_id: 10
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_WEAPONS_UFOPEDIA
     image_id: UNDERWATER_WEAPONS_UFOPEDIA
@@ -316,6 +318,8 @@ ufopaedia:
 
   - id: STR_HEAVY_HARPOON
     type_id: 14
+    requires:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HEAVY_HARPOON_UFOPEDIA
     image_id: HEAVY_HARPOON_UFOPEDIA
@@ -470,15 +474,15 @@ ufopaedia:
 
 # [=] Extended Lore Pedia [=]
   - id: STR_DESPERATE_MATTERS
-    type_id: 15
+    type_id: 10
     section: STR_ALIEN_RESEARCH_UC
     text: STR_DESPERATE_MATTERS_UFOPEDIA
-    image_id: DESPERATE_MATTERS_UFOPEDIA
+    image_id: DESPERATE_MEASURES_UFOPEDIA
     #listOrder: 3519
 
 # [=] Extended Lore Pedia [=]
   - id: STR_RISING_TIDES
-    type_id: 15
+    type_id: 10
     section: STR_ALIEN_RESEARCH_UC
     text: STR_RISING_TIDES_UFOPEDIA
     image_id: RISING_TIDES_UFOPEDIA
@@ -486,7 +490,7 @@ ufopaedia:
 
 # [=] Extended Lore Pedia [=]
   - id: STR_NEW_WORLD_ORDER
-    type_id: 15
+    type_id: 10
     section: STR_ALIEN_RESEARCH_UC
     text: STR_NEW_WORLD_ORDER_UFOPEDIA
     image_id: NEW_WORLD_ORDER_UFOPEDIA
