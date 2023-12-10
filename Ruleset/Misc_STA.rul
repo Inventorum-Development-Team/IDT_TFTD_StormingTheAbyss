@@ -11,24 +11,37 @@
     armorTransformations: 
       STR_NONE_UC: STR_PERSONAL_ARMOR_GRAY_UC
 
+startingConditions:
+  - type: STR_SURFACE_CONDITION
+    craftTransformations:
+      STR_SPARROW: STR_SPARROW_SURFACE
+      STR_HURRICANE: STR_HURRICANE_SURFACE
+
 alienDeployments:
   - type: STR_ISLAND_TERROR
     enviroEffects: STR_SURFACE_ENVIRO_GREEN
+    startingCondition: STR_SURFACE_CONDITION
 
   - type: STR_PORT_TERROR
     enviroEffects: STR_SURFACE_ENVIRO_BROWN
+    startingCondition: STR_SURFACE_CONDITION
 
   - type: STR_BASE_DEFENSE
     enviroEffects: STR_SURFACE_ENVIRO_GRAY
+    startingCondition: STR_SURFACE_CONDITION
 
   - type: STR_CRUISE_SHIP_P1
     enviroEffects: STR_SURFACE_ENVIRO_GREEN
+    startingCondition: STR_SURFACE_CONDITION
 
   - type: STR_CRUISE_SHIP_P2
     enviroEffects: STR_SURFACE_ENVIRO_GREEN
+    startingCondition: STR_SURFACE_CONDITION
 
   - type: STR_CARGO_SHIP_P1
     enviroEffects: STR_SURFACE_ENVIRO_GRAY
+    startingCondition: STR_SURFACE_CONDITION
 
   - type: STR_CARGO_SHIP_P2
     enviroEffects: STR_SURFACE_ENVIRO_GRAY
+    startingCondition: STR_SURFACE_CONDITION

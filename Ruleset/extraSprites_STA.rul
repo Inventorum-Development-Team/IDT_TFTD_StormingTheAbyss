@@ -210,6 +210,21 @@ extraSprites:
       #1480: Resources/AquaticWeapons/BigHarpoonHE.png
       #1488: Resources/AquaticWeapons/BigHarpoonINC.png
 
+# "Crafts : The corresponding extrasprite file id for BASEBITS.PCK is sprite+33 INTICON.PCK contains a minimized icon id=sprite the file id for the dogfight image is sprite+11"
+# INTICON Minimized Id = Sprite ; INTICON DogFight Id = Sprite+11 ; BASEBITS Id = Sprite+33
+# Craft Weapons: file id for INTICON.PCK is sprite+5 and sprite+48 for BASEBITS.PCK
+  - type: BASEBITS.PCK
+    files:
+      133: Resources/Crafts/Osprey_base.png
+      134: Resources/Crafts/Lightning_base.png
+  - type: INTICON.PCK
+    files:
+      100: Resources/Crafts/Osprey_minimised.png
+      101: Resources/Crafts/Lightning_minimised.png
+
+########################################################
+      111: Resources/Crafts/Osprey_dogfight.png
+      112: Resources/Crafts/Lightning_dogfight.png
 ###############
 
 # Exo Suit      
@@ -809,3 +824,18 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/MATADOR_SWARM_TORPEDO_UFOPEDIA.png
+
+################################
+
+  - type: HURRICANE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HURRICANE_UFOPEDIA.png
+  - type: SPARROW_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SPARROW_UFOPEDIA.png

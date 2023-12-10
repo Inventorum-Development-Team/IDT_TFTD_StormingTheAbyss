@@ -179,7 +179,7 @@ extraStrings:
       STR_HURRICANE_UFOPEDIA: "F-35F Hurricane, the amphibious variant of the VTOL joint strike fighter used for more than 30 years. A modern fusion reactor provides huge efficient thrust in air and below the sea. Reinforced heavy plating protects the craft of the stress of supersonic speeds underwater."
       
       STR_SPARROW: "SPARROW"
-      STR_SPARROW_UFOPEDOA: "Hybrid VTOL/Flying Sub craft, derived from the old Osprey transport. The MV-42 advanced variable frame allows the fusion pulse tubines to retract in sub mode and extend in flying mode."
+      STR_SPARROW_UFOPEDIA: "Hybrid VTOL/Flying Sub craft, derived from the old Osprey transport. The MV-42 advanced variable frame allows the fusion pulse tubines to retract in sub mode and extend in flying mode."
 
 ################################
 # Lore

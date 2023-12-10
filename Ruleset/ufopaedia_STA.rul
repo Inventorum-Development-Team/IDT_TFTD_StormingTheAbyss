@@ -1,5 +1,19 @@
 ufopaedia:
 
+  - id: STR_SPARROW
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: SPARROW_UFOPEDIA
+    text: STR_SPARROW_UFOPEDIA
+    listOrder: 101
+
+  - id: STR_HURRICANE
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: HURRICANE_UFOPEDIA
+    text: STR_HURRICANE_UFOPEDIA
+    listOrder: 401
+
 # [=] Exosuit Armor [=]
   - id: STR_EXOSUIT_UC
     type_id: 15
@@ -221,7 +235,7 @@ ufopaedia:
       - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA
-    image_id: LASER_SHOTGUN_BATTERY_FOCUSED_UFOPEDIA
+    image_id: LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA
     listOrder: 3554
   - id: STR_LASER_SHOTGUN_DISPERSION_BATTERY
     type_id: 14

@@ -1,0 +1,125 @@
+crafts: #done
+
+  - type: STR_SPARROW
+    sprite: 100
+    fuelMax: 1200
+    damageMax: 130
+    speedMax: 850
+    accel: 3
+    weapons: 1
+    avoidBonus: 15
+    soldiers: 18
+    vehicles: 0
+    maxSmallUnits: 18
+    maxLargeUnits: 0
+    costBuy: 600000
+    costSell: 250000
+    costRent: 100000
+    refuelRate: 20
+    radarRange: 350
+    radarChance: 100
+    transferTime: 72
+    score: 400
+    maxAltitude: 4
+    keepCraftAfterFailedMission: false
+    battlescapeTerrainData:
+      name: OSPREY_UNDERWATER
+      mapDataSets:
+        - BLANKS
+        - BD_PLANE_TFTD
+      mapBlocks:
+        - name: OSPREY_UNDERWATER
+          width: 20
+          length: 20
+    craftInventoryTile: [10, 9, 0] #X, Y, Level
+    deployment:
+      - [9, 14, 0, 6] #First row left Door
+      - [10, 14, 0, 0] #First row Middle
+      - [11, 14, 0, 2] #First row right Door
+      - [9, 13, 0, 6] #Second row left Door
+      - [10, 13, 0, 0] #Second row middle
+      - [11, 13, 0, 2] #Second row right Door
+      - [9, 12, 0, 2] #Third row left wall
+      - [10, 12, 0, 4] #Third row middle
+      - [11, 12, 0, 6] #Third row right wall
+      - [9, 11, 0, 2] #Fourth row left wall
+      - [10, 11, 0, 0] #Fourth row middle
+      - [11, 11, 0, 6] #Fourth row right wall
+      - [9, 10, 0, 2] #Fourth row left wall
+      - [10, 10, 0, 0] #Fourth row middle
+      - [11, 10, 0, 6] #Fourth row right wall
+
+  - type: STR_SPARROW_SURFACE
+    sprite: 100
+    battlescapeTerrainData:
+      name: OSPREY_SURFACE
+      mapDataSets:
+        - BLANKS
+        - BD_PLANE_TFTD
+      mapBlocks:
+        - name: OSPREY_SURFACE
+          width: 20
+          length: 20
+    craftInventoryTile: [10, 9, 0] #X, Y, Level
+    deployment:
+      - [9, 14, 0, 6] #First row left Door
+      - [10, 14, 0, 0] #First row Middle
+      - [11, 14, 0, 2] #First row right Door
+      - [9, 13, 0, 6] #Second row left Door
+      - [10, 13, 0, 0] #Second row middle
+      - [11, 13, 0, 2] #Second row right Door
+      - [9, 12, 0, 2] #Third row left wall
+      - [10, 12, 0, 4] #Third row middle
+      - [11, 12, 0, 6] #Third row right wall
+      - [9, 11, 0, 2] #Fourth row left wall
+      - [10, 11, 0, 0] #Fourth row middle
+      - [11, 11, 0, 6] #Fourth row right wall
+      - [9, 10, 0, 2] #Fourth row left wall
+      - [10, 10, 0, 0] #Fourth row middle
+      - [11, 10, 0, 6] #Fourth row right wall
+
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+
+  - type: STR_HURRICANE
+    sprite: 101
+    fuelMax: 700
+    damageMax: 140
+    speedMax: 3200
+    accel: 5
+    weapons: 3
+    soldiers: 1
+    costRent: 500000
+    forceShowInMonthlyCosts: true
+    costBuy: 700000
+    refuelRate: 50
+    transferTime: 96
+    score: 300
+    maxAltitude: 3
+    battlescapeTerrainData:
+      name: LIGHTNING_UNDERWATER
+      mapDataSets:
+        - BLANKS
+        - BD_PLANE_TFTD
+      mapBlocks:
+        - name: LIGHTNING_UNDERWATER
+          width: 10
+          length: 10
+    deployment:
+      - [5, 8, 0, 4]
+
+  - type: STR_HURRICANE_SURFACE
+    sprite: 101
+    battlescapeTerrainData:
+      name: LIGHTNING_SURFACE
+      mapDataSets:
+        - BLANKS
+        - BD_PLANE_TFTD
+      mapBlocks:
+        - name: LIGHTNING_SURFACE
+          width: 10
+          length: 10
+    deployment:
+      - [5, 8, 0, 4]
