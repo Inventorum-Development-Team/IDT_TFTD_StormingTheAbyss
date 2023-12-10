@@ -1,6 +1,34 @@
 extraStrings:
   - type: en-US
     strings:
+      
+      STR_WEAPONS: "Weapons"
+      STR_FIREARMS: "Firearms"
+      STR_SIDEARMS: "Sidearms"
+      STR_SMGS: "SMGs"
+      STR_SHOTGUNS: "Shotguns"
+      STR_RIFLES: "Rifles"
+      STR_HEAVY_WEAPONS: "Heavy Weapons"
+      STR_SNIPER_RIFLES: "Sniper Rifles"
+      STR_MACHINE_GUNS: "Machine Guns"
+      STR_LAUNCHERS: "Launchers"
+      STR_AMMO_CAT: "Ammo"
+      STR_ARMOR_CAT: "Armors"
+      STR_MELEE: "Melee"
+      STR_GADGETS: "Gadgets"
+      STR_MEDICAL: "Medical"
+      STR_GRENADES: "Grenades"
+      STR_KINETIC: "Kinetic"
+      STR_LASER: "Laser"
+      STR_PLASMA: "Plasma"
+      STR_GAUSS: "Gauss"
+      STR_SONIC: "Sonic"
+      STR_ION: "Ion"
+      STR_HUMAN_TECH: "Human Tech"
+      STR_ALIEN_TECH: "Alien Tech"
+      STR_SURFACE_ONLY: "Surface-only"
+      STR_UNDERWATER_ONLY: "Underwater-only"
+      STR_AMPHIBIOUS_EQUIPMENT: "Amphibious"
 
       STR_EXTERNAL_EQUIPMENT_ACQUISITION: "External Equipment Acquisition"
       STR_EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA: "The various governments and corporations member of the Council of Funding States provide standardized equipment. Still, if XCOM consider it necessary, we could peek around in the global arms trade. Military markets all over the world could sell us their assets, after opening a regional commercial channel. Take in consideration, though: regions with larger industrial outputs (this is, more weapons available at once) may take longer to contact, due the higher demand. If the providing  country leaves the XCOM initiative, it will stop selling us their items until their return."
@@ -148,15 +176,6 @@ extraStrings:
       STR_BURST: "Burst"
       STR_BURST_SHORT: "Burst (x{0})"
       STR_AUTO: "Full Auto"
-
-      STR_GAUSS_CANNON_UFOPEDIA: "THE GAUSS WEAPON IS NEWLY DEVELOPED X-COM TECHNOLOGY. THIS SYSTEM'S MASS ACCELERATOR IS POWERED BY A COMPACT, LIQUID NITROGEN COOLED, FUSION REACTOR."
-      
-      STR_GAUSS_PISTOL_UFOPEDIA: "The Gauss pistol uses magnetic acceleration technology, a new development in modern weaponry. It is accurate and functions above and below water, albeit bulky and heavy. "
-      STR_GAUSS_PISTOL_CLIP_UFOPEDIA: "Removable magazine loaded with ferromagnetic slugs, able to break through armor with ease. Gauss technology is a development of the Plasma mass acceleration technologies learned from the previous war."
-      STR_GAUSS_RIFLE_UFOPEDIA: "A step beyond the Gauss pistol, the rifle packs a real punch, with its twin magnetic accelerators. The extra room for conductive coils allows for more power efficiency."
-      STR_GAUSS_RIFLE_CLIP_UFOPEDIA: "The compact Zrbite-powered twin accelerators generates a powerful electric current along the barrel, impulsing a heavy tungsten ferromagnetic slug to tremendous speeds."
-      STR_HEAVY_GAUSS_UFOPEDIA: "The scoped Heavy Gauss is cumbersome, but extremely effective. It operates with 3 mass accelerators and is virtually unstoppable, functioning as long-range anti-materiel support weapon."
-      STR_HEAVY_GAUSS_CLIP_UFOPEDIA: "The internal heavy Zrbite batteries provide an enormous amount of raw power, channeled by reinforced conductive coils. The oversized tungsten slugs are so heavy that few can fit inside the external magazine without making it impossible to carry by the regular soldier."
       
       STR_DAMAGE_ARMOR_PIERCING: "KINETIC"
       STR_DAMAGE_INCENDIARY: "PHOSPHOR"
@@ -228,7 +247,14 @@ extraStrings:
 
 # Gauss Tech
 
-
+      STR_GAUSS_CANNON_UFOPEDIA: "THE GAUSS WEAPON IS NEWLY DEVELOPED X-COM TECHNOLOGY. THIS SYSTEM'S MASS ACCELERATOR IS POWERED BY A COMPACT, LIQUID NITROGEN COOLED, FUSION REACTOR."
+      
+      STR_GAUSS_PISTOL_UFOPEDIA: "The Gauss pistol uses magnetic acceleration technology, a new development in modern weaponry. It is accurate and functions above and below water, albeit bulky and heavy. "
+      STR_GAUSS_PISTOL_CLIP_UFOPEDIA: "Removable magazine loaded with ferromagnetic slugs, able to break through armor with ease. Gauss technology is a development of the Plasma mass acceleration technologies learned from the previous war."
+      STR_GAUSS_RIFLE_UFOPEDIA: "A step beyond the Gauss pistol, the rifle packs a real punch, with its twin magnetic accelerators. The extra room for conductive coils allows for more power efficiency."
+      STR_GAUSS_RIFLE_CLIP_UFOPEDIA: "The compact Zrbite-powered twin accelerators generates a powerful electric current along the barrel, impulsing a heavy tungsten ferromagnetic slug to tremendous speeds."
+      STR_HEAVY_GAUSS_UFOPEDIA: "The scoped Heavy Gauss is cumbersome, but extremely effective. It operates with 3 mass accelerators and is virtually unstoppable, functioning as long-range anti-materiel support weapon."
+      STR_HEAVY_GAUSS_CLIP_UFOPEDIA: "The internal heavy Zrbite batteries provide an enormous amount of raw power, channeled by reinforced conductive coils. The oversized tungsten slugs are so heavy that few can fit inside the external magazine without making it impossible to carry by the regular soldier."
 
 # Railguns Weapons Tech
 

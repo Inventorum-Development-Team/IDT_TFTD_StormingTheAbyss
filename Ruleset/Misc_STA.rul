@@ -45,3 +45,59 @@ alienDeployments:
   - type: STR_CARGO_SHIP_P2
     enviroEffects: STR_SURFACE_ENVIRO_GRAY
     startingCondition: STR_SURFACE_CONDITION
+
+itemCategories:
+  - type: STR_WEAPONS
+    listOrder: 1
+  - type: STR_FIREARMS
+    listOrder: 2
+  - type: STR_SIDEARMS
+    listOrder: 3
+  - type: STR_SMGS
+    listOrder: 4
+  - type: STR_SHOTGUNS
+    listOrder: 5
+  - type: STR_RIFLES
+    listOrder: 6
+  - type: STR_HEAVY_WEAPONS
+    listOrder: 7
+  - type: STR_SNIPER_RIFLES
+    listOrder: 8
+  - type: STR_MACHINE_GUNS
+    listOrder: 9
+  - type: STR_LAUNCHERS
+    listOrder: 10
+  - type: STR_AMMO_CAT
+    listOrder: 11
+  - type: STR_ARMOR_CAT
+    listOrder: 12
+  - type: STR_MELEE
+    listOrder: 15
+  - type: STR_GADGETS
+    listOrder: 16
+  - type: STR_MEDICAL
+    listOrder: 17
+  - type: STR_GRENADES
+    listOrder: 18
+  - type: STR_KINETIC
+    listOrder: 19
+  - type: STR_LASER
+    listOrder: 20
+  - type: STR_PLASMA
+    listOrder: 21
+  - type: STR_GAUSS
+    listOrder: 22
+  - type: STR_SONIC
+    listOrder: 23
+  - type: STR_ION
+    listOrder: 23
+  - type: STR_HUMAN_TECH
+    listOrder: 24
+  - type: STR_ALIEN_TECH
+    listOrder: 25
+  - type: STR_SURFACE_ONLY
+    listOrder: 26
+  - type: STR_UNDERWATER_ONLY
+    listOrder: 27
+  - type: STR_AMPHIBIOUS_EQUIPMENT
+    listOrder: 28
