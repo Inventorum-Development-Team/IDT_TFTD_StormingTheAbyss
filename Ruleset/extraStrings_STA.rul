@@ -24,6 +24,10 @@ extraStrings:
       STR_GAUSS: "Gauss"
       STR_SONIC: "Sonic"
       STR_ION: "Ion"
+      STR_EXPLOSIVE: "Explosive"
+      STR_SHOCK: "Shock"
+      STR_FREEZE: "Freeze"
+      STR_PHOSPHOR: "Phosphor"
       STR_HUMAN_TECH: "Human Tech"
       STR_ALIEN_TECH: "Alien Tech"
       STR_SURFACE_ONLY: "Surface-only"
@@ -210,6 +214,9 @@ extraStrings:
       STR_PERSONAL_ARMOR_GRAY_UC: "Personal Armor (Urban)"
       STR_PERSONAL_ARMOR_GRAY_CORPSE: "Corpse"
 
+      STR_LUNG: "Aqualung"
+      STR_LUNG_I: "AQUALUNG"
+      STR_LUNG_UFOPEDIA: "Standart issue diving suit with aqualung. While provides no additional protection, allows relative freely movement underwater due to some fatigue."
 #############################
 # Crafts
 

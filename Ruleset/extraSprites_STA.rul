@@ -367,7 +367,62 @@ extraSprites:
       0: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_SPRITESHEET.png
 
 #
+# AQUALUNG
 
+  - type: LUNGSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armor/lung_sheet.png
+
+  - type: LMANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.gif
+  - type: LMANF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.gif
+  - type: LMANF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f1.gif
+  - type: LMANF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.gif
+  - type: LMANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.gif
+  - type: LMANM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m1.gif
+  - type: LMANM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.gif
+  - type: LMANM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.gif
+
+  - type: UPLUNG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Lung_UP.gif
+
+  - type: BIGOBS.PCK
+    files:
+      128: Resources/armor/inv_corpse.png
+  - type: FLOOROB.PCK
+    files:
+      129: Resources/armor/floor_corpse.png
 
 
 #############

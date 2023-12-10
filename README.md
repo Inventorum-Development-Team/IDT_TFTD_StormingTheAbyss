@@ -8,6 +8,7 @@ Credits:
 * efrenespartano: overall sprite and code creator
 * Filip-H: scripting support
 * Hans Woofington: HTAR, Plamsa Rifle Mk.2, Automatic Shotgun, Laser Sniper, hitAnimations
+* Nord: Aqualung 
 * Ohartenstein23: Bits of 40k IG spritesheets
 * wolwerin: Harpoon, Combat Harpoon, Neptune Torpedo, Underwater LMG sprites
 * XOps: F-35F Hurricane fighter

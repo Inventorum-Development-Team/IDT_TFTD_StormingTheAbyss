@@ -5,14 +5,14 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: SPARROW_UFOPEDIA
     text: STR_SPARROW_UFOPEDIA
-    listOrder: 101
+    listOrder: 99
 
   - id: STR_HURRICANE
     type_id: 11
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: HURRICANE_UFOPEDIA
     text: STR_HURRICANE_UFOPEDIA
-    listOrder: 401
+    listOrder: 399
 
 # [=] Exosuit Armor [=]
   - id: STR_EXOSUIT_UC
@@ -29,6 +29,14 @@ ufopaedia:
     text: STR_PERSONAL_ARMOR_UFOPEDIA
     image_id: PERSONAL_ARMOR_UFOPEDIA
     listOrder: 1660
+
+# [=] Aqualung [=]
+  - id: STR_LUNG
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LUNG_UFOPEDIA
+    image_id: UPLUNG
+    listOrder: 1670
 
 # [=] Arms Trade Pedia [=]
   - id: STR_EXTERNAL_EQUIPMENT_ACQUISITION

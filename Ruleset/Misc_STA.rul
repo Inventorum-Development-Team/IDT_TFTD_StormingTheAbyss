@@ -90,14 +90,22 @@ itemCategories:
   - type: STR_SONIC
     listOrder: 23
   - type: STR_ION
-    listOrder: 23
-  - type: STR_HUMAN_TECH
     listOrder: 24
-  - type: STR_ALIEN_TECH
+  - type: STR_EXPLOSIVE
     listOrder: 25
-  - type: STR_SURFACE_ONLY
+  - type: STR_SHOCK
     listOrder: 26
-  - type: STR_UNDERWATER_ONLY
+  - type: STR_FREEZE
     listOrder: 27
-  - type: STR_AMPHIBIOUS_EQUIPMENT
+  - type: STR_PHOSPHOR
     listOrder: 28
+  - type: STR_HUMAN_TECH
+    listOrder: 29
+  - type: STR_ALIEN_TECH
+    listOrder: 30
+  - type: STR_SURFACE_ONLY
+    listOrder: 31
+  - type: STR_UNDERWATER_ONLY
+    listOrder: 32
+  - type: STR_AMPHIBIOUS_EQUIPMENT
+    listOrder: 33
