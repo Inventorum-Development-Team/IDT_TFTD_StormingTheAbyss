@@ -467,3 +467,27 @@ ufopaedia:
     text: STR_MATADOR_SWARM_TORPEDO_UFOPEDIA
     image_id: MATADOR_SWARM_TORPEDO_UFOPEDIA
     listOrder: 3154
+
+# [=] Extended Lore Pedia [=]
+  - id: STR_DESPERATE_MATTERS
+    type_id: 15
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_DESPERATE_MATTERS_UFOPEDIA
+    image_id: DESPERATE_MATTERS_UFOPEDIA
+    #listOrder: 3519
+
+# [=] Extended Lore Pedia [=]
+  - id: STR_RISING_TIDES
+    type_id: 15
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_RISING_TIDES_UFOPEDIA
+    image_id: RISING_TIDES_UFOPEDIA
+    #listOrder: 3519
+
+# [=] Extended Lore Pedia [=]
+  - id: STR_NEW_WORLD_ORDER
+    type_id: 15
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_NEW_WORLD_ORDER_UFOPEDIA
+    image_id: NEW_WORLD_ORDER_UFOPEDIA
+    #listOrder: 3519

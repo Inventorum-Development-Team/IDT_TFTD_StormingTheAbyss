@@ -149,8 +149,27 @@ extraStrings:
       STR_BURST_SHORT: "Burst (x{0})"
       STR_AUTO: "Full Auto"
 
-      STR_DAMAGE_11: "Laser"
-      STR_DAMAGE_12: "Plasma"
+      STR_GAUSS_CANNON_UFOPEDIA: "THE GAUSS WEAPON IS NEWLY DEVELOPED X-COM TECHNOLOGY. THIS SYSTEM'S MASS ACCELERATOR IS POWERED BY A COMPACT, LIQUID NITROGEN COOLED, FUSION REACTOR."
+      
+      STR_GAUSS_PISTOL_UFOPEDIA: "The Gauss pistol uses magnetic acceleration technology, a new development in modern weaponry. It is accurate and functions above and below water, albeit bulky and heavy. "
+      STR_GAUSS_PISTOL_CLIP_UFOPEDIA: "Removable magazine loaded with ferromagnetic slugs, able to break through armor with ease. Gauss technology is a development of the Plasma mass acceleration technologies learned from the previous war."
+      STR_GAUSS_RIFLE_UFOPEDIA: "A step beyond the Gauss pistol, the rifle packs a real punch, with its twin magnetic accelerators. The extra room for conductive coils allows for more power efficiency."
+      STR_GAUSS_RIFLE_CLIP_UFOPEDIA: "The compact Zrbite-powered twin accelerators generates a powerful electric current along the barrel, impulsing a heavy tungsten ferromagnetic slug to tremendous speeds."
+      STR_HEAVY_GAUSS_UFOPEDIA: "The scoped Heavy Gauss is cumbersome, but extremely effective. It operates with 3 mass accelerators and is virtually unstoppable, functioning as long-range anti-materiel support weapon."
+      STR_HEAVY_GAUSS_CLIP_UFOPEDIA: "The internal heavy Zrbite batteries provide an enormous amount of raw power, channeled by reinforced conductive coils. The oversized tungsten slugs are so heavy that few can fit inside the external magazine without making it impossible to carry by the regular soldier."
+      
+      STR_DAMAGE_ARMOR_PIERCING: "KINETIC"
+      STR_DAMAGE_INCENDIARY: "PHOSPHOR"
+      STR_DAMAGE_HIGH_EXPLOSIVE: "EXPLOSIVE"
+      STR_DAMAGE_LASER_BEAM: "GAUSS"
+      STR_DAMAGE_PLASMA_BEAM: "SONIC"
+      STR_DAMAGE_STUN: "STUN"
+      STR_DAMAGE_MELEE: "MELEE"
+      STR_DAMAGE_ACID: "SHOCK"
+      STR_DAMAGE_SMOKE: "DYE"
+
+      STR_DAMAGE_11: "LASER"
+      STR_DAMAGE_12: "PLASMA"
 
 ############################
 # Armors
