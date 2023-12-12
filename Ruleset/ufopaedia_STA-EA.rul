@@ -42,11 +42,14 @@ ufopaedia:
     type_id: 14
     section: STR_NOT_AVAILABLE    
 
+# [=] Weapon - BPistol [=]
   - id: STR_BMPISTOL
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_BMPISTOL_TEXT
     image_id: UFOpaedia_BMPISTOL.png
+    requires:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
     listOrder: 3502
   - id: STR_BMPISTOL_CLIP
     type_id: 14
@@ -57,6 +60,8 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_BSMG_TEXT
     image_id: UFOpaedia_BSMG.png
+    requires:
+      - STR_AFRICAN_MARKET
     listOrder: 3503
   - id: STR_BSMG_CLIP
     type_id: 14
