@@ -11,20 +11,36 @@ items:
 
   - type: STR_BLMG
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS]
+    requiresBuyCountry: STR_FREE_CHINA
+    requiresBuy:
+      - STR_ASIAN_MARKET
   - type: STR_BLMG_CLIP
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO_CAT]
+    requiresBuyCountry: STR_FREE_CHINA
+    requiresBuy:
+      - STR_ASIAN_MARKET
 
   - type: STR_BSMG 
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SMGS]
+    requiresBuyCountry: STR_ARABIAN_BLOC
+    requiresBuy:
+      - STR_AFRICAN_MARKET
 
   - type: STR_BSMG_CLIP
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SMGS, STR_AMMO_CAT]
+    requiresBuyCountry: STR_ARABIAN_BLOC
+    requiresBuy:
+      - STR_AFRICAN_MARKET
 
   - type: STR_BMPISTOL 
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
+    requiresBuy:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
 
   - type: STR_BMPISTOL_CLIP 
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS, STR_AMMO_CAT]
+    requiresBuy:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
 
   - type: STR_TFTD_BCANNON
     categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_LAUNCHERS]
