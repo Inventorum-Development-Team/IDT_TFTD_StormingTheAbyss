@@ -224,7 +224,7 @@ terrains:
     depth: [0, 0]
     ambience: 67
     ambientVolume: 0.25
-    enviroEffects: STR_PERSONAL_ARMOR_GREEN_UC
+    enviroEffects: STR_SURFACE_ENVIRO_GREEN
     music:
       - GMTACDRY
     mapBlocks:
