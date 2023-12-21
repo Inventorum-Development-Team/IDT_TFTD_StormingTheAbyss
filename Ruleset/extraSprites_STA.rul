@@ -648,7 +648,7 @@ extraSprites:
     height: 200
     singleImage: true
     files:
-      0: Resources/UFOPAEDIA/AUTO_SHOGUN_UFOPEDIA.png
+      0: Resources/UFOPAEDIA/AUTO_SHOTGUN_UFOPEDIA.png
   - type: AUTO_SHOTGUN_SLUG_UFOPEDIA
     width: 320
     height: 200

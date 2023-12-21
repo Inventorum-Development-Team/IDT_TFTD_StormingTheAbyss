@@ -45,7 +45,7 @@ extraStrings:
       STR_PACIFIC_MARKET: "Pacific Oceanic Market"
       
       STR_SURFACE_WEAPONS: "Surface-only Weaponry"
-      STR_SURFACE_WEAPONS_UFOPEDIA: "The land is our preferred environment, of course. We have fought, bleed, bleed, died and won above the ground for centuries. It is only natural our surface weapons have better quality, although obviously these won't work below the waves. Over the course of the next 40 years after the First Alien War, the ballistics have become better, specially since the widespread of Alien Alloys. Direct Energy Weapons as lasers have become common as well, although considerably more expensive than regular kinetic  weapons."
+      STR_SURFACE_WEAPONS_UFOPEDIA: "The land is our preferred environment, of course. We have fought, bleed, died and won above the ground for centuries. It is only natural our surface weapons have better quality, although obviously these won't work below the waves. Over the course of the next 40 years after the First Alien War, the ballistics have become better, specially since the widespread of Alien Alloys. Direct Energy Weapons as lasers have become common as well, although considerably more expensive than regular kinetic weapons."
 
       STR_VARIABLE_RIFLE: "Variable Combat Rifle"
       STR_VARIABLE_RIFLE_UFOPEDIA: "Standard issue M7A2 rifle of the US Armed Forces, since 2027. Capable of firing three distinct types of 6.8mm rounds, for a wide range of situations."
@@ -84,7 +84,7 @@ extraStrings:
       STR_LASER_SHOTGUN: "Laser Scattergun"
       STR_LASER_SHOTGUN_UFOPEDIA: "The diffraction lenses inside the Nordvik m19/42 'Fryktløs' (Dauntless in Norwegian) splits the emitted beam in different directions instead of one straight line. The futuristic aesthetic is an important marketing point for the Scandinavian enterprise."
       STR_LASER_SHOTGUN_FOCUSED_BATTERY: "Las. Scattergun Battery -FOCUSED- "
-      STR_LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA: "Standard variant of the Dauntless Laser Scattergun power source. The internal configuration allows for a tightly focused beam discharge, with 20% of spead. There was some controversy between Nordvik and Vikram Arms due the striking similarities between the batteries used by their prime laser weapons." 
+      STR_LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA: "Deuterium Power source used on the Dauntless Laser Scattergun. The internal configuration allows for a tightly focused beam discharge, with 20% of spead. There was some controversy between Nordvik and Vikram Arms due the striking similarities between the batteries used by their prime laser weapons." 
       STR_LASER_SHOTGUN_DISPERSION_BATTERY: "Las. Scattergun Battery -DISPERSION- "
       STR_LASER_SHOTGUN_DISPERSION_BATTERY_UFOPEDIA: "By loading this battery on the Scattergun, the laser beams are emitted with an wide 75% arc spread, useful for engaging large groups of enemies in the open. While not interchangeable, the internal function and overall structure of the Laser Snipers and Scatterguns are close enough and the Asian corporation was sued for corporate espionage."
 
@@ -180,6 +180,8 @@ extraStrings:
       STR_BURST: "Burst"
       STR_BURST_SHORT: "Burst (x{0})"
       STR_AUTO: "Full Auto"
+      STR_FOCUSED_SHOT: "Focused Shot"
+      STR_DISPERSION_SHOT: "Dispersed Shot"
       
       STR_DAMAGE_ARMOR_PIERCING: "KINETIC"
       STR_DAMAGE_INCENDIARY: "PHOSPHOR"

@@ -169,7 +169,7 @@ ufopaedia:
     listOrder: 3532
 
 # [=] Weapon - Combat Handgun [=]
-  - id: STR_COMBAT_HANDGUN_UFOPEDIA
+  - id: STR_COMBAT_HANDGUN
     type_id: 14
     requires:
       - STR_NORTH_EUROPEAN_MARKET
@@ -221,7 +221,7 @@ ufopaedia:
     text: STR_AUTO_SHOTGUN_SHELLS_UFOPEDIA
     image_id: AUTO_SHOTGUN_SHELLS_UFOPEDIA
     listOrder: 3551
-  - id: STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA
+  - id: STR_AUTO_SHOTGUN_SLUGS
     type_id: 14
     requires:
       - STR_SOUTH_AMERICAN_MARKET
