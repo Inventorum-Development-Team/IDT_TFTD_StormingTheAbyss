@@ -660,9 +660,25 @@ items:
     reloadSound: 125
     accuracySnap: 60
     accuracyAimed: 75
-    compatibleAmmo:
-      - STR_LASER_SHOTGUN_FOCUSED_BATTERY
-      - STR_LASER_SHOTGUN_DISPERSION_BATTERY
+    ammo:
+      0:
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo: [ STR_LASER_SHOTGUN_FOCUSED_BATTERY]
+      1:
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo: [ STR_LASER_SHOTGUN_DISPERSION_BATTERY]
+    confAimed:
+      shots: 1
+      name: STR_FOCUSED_SHOT
+      ammoSlot: 0
+      arcing: false
+    confSnap:
+      shots: 1
+      name: STR_DISPERSION_SHOT
+      ammoSlot: 1
+      arcing: false
     costSnap:
       time: 40
     costAimed:
@@ -697,7 +713,7 @@ items:
     damageType: 11
     damageAlter:
       RandomType: 6
-    clipSize: 20
+    clipSize: 10
     battleType: 2
     shotgunBehavior: 1
     shotgunPellets: 8
@@ -728,7 +744,7 @@ items:
     damageType: 11
     damageAlter:
       RandomType: 6
-    clipSize: 20
+    clipSize: 10
     battleType: 2
     shotgunBehavior: 1
     shotgunPellets: 8
@@ -1604,9 +1620,6 @@ items:
     size: 0.1
     costSell: 20000
     weight: 7
-    bigSprite: 5
-    floorSprite: 5
-    handSprite: 128
     bulletSprite: 19
     fireSound: [121, 122, 123]
     reloadSound: 124
@@ -1625,9 +1638,6 @@ items:
     size: 0.2
     costSell: 1050
     weight: 2
-    bigSprite: 57
-    floorSprite: 78
-    handSprite: 216
     hitSound: [301, 302, 303, 304]
     hitAnimation: 660
     power: 45
@@ -1650,9 +1660,6 @@ items:
     size: 0.2
     costSell: 36900
     weight: 8
-    bigSprite: 0
-    floorSprite: 0
-    handSprite: 8
     bulletSprite: 19
     fireSound: [121, 122, 123]
     reloadSound: 124
@@ -1672,9 +1679,6 @@ items:
     size: 0.2
     costSell: 1950
     weight: 3
-    bigSprite: 61
-    floorSprite: 78
-    handSprite: 224
     hitSound: [301, 302, 303, 304]
     hitAnimation: 660
     power: 70
