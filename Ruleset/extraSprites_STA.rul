@@ -69,6 +69,8 @@ extraSprites:
       1472: Resources/AquaticWeapons/BigHarpoonAP.png
       1480: Resources/AquaticWeapons/BigHarpoonHE.png
       1488: Resources/AquaticWeapons/BigHarpoonINC.png
+      1486: Resources/SurfaceWeapons/BigBullpupSMG.png
+      1504: Resources/SurfaceWeapons/BigBullpupSMGMag.png
       
   - type: FLOOROB.PCK
     files:
@@ -140,6 +142,8 @@ extraSprites:
       1472: Resources/AquaticWeapons/FloorHarpoonAP.png
       1480: Resources/AquaticWeapons/FloorHarpoonHE.png
       1488: Resources/AquaticWeapons/FloorHarpoonINC.png
+      1486: Resources/SurfaceWeapons/FloorBullpupSMG.png
+      1504: Resources/SurfaceWeapons/FloorBullpupSMGMag.png      
 
 
   - type: HANDOB.PCK
@@ -209,6 +213,8 @@ extraSprites:
       #1472: Resources/AquaticWeapons/BigHarpoonAP.png
       #1480: Resources/AquaticWeapons/BigHarpoonHE.png
       #1488: Resources/AquaticWeapons/BigHarpoonINC.png
+      1486: Resources/SurfaceWeapons/HandBullpupSMG.png
+      #1504: Resources/SurfaceWeapons/FloorBullpupSMGMag.png 
 
 # "Crafts : The corresponding extrasprite file id for BASEBITS.PCK is sprite+33 INTICON.PCK contains a minimized icon id=sprite the file id for the dogfight image is sprite+11"
 # INTICON Minimized Id = Sprite ; INTICON DogFight Id = Sprite+11 ; BASEBITS Id = Sprite+33
@@ -617,6 +623,20 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/LASER_PISTOL_UFOPEDIA.png
+
+
+  - type: BULLPUP_SMG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BULLPUP_SMG_UFOPEDIA.png
+  - type: BULLPUP_SMG_AMMO_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BULLPUP_SMG_AMMO_UFOPEDIA.png
 
   - type: STREET_SWEEPER_UFOPEDIA
     width: 320

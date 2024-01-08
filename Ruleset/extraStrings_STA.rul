@@ -68,6 +68,11 @@ extraStrings:
       STR_STREET_SWEEPER_UFOPEDIA: "Ultra-compact SMG, manufactured for the Mexico City Riot Police. The 'Barredora' uses light ammo with limited stopping power, but allows the user to carry a large reserve and the gun recoil is barely felt. One handed."
       STR_STREET_SWEEPER_MAG: "Street Sweeper Drum Mag"
       STR_STREET_SWEEPER_MAG_UFOPEDIA: "A drum full of .22 Jaguar rounds, small yet still dangerous if shot en masse. The primary use is crowd-control, although Mexican security forces are instructed to restrict their shots to avoid unnecessary deaths."
+
+      STR_BULLPUP_SMG: "Bullpup SMG"
+      STR_BULLPUP_SMG_UFOPEDIA: "A lightweight Peruvian submachine gun/light carbine, it replaced the native FAD rifle in the early 2030s. The Riebeling SFA is cheap and easy to mass-produce, its reduced size allows for quick reaction fire with a considerable downgrade in sustained automatic fire."
+      STR_BULLPUP_SMG_MAG: "Bullpup SMG Mag"
+      STR_BULLPUP_SMG_MAG_UFOPEDIA: "The specialized teflon-coated bullets gives an increased penetration against hard targets, either armored enemies (60%) or cover (50%). Ironically, meanwhile the weapon system has a reduced price, the ammo costs almost the same of the full weapon."
       
       STR_COMBAT_HANDGUN: "Combat Handgun"
       STR_COMBAT_HANDGUN_UFOPEDIA: "This Scandinavian weapon developed by Bofors Defense Unlimited is a heavy and reliable sidearm, designed for shock troops operating in extreme environments. Integrated targeting designator."
@@ -82,8 +87,8 @@ extraStrings:
       STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA: "A solid, 10-Gauge slug modified with an internal microflask of a chemical compound derived from the Amazonian snake's poison. Once hit, the flask breaks and the poison is injected into the body, freezing the nervous system and paralyzing the unfortunate receiving end." 
       
       STR_LASER_SHOTGUN: "Laser Scattergun"
-      STR_LASER_SHOTGUN_UFOPEDIA: "The diffraction lenses inside the Nordvik m19/42 'Fryktløs' (Dauntless in Norwegian) splits the emitted beam in different directions instead of one straight line. The futuristic aesthetic is an important marketing point for the Scandinavian enterprise."
-      STR_LASER_SHOTGUN_FOCUSED_BATTERY: "Las. Scattergun Battery -FOCUSED- "
+      STR_LASER_SHOTGUN_UFOPEDIA: "The diffraction lenses inside the Nordvik m19/42 'Fryktløs' (Dauntless in Norwegian) splits the emitted beam in different directions instead of one straight line. The futuristic aesthetic is an important marketing point for the Scandinavian enterprise. Both battery variants are loaded at the same time."
+      STR_LASER_SHOTGUN_FOCUSED_BATTERY: "Las. Scattergun Battery -FOCUS- "
       STR_LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA: "Deuterium Power source used on the Dauntless Laser Scattergun. The internal configuration allows for a tightly focused beam discharge, with 20% of spead. There was some controversy between Nordvik and Vikram Arms due the striking similarities between the batteries used by their prime laser weapons." 
       STR_LASER_SHOTGUN_DISPERSION_BATTERY: "Las. Scattergun Battery -DISPERSION- "
       STR_LASER_SHOTGUN_DISPERSION_BATTERY_UFOPEDIA: "By loading this battery on the Scattergun, the laser beams are emitted with an wide 75% arc spread, useful for engaging large groups of enemies in the open. While not interchangeable, the internal function and overall structure of the Laser Snipers and Scatterguns are close enough and the Asian corporation was sued for corporate espionage."
@@ -94,14 +99,14 @@ extraStrings:
       STR_OLD_PLASMA_RIFLE_CLIP_UFOPEDIA: "An old alien energy cell for the Plasma Rifle. It contains a small amount of E-115, making it a very sought-after item."
 
       STR_NEW_PLASMA_RIFLE: "Plasma Rifle Mk.2"
-      STR_NEW_PLASMA_RIFLE_UFOPEDIA: "By swapping from Elerium to Zrbite, we were able to create a more economic  variant. While less powerful than the First War weapons, the reduced production costs worth the downsides."
+      STR_NEW_PLASMA_RIFLE_UFOPEDIA: "By swapping from Elerium to Zrbite, we were able to create a more economic variant. While less powerful than the First War weapons, the reduced production costs worth the downsides."
       STR_NEW_PLASMA_RIFLE_CLIP: "Plasma Rifle Mk.2 Cell"
       STR_NEW_PLASMA_RIFLE_CLIP_UFOPEDIA: "The conversion from Elerium to Zrbite revived the use of Plasma weaponry, albeit with reduced raw damage and unwanted side effects in the health of the user, among them dizziness and disorientation. The uncontrolled radiation emitted by the modified Plasma Rifles inflicts a random number of Freezing damage on the operator."  
       
       STR_TACTICAL_LMG: "HTAR Machine Gun"
       STR_TACTICAL_LMG_UFOPEDIA: "The Heavy Tactical Automatic Rifle is a highly adaptable machine gun designed by Austrian firm TW Industries, based around the original XCOM assault rifle. The 7.62x51mm rounds have three distinct cores to maximize the battlefield efficiency. The slow rate of fire is needed to get the maximum accurate shots as possible."
       STR_TACTICAL_LMG_AP: "HTAR - AP Box"
-      STR_TACTICAL_LMG_AP_UFOPEDIA: "Officially dubbed 'armored bullets', the Teflon/Alloy-tipped bullets have increased armor damage (up to 30%). Designed after the violent encounters with alien robotic units."
+      STR_TACTICAL_LMG_AP_UFOPEDIA: "Officially dubbed 'armored bullets', the Teflon/Alloy-tipped bullets have increased armor damage (up to 50%). Designed after the violent encounters with alien robotic units."
       STR_TACTICAL_LMG_INC: "HTAR - INC Box"
       STR_TACTICAL_LMG_INC_UFOPEDIA: "The R75 White Phosphorus incendiary rounds are meant to engage organic threats not protected by the Geneva Convention. Originally meant for illumination, the use of INC ammo against alien biological terrorists motivated the development of this kind of ammo."
       STR_TACTICAL_LMG_HE: "HTAR - HE Box"
@@ -129,7 +134,7 @@ extraStrings:
       STR_UNDERWATER_WEAPONS_UFOPEDIA: "Sea warfare isn't new to us.  Fighting undersea has been done for a while. Specially after the First War and the rising climate change, where the bottom of the sea is slowly and steadily explored and settled. The nature of our new enemy forces us to adapt better and faster, our tools will become better."
       
       STR_UNDERWATER_REVOLVER: "Underwater Revolver"
-      STR_UNDERWATER_REVOLVER_UFOPEDIA: "Hard hitting sidearm Mark 1, developed by Morgan & Marston Firearms Ltd in USA. Its removable cylinder magazine fits into the side of a gun, being inserted and removed through a door on the left side of the gun. The frame, cylinder, door assembly, and action are made of aluminum, the trigger is made of self-lubricating nylon, and all other parts are made of stainless steel. Slow and hard-hitting, it packs a punch at close range."
+      STR_UNDERWATER_REVOLVER_UFOPEDIA: "Mark 1, developed by Morgan & Marston Firearms Ltd in USA. Its removable cylinder magazine fits into the side of a gun, being inserted and removed through a door on the left side of the gun. The frame, cylinder, door assembly, and action are made of aluminum, the trigger is made of self-lubricating nylon, and all other parts are made of stainless steel. Slow and hard-hitting, it packs a punch at close range."
       STR_UNDERWATER_REVOLVER_CLIP: "Underwater Revolver Canister"
       STR_UNDERWATER_REVOLVER_CLIP_UFOPEDIA: "The ammo used by the Mk 1 is a stainless steel cylinder containing a single 4.25 inch heavy tungsten darts, long and thin, and it has four fins machined into its rear section, with each fin having a small angle cut into it that causes water to flow over it and give the projectile a stabilizing spin. The shape of the dart helps it to penetrate the water while retaining a high velocity."
 
@@ -181,7 +186,9 @@ extraStrings:
       STR_BURST_SHORT: "Burst (x{0})"
       STR_AUTO: "Full Auto"
       STR_FOCUSED_SHOT: "Focused Shot"
+      STR_FOCUSED_SHORT: "Focused (x{0})"
       STR_DISPERSION_SHOT: "Dispersed Shot"
+      STR_DISPERSION_SHORT: "Dispersed (x{0})"
       
       STR_DAMAGE_ARMOR_PIERCING: "KINETIC"
       STR_DAMAGE_INCENDIARY: "PHOSPHOR"

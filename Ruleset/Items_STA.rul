@@ -13,8 +13,8 @@ items:
     requiresBuy:
       - STR_NORTH_AMERICAN_MARKET
     requiresBuyCountry: STR_USA
-    costBuy: 4650
-    costSell: 3250
+    costBuy: 5650
+    costSell: 5250
     weight: 8
     bigSprite: 1000
     floorSprite: 1000
@@ -28,6 +28,7 @@ items:
     accuracyAuto: 35
     accuracySnap: 55
     accuracyAimed: 80
+    kneelBonus: 150
     tuAuto: 35
     tuSnap: 25
     tuAimed: 40
@@ -58,8 +59,8 @@ items:
     requiresBuyCountry: STR_USA
     requiresBuy:
       - STR_NORTH_AMERICAN_MARKET
-    costBuy: 450
-    costSell: 250
+    costBuy: 750
+    costSell: 650
     weight: 2
     bigSprite: 1016
     floorSprite: 1016
@@ -87,8 +88,8 @@ items:
     requiresBuyCountry: STR_USA
     requiresBuy:
       - STR_NORTH_AMERICAN_MARKET
-    costBuy: 450
-    costSell: 250
+    costBuy: 950
+    costSell: 850
     weight: 2
     bigSprite: 1024
     floorSprite: 1024
@@ -119,8 +120,8 @@ items:
     requiresBuyCountry: STR_USA
     requiresBuy:
       - STR_NORTH_AMERICAN_MARKET
-    costBuy: 450
-    costSell: 250
+    costBuy: 650
+    costSell: 550
     weight: 2
     bigSprite: 1032
     floorSprite: 1032
@@ -152,6 +153,7 @@ items:
     costBuy: 2650
     costSell: 3250
     weight: 8
+    kneelBonus: 150
     bigSprite: 1040
     floorSprite: 1040
     handSprite: 1040
@@ -215,9 +217,10 @@ items:
     requiresBuyCountry: STR_NEO_JAPAN
     requiresBuy:
       - STR_ASIAN_MARKET
-    costBuy: 4650
-    costSell: 3250
+    costBuy: 12650
+    costSell: 11250
     weight: 8
+    kneelBonus: 150
     bigSprite: 1064
     floorSprite: 1064
     handSprite: 1064
@@ -265,6 +268,7 @@ items:
     costBuy: 72000
     costSell: 61000
     weight: 18
+    kneelBonus: 200
     bigSprite: 1080
     floorSprite: 1080
     handSprite: 1080
@@ -421,9 +425,10 @@ items:
     requiresBuyCountry: STR_SCANDINAVIA
     requiresBuy:
       - STR_NORTH_EUROPEAN_MARKET
-    costBuy: 1250
-    costSell: 950
+    costBuy: 4250
+    costSell: 3950
     weight: 5
+    kneelBonus: 120
     bigSprite: 1128
     floorSprite: 1128
     handSprite: 1128
@@ -447,7 +452,7 @@ items:
     requiresBuyCountry: STR_SCANDINAVIA
     requiresBuy:
       - STR_NORTH_EUROPEAN_MARKET
-    costBuy: 285
+    costBuy: 985
     costSell: 120
     weight: 2
     bigSprite: 1144
@@ -465,7 +470,7 @@ items:
 
 # Street Sweeper SMG
   - type: STR_STREET_SWEEPER
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS, STR_SMGS]
     size: 0.1
     requiresBuyCountry: STR_NEW_MEXICO
     requiresBuy:
@@ -473,28 +478,29 @@ items:
     costBuy: 1250
     costSell: 950
     weight: 5
+    kneelBonus: 120
     bigSprite: 1152
     floorSprite: 1152
     handSprite: 1152
     fireSound: 106
     reloadSound: 107
     confSnap:
-      shots: 3
+      shots: 5
       name: STR_BURST
       shortName: STR_BURST_SHORT
       ammoSlot: 0
       arcing: false
     confAuto:
-      shots: 5
+      shots: 10
       name: STR_AUTO
       ammoSlot: 0
       arcing: false
     compatibleAmmo:
       - STR_STREET_SWEEPER_MAG
-    accuracySnap: 40
-    accuracyAimed: 65
+    accuracySnap: 65
+    accuracyAuto: 55
     tuSnap: 15
-    tuAimed: 35
+    tuAuto: 25
     battleType: 1
     twoHanded: false
     invWidth: 1
@@ -503,7 +509,7 @@ items:
     listOrder: 3542    
 
   - type: STR_STREET_SWEEPER_MAG
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS, STR_SMGS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_NEW_MEXICO
     requiresBuy:
@@ -531,6 +537,77 @@ items:
     landOnly: true   
     listOrder: 3543 
 
+
+# SMGs #
+
+# Riebeling Bullpup SMG
+  - type: STR_BULLPUP_SMG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SMGS]
+    size: 0.1
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
+    costBuy: 1450
+    costSell: 1250
+    weight: 5
+    kneelBonus: 150
+    bigSprite: 1486
+    floorSprite: 1486
+    handSprite: 1486
+    fireSound: 106
+    reloadSound: 107
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 6
+      name: STR_AUTO
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_BULLPUP_SMG_MAG
+    accuracySnap: 65
+    accuracyAuto: 40
+    tuSnap: 16
+    tuAuto: 32
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    landOnly: true   
+    listOrder: 3544    
+
+  - type: STR_BULLPUP_SMG_MAG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SMGS, STR_AMMO_CAT]
+    size: 0.1
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
+    costBuy: 1245
+    costSell: 1320
+    weight: 2
+    bigSprite: 1504
+    floorSprite: 1504
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 620
+    power: 35
+    damageType: 1
+    damageAlter:
+      RandomType: 7
+      ToTile: 0.5
+      IgnoreOverKill: true
+      ToArmorPre: 0.6
+    bulletSprite: 15
+    explosionSpeed: 50
+    bulletSpeed: 30
+    clipSize: 30
+    battleType: 2
+    landOnly: true   
+    listOrder: 3545 
+
 # Shotgun #
 
 # Black Mamba Auto Shotgun
@@ -543,6 +620,7 @@ items:
     costBuy: 12000
     costSell: 11200
     weight: 6
+    kneelBonus: 150
     bigSprite: 1384
     floorSprite: 1384
     handSprite: 1384
@@ -653,6 +731,7 @@ items:
     costBuy: 38000
     costSell: 32000
     weight: 7
+    kneelBonus: 150
     bigSprite: 1416
     floorSprite: 1416
     handSprite: 1416
@@ -672,11 +751,13 @@ items:
     confAimed:
       shots: 1
       name: STR_FOCUSED_SHOT
+      shortName: STR_FOCUSED_SHORT
       ammoSlot: 0
       arcing: false
     confSnap:
       shots: 1
       name: STR_DISPERSION_SHOT
+      shortName: STR_DISPERSION_SHORT
       ammoSlot: 1
       arcing: false
     costSnap:
@@ -767,6 +848,7 @@ items:
     costBuy: 23500
     costSell: 20125
     weight: 19
+    kneelBonus: 200
     bigSprite: 1224
     floorSprite: 1224
     handSprite: 1224
@@ -806,8 +888,12 @@ items:
     floorSprite: 1240
     hitSound: [301, 302, 303, 304]
     hitAnimation: 670
-    power: 42
+    power: 45
     damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.5
+      RandomType: 7
+      ToArmorPre: 0.5
     clipSize: 50
     explosionSpeed: 50
     bulletSpeed: 30
@@ -832,6 +918,11 @@ items:
     hitAnimation: 0
     power: 44
     damageType: 3
+    damageAlter:
+      ArmorEffectiveness: 1.5
+      ToTile: 0.7
+      ToArmorPre: 0.2
+      ToWound: 0.5
     explosionSpeed: 50
     bulletSpeed: 30
     bulletSprite: 14
@@ -875,6 +966,7 @@ items:
     costBuy: 50000
     costSell: 40000
     weight: 15
+    kneelBonus: 200
     bigSprite: 1104
     floorSprite: 1104
     handSprite: 1104
@@ -1119,6 +1211,7 @@ items:
     costBuy: 3200
     costSell: 2000
     weight: 7
+    kneelBonus: 150
     bigSprite: 1264
     floorSprite: 1264
     handSprite: 1264
@@ -1342,6 +1435,7 @@ items:
     costBuy: 9000
     costSell: 8000
     weight: 12
+    kneelBonus: 200
     bigSprite: 1312
     floorSprite: 1312
     handSprite: 1312
@@ -1468,6 +1562,7 @@ items:
     costBuy: 26000
     costSell: 30000
     weight: 15
+    kneelBonus: 200
     bigSprite: 1328
     floorSprite: 1328
     handSprite: 1328

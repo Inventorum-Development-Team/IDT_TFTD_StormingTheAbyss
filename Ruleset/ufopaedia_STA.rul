@@ -203,7 +203,25 @@ ufopaedia:
     text: STR_STREET_SWEEPER_MAG_UFOPEDIA
     image_id: STREET_SWEEPER_DRUM_UFOPEDIA
     listOrder: 3543 
- 
+
+# [=] Weapon - Riebeling Bullpup SMG [=]
+  - id: STR_BULLPUP_SMG
+    type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BULLPUP_SMG_UFOPEDIA
+    image_id: BULLPUP_SMG_UFOPEDIA
+    listOrder: 3544
+  - id: STR_BULLPUP_SMG_MAG
+    type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BULLPUP_SMG_MAG_UFOPEDIA
+    image_id: BULLPUP_SMG_AMMO_UFOPEDIA
+    listOrder: 3545 
+
 # [=] Weapon - Black Mamba Auto Shotgun [=]
   - id: STR_AUTO_SHOTGUN
     type_id: 14

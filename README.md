@@ -1,5 +1,5 @@
 # IDT_TFTD_StormingTheAbyss
- A small mod made by the Inventorum Development Team for Terror From The Deep, adds 21 new land and aquatic weapons, 4 armors and 2 crafts
+ A small mod made by the Inventorum Development Team for Terror From The Deep, adds 22 new land and aquatic weapons, 4 armors and 2 crafts
 
 Credits:
 * B1ackWolf: overall support, SCAR sprites
