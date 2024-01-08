@@ -1,4 +1,10 @@
 research:
+  - name: STR_ALIENS_ONLY
+    cost: 600
+    points: 15
+    dependencies:
+      - STR_ALIENS_ONLY
+
   - name: STR_NEW_PLASMA_RIFLE
     cost: 600
     points: 15
